@@ -1,9 +1,122 @@
-#fil1col1
+@font-face
 {
-    background-color: black;
+    font-family: "Almelo";
+    src: url('../../Resources/Fonts/Almelo.ttf');
 }
 
-#fil1col2
+@font-face
 {
-    background-color: white;
+    font-family: "TimeAndSpace";
+    src: url('../../Resources/Fonts/TimeAndSpace.ttf');
 }
+
+section
+{
+    height: 87.5%;
+}
+
+
+/* Classes */
+
+    /* Cores */
+    .CorFundoBranco
+    {
+        background-color: #f3f7f7;
+    }
+    .CorFundoPreto
+    {
+        background-color: #111111;
+    }
+    .corFundoCinza
+    {
+        background-color: #999999;
+    }
+
+
+    .CorTextoBranco
+    {
+        color: #f3f7f7;
+    }
+    .CorTextoPreto
+    {
+        color: #111111;
+    }
+    .CorTextoCinza
+    {
+        color: #999999;
+    }
+
+
+    /* Debugging */
+    .DebugVermelho
+    {
+        border-style: solid;
+        border-width: thin;
+        border-color: red;
+    }
+    .DebugPreto
+    {
+        border-style: solid;
+        border-width: thin;
+        border-color: #111111;
+    }
+    .DebugBranco
+    {
+        border-style: solid;
+        border-width: thin;
+        border-color: #f3f7f7;
+    }
+
+
+    .FontePrincipal
+    {
+        font-family: "TimeAndSpace";
+    }
+
+
+/* IDs */
+
+    #AreaDeConteudo
+    {
+        height: 100vh;
+    }
+
+    #NavbarCustomItem
+    {
+        font-size: 15px;
+    }
+
+
+    /* Icones de Mídias Sociais */
+    #IconeBehance
+    {
+        width: 22px;
+        height: 22px;
+    }
+    #IconeLikedin
+    {
+        width: 17.5px;
+        height: 17.5px;
+    }
+    #IconeInstagram
+    {
+        width: 18px;
+        height: 18px;
+    }
+    #IconeGithub
+    {
+        width: 18px;
+        height: 18px;
+    }
+    #IconeEmail
+    {
+        width: 19px;
+        height: 14px;
+    }
+
+    /* Fotos */
+    #fotoSobreMim
+    {
+        width: 500px;
+        height: 508px;
+    }
