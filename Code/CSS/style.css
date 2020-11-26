@@ -1,9 +1,25 @@
+@-webkit-keyframes FadeIn 
+{
+    0% {opacity: 0;}
+}
+@-moz-keyframes FadeIn 
+{
+    0% {opacity: 0;}
+}
+@-o-keyframes FadeIn 
+{
+    0% {opacity: 0;}
+}
+@keyframes FadeIn 
+{
+    0% {opacity: 0;}
+}
+
 @font-face
 {
     font-family: "Almelo";
     src: url('../../Resources/Fonts/Almelo.ttf');
 }
-
 @font-face
 {
     font-family: "TimeAndSpace";
@@ -17,6 +33,18 @@ section
 
 
 /* Classes */
+
+    /* Animações */
+    .FadeIn
+    {   -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+
+        -webkit-animation: FadeIn ease .8s;
+        -moz-animation: FadeIn ease .8s;
+        -o-animation: FadeIn ease .8s;
+
+        animation: FadeIn ease .8s;
+    }
 
     /* Cores */
     .CorFundoBranco
@@ -117,6 +145,62 @@ section
     /* Fotos */
     #fotoSobreMim
     {
-        width: 500px;
-        height: 508px;
+        height: 50vh;
+        width: 27.5vw;
+    }
+
+    #thumbnail
+    {  
+            position: relative;
+            width: 100%;
+    }
+
+    #thumbnail .Imagem
+    {  
+            display: block;
+            height: 500px;
+            width: 850px;
+    }
+
+    #thumbnail .Titulo 
+    {
+        font-size: 20px;
+        position: absolute;
+        top: 50%;
+        left: 48.25%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+
+    #thumbnail .Subtitulo 
+    {
+        font-size: 15px;
+        position: absolute;
+        top: 55%;
+        left: 48.25%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+
+    .Sobreposicao 
+    {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 100%;
+            width: 100%;
+            opacity: 0;
+            transition: .5s ease;
+            background-color: #111111;
+    }
+
+    #thumbnail:hover .Sobreposicao 
+    {
+            opacity: 0.85;
     }

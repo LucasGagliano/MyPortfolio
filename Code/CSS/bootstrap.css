@@ -782,6 +782,14 @@ pre code {
   order: 12;
 }
 
+.offsetRight--1 {
+  margin-left: -2.75%;
+}
+
+.offsetLeft--1 {
+  margin-left: 4.95%;
+}
+
 .offset-1 {
   margin-left: 8.333333%;
 }
