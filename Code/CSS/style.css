@@ -143,23 +143,25 @@ section
     }
 
     /* Fotos */
-    #fotoSobreMim
+    #FotoDeApresentacao
     {
-        height: 50vh;
-        width: 27.5vw;
+        height: 325px;
     }
 
     #thumbnail
     {  
-            position: relative;
-            width: 100%;
+        position: relative;
+        width: 100%;
+
+        padding-left: 0.1rem;
+        padding-right: 0.1rem;
     }
 
     #thumbnail .Imagem
     {  
-            display: block;
-            height: 500px;
-            width: 850px;
+        display: block;
+        height: 500px;
+        width: 100%;
     }
 
     #thumbnail .Titulo 
@@ -188,16 +190,16 @@ section
 
     .Sobreposicao 
     {
-            position: absolute;
-            top: 0;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            height: 100%;
-            width: 100%;
-            opacity: 0;
-            transition: .5s ease;
-            background-color: #111111;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+        transition: .5s ease;
+        background-color: #111111;
     }
 
     #thumbnail:hover .Sobreposicao 

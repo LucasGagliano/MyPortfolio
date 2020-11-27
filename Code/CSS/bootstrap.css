@@ -783,11 +783,11 @@ pre code {
 }
 
 .offsetRight--1 {
-  margin-left: -2.75%;
+  margin-left: -1%;
 }
 
 .offsetLeft--1 {
-  margin-left: 4.95%;
+  margin-left: 3.5%;
 }
 
 .offset-1 {
@@ -7393,6 +7393,10 @@ button.bg-dark:focus {
 
 .w-25 {
   width: 25% !important;
+}
+
+.w-40 {
+  width: 40% !important;
 }
 
 .w-50 {

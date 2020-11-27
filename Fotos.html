@@ -11,7 +11,7 @@
             <meta name="description" content="Web site created using create-react-app"/>
 
             <!-- Links -->
-            <link rel="icon" href="./favicon.ico"/>
+            <link rel="icon" href="Resources/Images/favicon.ico"/>
             <link rel="apple-touch-icon" href="./logo192.png"/>
             <link rel="manifest" href="./manifest.json"/>
 
@@ -27,81 +27,75 @@
             <!-- Página -->
             <div class="row">
 
-                <!-- Metade (Esquerda - Meio) -->
-                <div class="col-6 DebugPreto CorFundoPreto" id="AreaDeConteudo">
+                <div class="col-12 DebugPreto CorFundoPreto" id="AreaDeConteudo">
                     
                     <!-- Menu de Navegação da Página -->
-                    <nav class="m-4 p-2 DebugPreto navbar navbar-expand-lg navbar-collapse navbar-dark">
+                    <nav class="row m-4 p-2 navbar navbar-expand-lg navbar-collapse navbar-dark DebugPreto">
 
                         <!-- Coluna de Navegação 1 -->
-                        <div class="d-flex w-100 DebugPreto justify-content-start navbar-nav">
+                        <div class="col-6 d-flex w-100 DebugPreto justify-content-start navbar-nav">
 
                             <a class="nav-item nav-link FontePrincipal" id="NavbarCustomItem" href="index.html"> SOBRE MIM </a>
                             <a class="nav-item nav-link active FontePrincipal" id="NavbarCustomItem" href="#"> FOTOS </a>
                             <a class="nav-item nav-link FontePrincipal" id="NavbarCustomItem" href="#"> JOGOS </a>
-                                
+                                    
                         </div>
 
-                    </nav>
-
-                    <section class="DebugPreto m-0 p-0">
-
-                        <div class="DebugPreto text-right">
-
-                            <div id="thumbnail">
-
-                                <img src="Resources/Images/AfricaDoSul2020/FotoAfrica1.png" class="rounded offsetLeft--1 Imagem DebugPreto">
-                                
-                                <div class="Sobreposicao offsetLeft--1">
-                                    <p class="Titulo CorTextoBranco FontePrincipal DebugPreto"> ÁFRICA DO SUL </p>
-                                    <p class="Subtitulo CorTextoCinza FontePrincipal DebugPreto"> 2019 </p>
-                                </div>
-
-                            </div>
-
-                        </div>
-
-                    </section>
-
-                </div>
-
-                <!-- Metade (Meio - Direita) -->
-                <div class="col-6 DebugPreto CorFundoPreto" id="AreaDeConteudo">
-                    
-                    <!-- Menu de Navegação da Página -->
-                    <nav class="DebugPreto ml-4 mt-4 mr-4 mb-1 pl-2 pt-2 pr-2 pb-1 navbar navbar-expand-lg navbar-collapse">
-
-                        <!-- Coluna de Navegação 1 -->
-                        <div class="d-flex w-100 justify-content-end navbar-nav">
+                        <div class="col-6 d-flex w-100 justify-content-end navbar-nav">
 
                             <a class="nav-item nav-link active" href="https://www.behance.net/lucas_martin" target="_blank"><img src="Resources/Images/Behance.png" class="mt-1" id="IconeBehance"></a>
                             <a class="nav-item nav-link active" href="https://www.linkedin.com/in/lucas--martin/" target="_blank"><img src="Resources/Images/Likedin.png" class="mt-1 mb-2" id="IconeLikedin"></a>
                             <a class="nav-item nav-link active" href="https://www.instagram.com/lucasmmg1" target="_blank"><img src="Resources/Images/Instagram.png" class="mt-auto mb-auto" id="IconeInstagram"></a>
                             <a class="nav-item nav-link active" href="https://github.com/LucasGagliano" target="_blank"><img src="Resources/Images/Github.png" class="mt-auto mb-auto" id="IconeGithub"></a>
                             <a class="nav-item nav-link active" href="#"><img src="Resources/Images/Email.png" class="mt-auto mb-auto" id="IconeEmail"></a>
-                                
+                                    
                         </div>
 
                     </nav>
 
-                    <section class="DebugPreto mt-4">
+                    <!-- Seção de Conteúdo da Página -->
+                    <section class="row m-0 p-0 DebugPreto">
 
-                        <div class="DebugPreto text-left">
+                        <div class="row w-100 DebugPreto CorFundoPreto justify-content-center">
 
-                            <div id="thumbnail">
-                                
-                                <img src="Resources/Images/Argentina2014/FotoArgentina1.png" class="rounded offsetRight--1" id="">
+                            <div class="col-5 p-0 DebugPreto">
 
-                                <div class="Sobreposicao offsetRight--1">
-                                    <p class="Titulo CorTextoBranco FontePrincipal DebugPreto"> ARGENTINA </p>
-                                    <p class="Subtitulo CorTextoCinza FontePrincipal DebugPreto"> 2014 </p>
-                                </div>
-                                
+                                <a href="AfricaDoSul2020.html"><div class="DebugPreto" id="thumbnail">
+    
+                                    <img src="Resources/Images/AfricaDoSul2020/FotoAfrica1.png" class="rounded Imagem DebugPreto">
+                                    
+                                    <div class="Sobreposicao">
+
+                                        <p class="Titulo CorTextoBranco FontePrincipal DebugPreto"> ÁFRICA DO SUL </p>
+                                        <p class="Subtitulo CorTextoCinza FontePrincipal DebugPreto"> 2019 </p>
+
+                                    </div>
+    
+                                </div></a>
+    
+                            </div>
+    
+                            <div class="col-5 p-0 DebugPreto">
+    
+                                <a href="Argentina2014.html"><div class="DebugPreto" id="thumbnail">
+                                    
+                                    <img src="Resources/Images/Argentina2014/FotoArgentina1.png" class="rounded Imagem">
+    
+                                    <div class="Sobreposicao">
+
+                                        <p class="Titulo CorTextoBranco FontePrincipal DebugPreto"> ARGENTINA </p>
+                                        <p class="Subtitulo CorTextoCinza FontePrincipal DebugPreto"> 2014 </p>
+
+                                    </div>
+                                    
+                                </div></a>
+    
                             </div>
 
                         </div>
 
                     </section>
+
                 </div>
 
             </div>
