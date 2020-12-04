@@ -382,10 +382,68 @@ section
     }
     @media (min-width: 1920px)
     {
-        body
+        #Titulo
         {
-            background-color: red;
+            font-size: 1.895rem;
         }
+        #Subtitulo
+        {
+            font-size: 1.15rem;
+        }
+        #ParagrafosDeTexto
+        {
+            font-size: 0.95rem;
+        }
+        #TextoDescricao
+        {
+            width: 75%;
+        }
+
+        /* Icones de Mídias Sociais */
+        #IconeBehance
+        {
+            width: 1.5rem;
+            height: 1.85rem;
+
+            opacity: 45%;
+        }
+        #IconeLinkedin
+        {
+            width: 1.20rem;
+            height: 1.20rem;
+
+            opacity: 45%;
+        }
+        #IconeInstagram
+        {
+            width: 1.25rem;
+            height: 1.35rem;
+
+            opacity: 45%;
+        }
+        #IconeGithub
+        {
+            width: 1.25rem;
+            height: 1.25rem;
+
+            opacity: 45%;
+        }
+        #IconeEmail
+        {
+            width: 1.35rem;
+            height: 1.05rem;
+
+            opacity: 45%;
+        }
+
+        /* Fotos */
+        #FotoSobreMim
+        {
+            width: 50% !important;
+        }
+    }
+    @media (min-width: 2080px)
+    {
         #Titulo
         {
             font-size: 1.895rem;
