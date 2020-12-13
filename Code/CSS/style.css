@@ -117,65 +117,59 @@ section
 
 /* IDs */
 
-    @media (max-width: 575px) 
-    {
-        #ParagrafosDeTexto
-        {
-
-        }
-    }
-    @media (min-width: 576px) 
+    /* 555vw */
+    @media (min-width: 555px) and (min-height: 1080px)
     {
         #Titulo
         {
-            font-size: 1.5rem;
+            font-size: 1.495rem;
         }
         #Subtitulo
         {
-            font-size: 0.85rem;
+            font-size: 0.785rem;
         }
         #ParagrafosDeTexto
         {
-            font-size: 0.575rem;
+            font-size: 0.7475rem;
         }
         #TextoDescricao
         {
-            width: 95%;
+            width: 75%;
         }
 
         /* Icones de Mídias Sociais */
         #IconeBehance
         {
-            width: 1.05rem;
-            height: 1.3rem;
+            width: 1.5rem;
+            height: 1.85rem;
 
             opacity: 45%;
         }
         #IconeLinkedin
         {
-            width: 0.85rem;
-            height: 0.85rem;
+            width: 1.20rem;
+            height: 1.20rem;
 
             opacity: 45%;
         }
         #IconeInstagram
         {
-            width: 0.885rem;
-            height: 0.95rem;
+            width: 1.25rem;
+            height: 1.35rem;
 
             opacity: 45%;
         }
         #IconeGithub
         {
-            width: 0.885rem;
-            height: 0.885rem;
+            width: 1.25rem;
+            height: 1.25rem;
 
             opacity: 45%;
         }
         #IconeEmail
         {
-            width: 0.95rem;
-            height: 0.75rem;
+            width: 1.35rem;
+            height: 1.05rem;
 
             opacity: 45%;
         }
@@ -183,26 +177,508 @@ section
         /* Fotos */
         #FotoSobreMim
         {
-            width: 75% !important;
+            width: 150% !important;
+        }
+
+        .Debug
+        {
+            border-color: rgb(112, 165, 111);
         }
     }
-    @media (min-width: 768px) 
+
+    /* 625vw */
+    @media (min-width: 625px) and (min-height: 1080px)
     {
         #Titulo
         {
-            font-size: 1.65rem;
+            font-size: 1.615rem;
         }
         #Subtitulo
         {
-            font-size: 0.85rem;
+            font-size: 0.8875rem;
         }
         #ParagrafosDeTexto
         {
-            font-size: 0.615rem;
+            font-size: 0.8575rem;
         }
         #TextoDescricao
         {
-            width: 95%;
+            width: 75%;
+        }
+
+        /* Icones de Mídias Sociais */
+        #IconeBehance
+        {
+            width: 1.5rem;
+            height: 1.85rem;
+
+            opacity: 45%;
+        }
+        #IconeLinkedin
+        {
+            width: 1.20rem;
+            height: 1.20rem;
+
+            opacity: 45%;
+        }
+        #IconeInstagram
+        {
+            width: 1.25rem;
+            height: 1.35rem;
+
+            opacity: 45%;
+        }
+        #IconeGithub
+        {
+            width: 1.25rem;
+            height: 1.25rem;
+
+            opacity: 45%;
+        }
+        #IconeEmail
+        {
+            width: 1.35rem;
+            height: 1.05rem;
+
+            opacity: 45%;
+        }
+
+        /* Fotos */
+        #FotoSobreMim
+        {
+            width: 150% !important;
+        }
+
+        .Debug
+        {
+            border-color: rgb(13, 155, 236);
+        }
+    }
+
+    /* 818vw */
+    @media (min-width: 818px) and (min-height: 1080px)
+    {
+        #Titulo
+        {
+            font-size: 1.695rem;
+        }
+        #Subtitulo
+        {
+            font-size: 0.9875rem;
+        }
+        #ParagrafosDeTexto
+        {
+            font-size: 1.0375rem;
+        }
+        #TextoDescricao
+        {
+            width: 75%;
+        }
+
+        /* Icones de Mídias Sociais */
+        #IconeBehance
+        {
+            width: 1.5rem;
+            height: 1.85rem;
+
+            opacity: 45%;
+        }
+        #IconeLinkedin
+        {
+            width: 1.20rem;
+            height: 1.20rem;
+
+            opacity: 45%;
+        }
+        #IconeInstagram
+        {
+            width: 1.25rem;
+            height: 1.35rem;
+
+            opacity: 45%;
+        }
+        #IconeGithub
+        {
+            width: 1.25rem;
+            height: 1.25rem;
+
+            opacity: 45%;
+        }
+        #IconeEmail
+        {
+            width: 1.35rem;
+            height: 1.05rem;
+
+            opacity: 45%;
+        }
+
+        /* Fotos */
+        #FotoSobreMim
+        {
+            width: 100% !important;
+        }
+
+        .Debug
+        {
+            border-color: rgb(197, 104, 104);
+        }
+    }
+
+    /* 992vw */
+    @media (min-width: 992px) and (min-height: 1080px)
+    {
+        #Titulo
+        {
+            font-size: 1.755rem;
+        }
+        #Subtitulo
+        {
+            font-size: 1.025rem;
+        }
+        #ParagrafosDeTexto
+        {
+            font-size: 1.1075rem;
+        }
+        #TextoDescricao
+        {
+            width: 75%;
+        }
+
+        /* Icones de Mídias Sociais */
+        #IconeBehance
+        {
+            width: 1.5rem;
+            height: 1.85rem;
+
+            opacity: 45%;
+        }
+        #IconeLinkedin
+        {
+            width: 1.20rem;
+            height: 1.20rem;
+
+            opacity: 45%;
+        }
+        #IconeInstagram
+        {
+            width: 1.25rem;
+            height: 1.35rem;
+
+            opacity: 45%;
+        }
+        #IconeGithub
+        {
+            width: 1.25rem;
+            height: 1.25rem;
+
+            opacity: 45%;
+        }
+        #IconeEmail
+        {
+            width: 1.35rem;
+            height: 1.05rem;
+
+            opacity: 45%;
+        }
+
+        /* Fotos */
+        #FotoSobreMim
+        {
+            width: 100% !important;
+        }
+
+        .Debug
+        {
+            border-color: darkolivegreen;
+        }
+    }
+
+    /* 1200vw */
+    @media (min-width: 1200px) and (max-height: 644px)
+    {
+        #Titulo
+        {
+            font-size: 1.805rem;
+        }
+        #Subtitulo
+        {
+            font-size: 1.075rem;
+        }
+        #ParagrafosDeTexto
+        {
+            font-size: 0.8775rem;
+        }
+        #TextoDescricao
+        {
+            width: 75%;
+        }
+
+        /* Icones de Mídias Sociais */
+        #IconeBehance
+        {
+            width: 1.5rem;
+            height: 1.85rem;
+
+            opacity: 45%;
+        }
+        #IconeLinkedin
+        {
+            width: 1.20rem;
+            height: 1.20rem;
+
+            opacity: 45%;
+        }
+        #IconeInstagram
+        {
+            width: 1.25rem;
+            height: 1.35rem;
+
+            opacity: 45%;
+        }
+        #IconeGithub
+        {
+            width: 1.25rem;
+            height: 1.25rem;
+
+            opacity: 45%;
+        }
+        #IconeEmail
+        {
+            width: 1.35rem;
+            height: 1.05rem;
+
+            opacity: 45%;
+        }
+
+        /* Fotos */
+        #FotoSobreMim
+        {
+            width: 57.5% !important;
+        }
+
+        .Debug
+        {
+            border-color: rgb(116, 18, 56)
+        }
+    }
+    @media (min-width: 1200px) and (min-height: 645px)
+    {
+        #Titulo
+        {
+            font-size: 1.805rem;
+        }
+        #Subtitulo
+        {
+            font-size: 1.075rem;
+        }
+        #ParagrafosDeTexto
+        {
+            font-size: 0.9075rem;
+        }
+        #TextoDescricao
+        {
+            width: 75%;
+        }
+
+        /* Icones de Mídias Sociais */
+        #IconeBehance
+        {
+            width: 1.5rem;
+            height: 1.85rem;
+
+            opacity: 45%;
+        }
+        #IconeLinkedin
+        {
+            width: 1.20rem;
+            height: 1.20rem;
+
+            opacity: 45%;
+        }
+        #IconeInstagram
+        {
+            width: 1.25rem;
+            height: 1.35rem;
+
+            opacity: 45%;
+        }
+        #IconeGithub
+        {
+            width: 1.25rem;
+            height: 1.25rem;
+
+            opacity: 45%;
+        }
+        #IconeEmail
+        {
+            width: 1.35rem;
+            height: 1.05rem;
+
+            opacity: 45%;
+        }
+
+        /* Fotos */
+        #FotoSobreMim
+        {
+            width: 57.5% !important;
+        }
+
+        .Debug
+        {
+            border-color: rgb(250, 204, 0)
+        }
+    }
+    @media (min-width: 1200px) and (min-height: 665px)
+    {
+        #Titulo
+        {
+            font-size: 1.805rem;
+        }
+        #Subtitulo
+        {
+            font-size: 1.075rem;
+        }
+        #ParagrafosDeTexto
+        {
+            font-size: 0.9875rem;
+        }
+        #TextoDescricao
+        {
+            width: 75%;
+        }
+
+        /* Icones de Mídias Sociais */
+        #IconeBehance
+        {
+            width: 1.5rem;
+            height: 1.85rem;
+
+            opacity: 45%;
+        }
+        #IconeLinkedin
+        {
+            width: 1.20rem;
+            height: 1.20rem;
+
+            opacity: 45%;
+        }
+        #IconeInstagram
+        {
+            width: 1.25rem;
+            height: 1.35rem;
+
+            opacity: 45%;
+        }
+        #IconeGithub
+        {
+            width: 1.25rem;
+            height: 1.25rem;
+
+            opacity: 45%;
+        }
+        #IconeEmail
+        {
+            width: 1.35rem;
+            height: 1.05rem;
+
+            opacity: 45%;
+        }
+
+        /* Fotos */
+        #FotoSobreMim
+        {
+            width: 62.5% !important;
+        }
+
+        .Debug
+        {
+            border-color: rgb(131, 46, 156)
+        }
+    }
+    @media (min-width: 1200px) and (min-height: 700px)
+    {
+        #Titulo
+        {
+            font-size: 1.805rem;
+        }
+        #Subtitulo
+        {
+            font-size: 1.075rem;
+        }
+        #ParagrafosDeTexto
+        {
+            font-size: 1.0075rem;
+        }
+        #TextoDescricao
+        {
+            width: 75%;
+        }
+
+        /* Icones de Mídias Sociais */
+        #IconeBehance
+        {
+            width: 1.5rem;
+            height: 1.85rem;
+
+            opacity: 45%;
+        }
+        #IconeLinkedin
+        {
+            width: 1.20rem;
+            height: 1.20rem;
+
+            opacity: 45%;
+        }
+        #IconeInstagram
+        {
+            width: 1.25rem;
+            height: 1.35rem;
+
+            opacity: 45%;
+        }
+        #IconeGithub
+        {
+            width: 1.25rem;
+            height: 1.25rem;
+
+            opacity: 45%;
+        }
+        #IconeEmail
+        {
+            width: 1.35rem;
+            height: 1.05rem;
+
+            opacity: 45%;
+        }
+
+        /* Fotos */
+        #FotoSobreMim
+        {
+            width: 62.5% !important;
+        }
+
+        .Debug
+        {
+            border-color: rgb(94, 89, 19)
+        }
+    }
+    @media (min-width: 1200px) and (min-height: 820px)
+    {
+        #Titulo
+        {
+            font-size: 1.805rem;
+        }
+        #Subtitulo
+        {
+            font-size: 1.075rem;
+        }
+        #ParagrafosDeTexto
+        {
+            font-size: 1.1175rem;
+        }
+        #TextoDescricao
+        {
+            width: 75%;
         }
 
         /* Icones de Mídias Sociais */
@@ -247,24 +723,29 @@ section
         {
             width: 75% !important;
         }
+
+        .Debug
+        {
+            border-color: rgb(54, 1, 34)
+        }
     }
-    @media (min-width: 992px) 
+    @media (min-width: 1200px) and (min-height: 1080px)
     {
         #Titulo
         {
-            font-size: 1.75rem;
+            font-size: 1.805rem;
         }
         #Subtitulo
         {
-            font-size: 0.85rem;
+            font-size: 1.075rem;
         }
         #ParagrafosDeTexto
         {
-            font-size: 0.725rem;
+            font-size: 1.1175rem;
         }
         #TextoDescricao
         {
-            width: 95%;
+            width: 75%;
         }
 
         /* Icones de Mídias Sociais */
@@ -309,90 +790,27 @@ section
         {
             width: 75% !important;
         }
+
+        .Debug
+        {
+            border-color: rgb(141, 255, 141)
+        }
     }
-    @media (min-width: 1200px) 
+
+    /* 1920vw */
+    @media (min-width: 1920px) and (max-height: 644px)
     {
         #Titulo
         {
-            font-size: 1.895rem;
+            font-size: 1.595rem;
         }
         #Subtitulo
         {
-            font-size: 1.15rem;
+            font-size: 1.065rem;
         }
         #ParagrafosDeTexto
         {
-            font-size: 0.8725rem;
-        }
-        #TextoDescricao
-        {
-            width: 95%;
-        }
-
-        /* Icones de Mídias Sociais */
-        #IconeBehance
-        {
-            width: 1.5rem;
-            height: 1.85rem;
-
-            opacity: 45%;
-        }
-        #IconeLinkedin
-        {
-            width: 1.20rem;
-            height: 1.20rem;
-
-            opacity: 45%;
-        }
-        #IconeInstagram
-        {
-            width: 1.25rem;
-            height: 1.35rem;
-
-            opacity: 45%;
-        }
-        #IconeGithub
-        {
-            width: 1.25rem;
-            height: 1.25rem;
-
-            opacity: 45%;
-        }
-        #IconeEmail
-        {
-            width: 1.35rem;
-            height: 1.05rem;
-
-            opacity: 45%;
-        }
-
-        /* Fotos */
-        #FotoSobreMim
-        {
-            width: 75% !important;
-        }
-    }
-    @media (min-width: 1560px)
-    {
-        /* Fotos */
-        #FotoSobreMim
-        {
-            width: 50% !important;
-        }
-    }
-    @media (min-width: 1920px)
-    {
-        #Titulo
-        {
-            font-size: 1.895rem;
-        }
-        #Subtitulo
-        {
-            font-size: 1.15rem;
-        }
-        #ParagrafosDeTexto
-        {
-            font-size: 0.95rem;
+            font-size: 0.825rem;
         }
         #TextoDescricao
         {
@@ -441,16 +859,88 @@ section
         {
             width: 50% !important;
         }
+
+        .Debug
+        {
+            border-color: yellow;
+        }
     }
-    @media (min-width: 2080px)
+    @media (min-width: 1920px) and (min-height: 645px)
     {
         #Titulo
         {
-            font-size: 1.895rem;
+            font-size: 1.595rem;
         }
         #Subtitulo
         {
-            font-size: 1.15rem;
+            font-size: 1.065rem;
+        }
+        #ParagrafosDeTexto
+        {
+            font-size: 0.925rem;
+        }
+        #TextoDescricao
+        {
+            width: 75%;
+        }
+
+        /* Icones de Mídias Sociais */
+        #IconeBehance
+        {
+            width: 1.5rem;
+            height: 1.85rem;
+
+            opacity: 45%;
+        }
+        #IconeLinkedin
+        {
+            width: 1.20rem;
+            height: 1.20rem;
+
+            opacity: 45%;
+        }
+        #IconeInstagram
+        {
+            width: 1.25rem;
+            height: 1.35rem;
+
+            opacity: 45%;
+        }
+        #IconeGithub
+        {
+            width: 1.25rem;
+            height: 1.25rem;
+
+            opacity: 45%;
+        }
+        #IconeEmail
+        {
+            width: 1.35rem;
+            height: 1.05rem;
+
+            opacity: 45%;
+        }
+
+        /* Fotos */
+        #FotoSobreMim
+        {
+            width: 50% !important;
+        }
+
+        .Debug
+        {
+            border-color: cyan;
+        }
+    }
+    @media (min-width: 1920px) and (min-height: 665px)
+    {
+        #Titulo
+        {
+            font-size: 1.595rem;
+        }
+        #Subtitulo
+        {
+            font-size: 1.065rem;
         }
         #ParagrafosDeTexto
         {
@@ -503,17 +993,66 @@ section
         {
             width: 50% !important;
         }
-    }
 
-    @media (min-height: 200px)
+        .Debug
+        {
+            border-color: purple;
+        }
+    }
+    @media (min-width: 1920px) and (min-height: 700px)
     {
+        #Titulo
+        {
+            font-size: 1.595rem;
+        }
+        #Subtitulo
+        {
+            font-size: 1.065rem;
+        }
         #ParagrafosDeTexto
         {
-            font-size: 0.625rem;
+            font-size: 1.075rem;
         }
         #TextoDescricao
         {
-            width: 95%;
+            width: 75%;
+        }
+
+        /* Icones de Mídias Sociais */
+        #IconeBehance
+        {
+            width: 1.5rem;
+            height: 1.85rem;
+
+            opacity: 45%;
+        }
+        #IconeLinkedin
+        {
+            width: 1.20rem;
+            height: 1.20rem;
+
+            opacity: 45%;
+        }
+        #IconeInstagram
+        {
+            width: 1.25rem;
+            height: 1.35rem;
+
+            opacity: 45%;
+        }
+        #IconeGithub
+        {
+            width: 1.25rem;
+            height: 1.25rem;
+
+            opacity: 45%;
+        }
+        #IconeEmail
+        {
+            width: 1.35rem;
+            height: 1.05rem;
+
+            opacity: 45%;
         }
 
         /* Fotos */
@@ -521,43 +1060,89 @@ section
         {
             width: 50% !important;
         }
+
+        .Debug
+        {
+            border-color: greenyellow;
+        }
     }
-    @media (min-height: 590px)
+    @media (min-width: 1920px) and (min-height: 820px)
     {
+        #Titulo
+        {
+            font-size: 1.895rem;
+        }
+        #Subtitulo
+        {
+            font-size: 1.15rem;
+        }
         #ParagrafosDeTexto
         {
-            font-size: 0.715rem;
+            font-size: 1.075rem;
         }
         #TextoDescricao
         {
-            width: 95%;
+            width: 75%;
+        }
+
+        /* Icones de Mídias Sociais */
+        #IconeBehance
+        {
+            width: 1.5rem;
+            height: 1.85rem;
+
+            opacity: 45%;
+        }
+        #IconeLinkedin
+        {
+            width: 1.20rem;
+            height: 1.20rem;
+
+            opacity: 45%;
+        }
+        #IconeInstagram
+        {
+            width: 1.25rem;
+            height: 1.35rem;
+
+            opacity: 45%;
+        }
+        #IconeGithub
+        {
+            width: 1.25rem;
+            height: 1.25rem;
+
+            opacity: 45%;
+        }
+        #IconeEmail
+        {
+            width: 1.35rem;
+            height: 1.05rem;
+
+            opacity: 45%;
         }
 
         /* Fotos */
         #FotoSobreMim
         {
-            width: 45% !important;
-        }
-    }
-    @media (min-height: 640px)
-    {
-        #ParagrafosDeTexto
-        {
-            font-size: 1.05rem;
-        }
-        #TextoDescricao
-        {
-            width: 95%;
+            width: 75% !important;
         }
 
-        /* Fotos */
-        #FotoSobreMim
+        .Debug
         {
-            width: 52.5% !important;
+            border-color: orange;
         }
     }
-    @media (min-height: 1080px)
+    @media (min-width: 1920px) and (min-height: 1080px)
     {
+        #Titulo
+        {
+            font-size: 1.895rem;
+        }
+        #Subtitulo
+        {
+            font-size: 1.15rem;
+        }
         #ParagrafosDeTexto
         {
             font-size: 1.1375rem;
@@ -567,12 +1152,55 @@ section
             width: 75%;
         }
 
+        /* Icones de Mídias Sociais */
+        #IconeBehance
+        {
+            width: 1.5rem;
+            height: 1.85rem;
+
+            opacity: 45%;
+        }
+        #IconeLinkedin
+        {
+            width: 1.20rem;
+            height: 1.20rem;
+
+            opacity: 45%;
+        }
+        #IconeInstagram
+        {
+            width: 1.25rem;
+            height: 1.35rem;
+
+            opacity: 45%;
+        }
+        #IconeGithub
+        {
+            width: 1.25rem;
+            height: 1.25rem;
+
+            opacity: 45%;
+        }
+        #IconeEmail
+        {
+            width: 1.35rem;
+            height: 1.05rem;
+
+            opacity: 45%;
+        }
+
         /* Fotos */
         #FotoSobreMim
         {
             width: 75% !important;
         }
+
+        .Debug
+        {
+            border-color: red;
+        }
     }
+
 
     #NavbarCustomItem
     {
