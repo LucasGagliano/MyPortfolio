@@ -325,6 +325,341 @@ section
     }
 
     /* 992vw */
+    @media (min-width: 992px) and (min-height: 644px)
+    {
+        #Titulo
+        {
+            font-size: 1.755rem;
+        }
+        #Subtitulo
+        {
+            font-size: 1.025rem;
+        }
+        #ParagrafosDeTexto
+        {
+            font-size: 1.1075rem;
+        }
+        #TextoDescricao
+        {
+            width: 75%;
+        }
+
+        /* Icones de Mídias Sociais */
+        #IconeBehance
+        {
+            width: 1.5rem;
+            height: 1.85rem;
+
+            opacity: 45%;
+        }
+        #IconeLinkedin
+        {
+            width: 1.20rem;
+            height: 1.20rem;
+
+            opacity: 45%;
+        }
+        #IconeInstagram
+        {
+            width: 1.25rem;
+            height: 1.35rem;
+
+            opacity: 45%;
+        }
+        #IconeGithub
+        {
+            width: 1.25rem;
+            height: 1.25rem;
+
+            opacity: 45%;
+        }
+        #IconeEmail
+        {
+            width: 1.35rem;
+            height: 1.05rem;
+
+            opacity: 45%;
+        }
+
+        /* Fotos */
+        #FotoSobreMim
+        {
+            width: 100% !important;
+        }
+
+        .Debug
+        {
+            border-color: rgb(55, 221, 250);
+        }
+    }
+    @media (min-width: 992px) and (min-height: 645px)
+    {
+        #Titulo
+        {
+            font-size: 1.755rem;
+        }
+        #Subtitulo
+        {
+            font-size: 1.025rem;
+        }
+        #ParagrafosDeTexto
+        {
+            font-size: 1.1075rem;
+        }
+        #TextoDescricao
+        {
+            width: 75%;
+        }
+
+        /* Icones de Mídias Sociais */
+        #IconeBehance
+        {
+            width: 1.5rem;
+            height: 1.85rem;
+
+            opacity: 45%;
+        }
+        #IconeLinkedin
+        {
+            width: 1.20rem;
+            height: 1.20rem;
+
+            opacity: 45%;
+        }
+        #IconeInstagram
+        {
+            width: 1.25rem;
+            height: 1.35rem;
+
+            opacity: 45%;
+        }
+        #IconeGithub
+        {
+            width: 1.25rem;
+            height: 1.25rem;
+
+            opacity: 45%;
+        }
+        #IconeEmail
+        {
+            width: 1.35rem;
+            height: 1.05rem;
+
+            opacity: 45%;
+        }
+
+        /* Fotos */
+        #FotoSobreMim
+        {
+            width: 100% !important;
+        }
+
+        .Debug
+        {
+            border-color: darkolivegreen;
+        }
+    }
+    @media (min-width: 992px) and (min-height: 665px)
+    {
+        #Titulo
+        {
+            font-size: 1.755rem;
+        }
+        #Subtitulo
+        {
+            font-size: 1.025rem;
+        }
+        #ParagrafosDeTexto
+        {
+            font-size: 1.1075rem;
+        }
+        #TextoDescricao
+        {
+            width: 75%;
+        }
+
+        /* Icones de Mídias Sociais */
+        #IconeBehance
+        {
+            width: 1.5rem;
+            height: 1.85rem;
+
+            opacity: 45%;
+        }
+        #IconeLinkedin
+        {
+            width: 1.20rem;
+            height: 1.20rem;
+
+            opacity: 45%;
+        }
+        #IconeInstagram
+        {
+            width: 1.25rem;
+            height: 1.35rem;
+
+            opacity: 45%;
+        }
+        #IconeGithub
+        {
+            width: 1.25rem;
+            height: 1.25rem;
+
+            opacity: 45%;
+        }
+        #IconeEmail
+        {
+            width: 1.35rem;
+            height: 1.05rem;
+
+            opacity: 45%;
+        }
+
+        /* Fotos */
+        #FotoSobreMim
+        {
+            width: 100% !important;
+        }
+
+        .Debug
+        {
+            border-color: rgb(55, 221, 250);
+        }
+    }
+    @media (min-width: 992px) and (min-height: 700px)
+    {
+        #Titulo
+        {
+            font-size: 1.755rem;
+        }
+        #Subtitulo
+        {
+            font-size: 1.025rem;
+        }
+        #ParagrafosDeTexto
+        {
+            font-size: 1.1075rem;
+        }
+        #TextoDescricao
+        {
+            width: 75%;
+        }
+
+        /* Icones de Mídias Sociais */
+        #IconeBehance
+        {
+            width: 1.5rem;
+            height: 1.85rem;
+
+            opacity: 45%;
+        }
+        #IconeLinkedin
+        {
+            width: 1.20rem;
+            height: 1.20rem;
+
+            opacity: 45%;
+        }
+        #IconeInstagram
+        {
+            width: 1.25rem;
+            height: 1.35rem;
+
+            opacity: 45%;
+        }
+        #IconeGithub
+        {
+            width: 1.25rem;
+            height: 1.25rem;
+
+            opacity: 45%;
+        }
+        #IconeEmail
+        {
+            width: 1.35rem;
+            height: 1.05rem;
+
+            opacity: 45%;
+        }
+
+        /* Fotos */
+        #FotoSobreMim
+        {
+            width: 100% !important;
+        }
+
+        .Debug
+        {
+            border-color: darkolivegreen;
+        }
+    }
+    @media (min-width: 992px) and (min-height: 820px)
+    {
+        #Titulo
+        {
+            font-size: 1.755rem;
+        }
+        #Subtitulo
+        {
+            font-size: 1.025rem;
+        }
+        #ParagrafosDeTexto
+        {
+            font-size: 1.1075rem;
+        }
+        #TextoDescricao
+        {
+            width: 75%;
+        }
+
+        /* Icones de Mídias Sociais */
+        #IconeBehance
+        {
+            width: 1.5rem;
+            height: 1.85rem;
+
+            opacity: 45%;
+        }
+        #IconeLinkedin
+        {
+            width: 1.20rem;
+            height: 1.20rem;
+
+            opacity: 45%;
+        }
+        #IconeInstagram
+        {
+            width: 1.25rem;
+            height: 1.35rem;
+
+            opacity: 45%;
+        }
+        #IconeGithub
+        {
+            width: 1.25rem;
+            height: 1.25rem;
+
+            opacity: 45%;
+        }
+        #IconeEmail
+        {
+            width: 1.35rem;
+            height: 1.05rem;
+
+            opacity: 45%;
+        }
+
+        /* Fotos */
+        #FotoSobreMim
+        {
+            width: 100% !important;
+        }
+
+        .Debug
+        {
+            border-color: rgb(55, 221, 250);
+        }
+    }
     @media (min-width: 992px) and (min-height: 1080px)
     {
         #Titulo
