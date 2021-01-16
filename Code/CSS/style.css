@@ -122,7 +122,7 @@ section
         #ParagrafosDeTexto
         {
             font-size: 1.0715rem;
-            /* color: darkmagenta; */
+            color: darkmagenta;
         }
         #TextoDescricao
         {
@@ -188,7 +188,7 @@ section
         #ParagrafosDeTexto
         {
             font-size: 1.0715rem;
-            /* color: lightpink; */
+            color: lightpink;
         }
         #TextoDescricao
         {
@@ -254,7 +254,7 @@ section
             #ParagrafosDeTexto
             {
                 font-size: 1.1375rem;
-                /* color: darkred; */
+                color: darkred;
             }
             #TextoDescricao
             {
@@ -264,35 +264,35 @@ section
             /* Icones de Mídias Sociais */
             #IconeBehance
             {
-                width: 1.5rem;
-                height: 1.85rem;
+                width: 2.15rem;
+                height: 1.75rem;
 
                 opacity: 45%;
             }
             #IconeLinkedin
             {
-                width: 1.20rem;
-                height: 1.20rem;
+                width: 1.80rem;
+                height: 1.30rem;
 
                 opacity: 45%;
             }
             #IconeInstagram
             {
-                width: 1.25rem;
+                width: 1.75rem;
                 height: 1.35rem;
 
                 opacity: 45%;
             }
             #IconeGithub
             {
-                width: 1.25rem;
-                height: 1.25rem;
+                width: 2rem;
+                height: 1.5rem;
 
                 opacity: 45%;
             }
             #IconeEmail
             {
-                width: 1.35rem;
+                width: 2rem;
                 height: 1.05rem;
 
                 opacity: 45%;
@@ -301,7 +301,9 @@ section
             /* Fotos */
             #FotoSobreMim
             {
-                width: 45% !important;
+                width: 95% !important;
+
+                margin-top: 20rem;
             }
     }
     @media (min-width: 1024px) and (min-height: 600px)
@@ -318,7 +320,7 @@ section
             #ParagrafosDeTexto
             {
                 font-size: 1.0715rem;
-                /* color: darkgray; */
+                color: darkgray;
             }
             #TextoDescricao
             {
@@ -384,7 +386,7 @@ section
             #ParagrafosDeTexto
             {
                 font-size: 1.0715rem;
-                /* color: darkmagenta; */
+                color: darkmagenta;
             }
             #TextoDescricao
             {
@@ -450,7 +452,7 @@ section
             #ParagrafosDeTexto
             {
                 font-size: 1.1375rem;
-                /* color: goldenrod; */
+                color: goldenrod;
             }
             #TextoDescricao
             {
@@ -460,35 +462,35 @@ section
             /* Icones de Mídias Sociais */
             #IconeBehance
             {
-                width: 1.5rem;
-                height: 1.85rem;
+                width: 2.15rem;
+                height: 1.75rem;
 
                 opacity: 45%;
             }
             #IconeLinkedin
             {
-                width: 1.20rem;
-                height: 1.20rem;
+                width: 1.80rem;
+                height: 1.30rem;
 
                 opacity: 45%;
             }
             #IconeInstagram
             {
-                width: 1.25rem;
+                width: 1.75rem;
                 height: 1.35rem;
 
                 opacity: 45%;
             }
             #IconeGithub
             {
-                width: 1.25rem;
-                height: 1.25rem;
+                width: 2rem;
+                height: 1.5rem;
 
                 opacity: 45%;
             }
             #IconeEmail
             {
-                width: 1.35rem;
+                width: 2rem;
                 height: 1.05rem;
 
                 opacity: 45%;
@@ -497,7 +499,8 @@ section
             /* Fotos */
             #FotoSobreMim
             {
-                width: 75% !important;
+                width: 95% !important;
+                margin-top: 18rem;
             }
     }
     @media (min-width: 1152px) and (min-height: 720px)
@@ -514,7 +517,7 @@ section
             #ParagrafosDeTexto
             {
                 font-size: 1.1375rem;
-                /* color: darkgreen; */
+                color: darkgreen;
             }
             #TextoDescricao
             {
@@ -578,7 +581,7 @@ section
             #ParagrafosDeTexto
             {
                 font-size: 1.0915rem;
-                /* color: darkblue; */
+                color: darkblue;
             }
             #TextoDescricao
             {
@@ -642,7 +645,7 @@ section
             #ParagrafosDeTexto
             {
                 font-size: 1.0915rem;
-                /* color: cyan; */
+                color: cyan;
             }
             #TextoDescricao
             {
@@ -710,7 +713,7 @@ section
             #ParagrafosDeTexto
             {
                 font-size: 1.1375rem;
-                /* color: olive; */
+                color: olive;
             }
             #TextoDescricao
             {
@@ -757,7 +760,9 @@ section
             /* Fotos */
             #FotoSobreMim
             {
-                width: 75% !important;
+                width: 100% !important;
+
+                margin-top: 12.5rem;
             }
     }
     @media (min-width: 1280px) and (min-height: 854px)
@@ -774,7 +779,7 @@ section
             #ParagrafosDeTexto
             {
                 font-size: 1.1175rem;
-                /* color: darkgrey; */
+                color: darkgrey;
             }
             #TextoDescricao
             {
@@ -842,7 +847,7 @@ section
             #ParagrafosDeTexto
             {
                 font-size: 1.1375rem;
-                /* color: salmon; */
+                color: salmon;
             }
             #TextoDescricao
             {
@@ -906,7 +911,7 @@ section
             #ParagrafosDeTexto
             {
                 font-size: 1.1375rem;
-                /* color: orange; */
+                color: orange;
             }
             #TextoDescricao
             {
@@ -974,7 +979,7 @@ section
             #ParagrafosDeTexto
             {
                 font-size: 1.1375rem;
-                /* color: pink; */
+                color: pink;
             }
             #TextoDescricao
             {
@@ -1038,7 +1043,7 @@ section
             #ParagrafosDeTexto
             {
                 font-size: 1.1375rem;
-                /* color: brown; */
+                color: brown;
             }
             #TextoDescricao
             {
@@ -1101,46 +1106,48 @@ section
             }
             #ParagrafosDeTexto
             {
-                font-size: 1.1375rem;
-                /* color: purple; */
+                font-size: 1.1175rem;
+                color: purple;
             }
             #TextoDescricao
             {
-                width: 82.5%;
+                width: 100%;
+
+                margin-top: 6.5rem;
             }
 
             /* Icones de Mídias Sociais */
             #IconeBehance
             {
-                width: 1.5rem;
-                height: 1.85rem;
+                width: 2.15rem;
+                height: 1.75rem;
 
                 opacity: 45%;
             }
             #IconeLinkedin
             {
-                width: 1.20rem;
-                height: 1.20rem;
+                width: 1.80rem;
+                height: 1.30rem;
 
                 opacity: 45%;
             }
             #IconeInstagram
             {
-                width: 1.25rem;
+                width: 1.75rem;
                 height: 1.35rem;
 
                 opacity: 45%;
             }
             #IconeGithub
             {
-                width: 1.25rem;
-                height: 1.25rem;
+                width: 2rem;
+                height: 1.5rem;
 
                 opacity: 45%;
             }
             #IconeEmail
             {
-                width: 1.35rem;
+                width: 2rem;
                 height: 1.05rem;
 
                 opacity: 45%;
@@ -1149,7 +1156,9 @@ section
             /* Fotos */
             #FotoSobreMim
             {
-                width: 75% !important;
+                width: 85% !important;
+
+                margin-top: 4.5rem;
             }
     }
     @media (min-width: 1776px) and (min-height: 1000px)
@@ -1166,7 +1175,7 @@ section
             #ParagrafosDeTexto
             {
                 font-size: 1.1675rem;
-                /* color: green; */
+                color: green;
             }
             #TextoDescricao
             {
@@ -1234,7 +1243,7 @@ section
             #ParagrafosDeTexto
             {
                 font-size: 1.2075rem;
-                /* color: red */
+                color: red;
             }
             #TextoDescricao
             {
