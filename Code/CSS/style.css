@@ -1,18 +1,19 @@
-@-webkit-keyframes FadeIn 
+@-webkit-keyframes FadeIn
 {
     0% {opacity: 0;}
 }
-@-moz-keyframes FadeIn 
+@-moz-keyframes FadeIn
 {
     0% {opacity: 0;}
 }
-@-o-keyframes FadeIn 
+@-o-keyframes FadeIn
 {
     0% {opacity: 0;}
 }
-@keyframes FadeIn 
+@keyframes FadeIn
 {
     0% {opacity: 0;}
+    100% {opacity: 1}
 }
 
 @font-face
@@ -42,19 +43,6 @@ body
 
 
 /* Classes */
-
-    /* Animações */
-    .FadeIn
-    {
-        -webkit-animation-fill-mode: both;
-        animation-fill-mode: both;
-
-        -webkit-animation: FadeIn ease .8s;
-        -moz-animation: FadeIn ease .8s;
-        -o-animation: FadeIn ease .8s;
-
-        animation: FadeIn ease .8s;
-    }
 
     .Box
     {
@@ -102,14 +90,9 @@ body
 /* IDs */
 
     /* Resolutions */
-    @media (max-height: 719px)
+    @media (max-height: 899px)
     {
         /* index.html */
-        section
-        {
-            display: block;
-        }
-
         #Titulo
         {
             font-size: 1.5575rem;
@@ -128,53 +111,172 @@ body
             margin: auto;
         }
 
-        /* Icones de Mídias Sociais */
-        #IconeBehance
+        /* Fotos */
+        #FotoSobreMim
         {
-            width: 2.15rem;
-            height: 1.75rem;
+            display: block;
+            margin: auto;
 
-            opacity: 45%;
+            width: 10% !important;
         }
-        #IconeLinkedin
+    }
+    @media (max-width: 799px)
+    {
+        /* index.html */
+        #Titulo
         {
-            width: 1.80rem;
-            height: 1.30rem;
-
-            opacity: 45%;
+            font-size: 1.5575rem;
         }
-        #IconeInstagram
+        #Subtitulo
         {
-            width: 1.75rem;
-            height: 1.35rem;
-
-            opacity: 45%;
+            font-size: 0.9815rem;
         }
-        #IconeGithub
+        #ParagrafosDeTexto
         {
-            width: 2rem;
-            height: 1.5rem;
-
-            opacity: 45%;
+            font-size: 1.0715rem;
         }
-        #IconeEmail
+        #TextoDescricao
         {
-            width: 2rem;
-            height: 1.05rem;
-
-            opacity: 45%;
+            width: 87.5%;
+            margin: auto;
         }
 
         /* Fotos */
         #FotoSobreMim
         {
-            width: 40% !important;
-
             display: block;
             margin: auto;
+            margin-top: 20rem;
+
+            width: 75% !important;
         }
     }
-    @media (min-width: 800px) and (min-height: 600px)
+    @media (min-width: 800px) and (max-width: 1151px)
+    {
+        /* index.html */
+        #Titulo
+        {
+            font-size: 1.5575rem;
+        }
+        #Subtitulo
+        {
+            font-size: 0.9815rem;
+        }
+        #ParagrafosDeTexto
+        {
+            font-size: 1.0715rem;
+        }
+        #TextoDescricao
+        {
+            width: 87.5%;
+            margin: auto;
+        }
+
+        /* Fotos */
+        #FotoSobreMim
+        {
+            display: block;
+            margin: auto;
+            margin-top: 10rem;
+
+            width: 75% !important;
+        }
+    }
+    @media (max-width: 799px) and (max-height: 899px)
+    {
+        /* index.html */
+        #Titulo
+        {
+            font-size: 1.5575rem;
+        }
+        #Subtitulo
+        {
+            font-size: 0.9815rem;
+        }
+        #ParagrafosDeTexto
+        {
+            font-size: 1.0715rem;
+        }
+        #TextoDescricao
+        {
+            width: 87.5%;
+            margin: auto;
+        }
+
+        /* Fotos */
+        #FotoSobreMim
+        {
+            display: block;
+            margin: auto;
+            margin-top: 12.5rem;
+
+            width: 75% !important;
+        }
+    }
+    @media (max-width: 1151px) and (max-height: 856px)
+    {
+        /* index.html */
+        #Titulo
+        {
+            font-size: 1.5575rem;
+        }
+        #Subtitulo
+        {
+            font-size: 0.9815rem;
+        }
+        #ParagrafosDeTexto
+        {
+            font-size: 1.0715rem;
+        }
+        #TextoDescricao
+        {
+            width: 87.5%;
+            margin: auto;
+        }
+
+        /* Fotos */
+        #FotoSobreMim
+        {
+            display: block;
+            margin: auto;
+            margin-top: 10rem;
+
+            width: 75% !important;
+        }
+    }
+    @media (max-width: 1151px) and (min-height: 857) and (max-height: 899px)
+    {
+        /* index.html */
+        #Titulo
+        {
+            font-size: 1.5575rem;
+        }
+        #Subtitulo
+        {
+            font-size: 0.9815rem;
+        }
+        #ParagrafosDeTexto
+        {
+            font-size: 1.0715rem;
+        }
+        #TextoDescricao
+        {
+            width: 87.5%;
+            margin: auto;
+        }
+
+        /* Fotos */
+        #FotoSobreMim
+        {
+            display: block;
+            margin: auto;
+            margin-top: 17.5rem;
+
+            width: 75% !important;
+        }
+    }
+
+    @media (min-width: 800px) and (min-height: 900px)
     {
         /* index.html */
             nav
@@ -207,47 +309,49 @@ body
                 width: 82.5%;
             }
 
-            /* Icones de Mídias Sociais */
-            #IconeBehance
+            /* Fotos */
+            #FotoSobreMim
             {
-                width: 2.15rem;
-                height: 1.75rem;
-
-                opacity: 45%;
+                width: 70% !important;
             }
-            #IconeLinkedin
+    }
+    @media (min-width: 960px) and (max-height: 719px)
+    {
+        /* index.html */
+            nav
             {
-                width: 1.80rem;
-                height: 1.30rem;
-
-                opacity: 45%;
+                display: -ms-flexbox !important;
+                display: flex !important;
             }
-            #IconeInstagram
+            section
             {
-                width: 1.75rem;
-                height: 1.35rem;
+                display: -ms-flexbox !important;
+                display: flex !important;
 
-                opacity: 45%;
+                align-items: center;
             }
-            #IconeGithub
-            {
-                width: 2rem;
-                height: 1.5rem;
 
-                opacity: 45%;
+            #Titulo
+            {
+                font-size: 1.4875rem;
             }
-            #IconeEmail
+            #Subtitulo
             {
-                width: 2rem;
-                height: 1.05rem;
-
-                opacity: 45%;
+                font-size: 0.98625rem;
+            }
+            #ParagrafosDeTexto
+            {
+                font-size: 1.0625rem;
+            }
+            #TextoDescricao
+            {
+                width: 82.5%;
             }
 
             /* Fotos */
             #FotoSobreMim
             {
-                width: 55% !important;
+                width: 50% !important;
             }
     }
     @media (min-width: 960px) and (min-height: 720px)
@@ -281,43 +385,6 @@ body
             #TextoDescricao
             {
                 width: 82.5%;
-            }
-
-            /* Icones de Mídias Sociais */
-            #IconeBehance
-            {
-                width: 2.15rem;
-                height: 1.75rem;
-
-                opacity: 45%;
-            }
-            #IconeLinkedin
-            {
-                width: 1.80rem;
-                height: 1.30rem;
-
-                opacity: 45%;
-            }
-            #IconeInstagram
-            {
-                width: 1.75rem;
-                height: 1.35rem;
-
-                opacity: 45%;
-            }
-            #IconeGithub
-            {
-                width: 2rem;
-                height: 1.5rem;
-
-                opacity: 45%;
-            }
-            #IconeEmail
-            {
-                width: 2rem;
-                height: 1.05rem;
-
-                opacity: 45%;
             }
 
             /* Fotos */
@@ -359,47 +426,10 @@ body
                 width: 82.5%;
             }
 
-            /* Icones de Mídias Sociais */
-            #IconeBehance
-            {
-                width: 2.15rem;
-                height: 1.75rem;
-
-                opacity: 45%;
-            }
-            #IconeLinkedin
-            {
-                width: 1.80rem;
-                height: 1.30rem;
-
-                opacity: 45%;
-            }
-            #IconeInstagram
-            {
-                width: 1.75rem;
-                height: 1.35rem;
-
-                opacity: 45%;
-            }
-            #IconeGithub
-            {
-                width: 2rem;
-                height: 1.5rem;
-
-                opacity: 45%;
-            }
-            #IconeEmail
-            {
-                width: 2rem;
-                height: 1.05rem;
-
-                opacity: 45%;
-            }
-
             /* Fotos */
             #FotoSobreMim
             {
-                width: 75% !important;
+                width: 70% !important;
             }
     }
     @media (min-width: 1280px) and (min-height: 720px)
@@ -433,43 +463,6 @@ body
             #TextoDescricao
             {
                 width: 82.5%;
-            }
-
-            /* Icones de Mídias Sociais */
-            #IconeBehance
-            {
-                width: 2.15rem;
-                height: 1.75rem;
-
-                opacity: 45%;
-            }
-            #IconeLinkedin
-            {
-                width: 1.80rem;
-                height: 1.30rem;
-
-                opacity: 45%;
-            }
-            #IconeInstagram
-            {
-                width: 1.75rem;
-                height: 1.35rem;
-
-                opacity: 45%;
-            }
-            #IconeGithub
-            {
-                width: 2rem;
-                height: 1.5rem;
-
-                opacity: 45%;
-            }
-            #IconeEmail
-            {
-                width: 2rem;
-                height: 1.05rem;
-
-                opacity: 45%;
             }
 
             /* Fotos */
@@ -511,49 +504,10 @@ body
                 width: 87.5%;
             }
 
-            /* Icones de Mídias Sociais */
-            #IconeBehance
-            {
-                width: 2.15rem;
-                height: 1.75rem;
-
-                opacity: 45%;
-            }
-            #IconeLinkedin
-            {
-                width: 1.80rem;
-                height: 1.30rem;
-
-                opacity: 45%;
-            }
-            #IconeInstagram
-            {
-                width: 1.75rem;
-                height: 1.35rem;
-
-                opacity: 45%;
-            }
-            #IconeGithub
-            {
-                width: 2rem;
-                height: 1.5rem;
-
-                opacity: 45%;
-            }
-            #IconeEmail
-            {
-                width: 2rem;
-                height: 1.05rem;
-
-                opacity: 45%;
-            }
-
             /* Fotos */
             #FotoSobreMim
             {
                 width: 45% !important;
-
-                /* margin-top: 0.65rem; */
             }
     }
     @media (min-width: 1024px) and (min-height: 1024px)
@@ -587,43 +541,6 @@ body
             #TextoDescricao
             {
                 width: 82.5%;
-            }
-
-            /* Icones de Mídias Sociais */
-            #IconeBehance
-            {
-                width: 2.15rem;
-                height: 1.75rem;
-
-                opacity: 45%;
-            }
-            #IconeLinkedin
-            {
-                width: 1.80rem;
-                height: 1.30rem;
-
-                opacity: 45%;
-            }
-            #IconeInstagram
-            {
-                width: 1.75rem;
-                height: 1.35rem;
-
-                opacity: 45%;
-            }
-            #IconeGithub
-            {
-                width: 2rem;
-                height: 1.5rem;
-
-                opacity: 45%;
-            }
-            #IconeEmail
-            {
-                width: 2rem;
-                height: 1.05rem;
-
-                opacity: 45%;
             }
 
             /* Fotos */
@@ -665,49 +582,10 @@ body
                 width: 87.5%;
             }
 
-            /* Icones de Mídias Sociais */
-            #IconeBehance
-            {
-                width: 2.15rem;
-                height: 1.75rem;
-
-                opacity: 45%;
-            }
-            #IconeLinkedin
-            {
-                width: 1.80rem;
-                height: 1.30rem;
-
-                opacity: 45%;
-            }
-            #IconeInstagram
-            {
-                width: 1.75rem;
-                height: 1.35rem;
-
-                opacity: 45%;
-            }
-            #IconeGithub
-            {
-                width: 2rem;
-                height: 1.5rem;
-
-                opacity: 45%;
-            }
-            #IconeEmail
-            {
-                width: 2rem;
-                height: 1.05rem;
-
-                opacity: 45%;
-            }
-
             /* Fotos */
             #FotoSobreMim
             {
                 width: 50% !important;
-
-                /* margin-top: 0.795rem */
             }
     }
     @media (min-width: 1280px) and (min-height: 960px)
@@ -736,57 +614,59 @@ body
             }
             #ParagrafosDeTexto
             {
-                font-size: 1.0875rem;
+                font-size: 1.0375rem;
             }
             #TextoDescricao
             {
-                width: 82.5%;
-            }
-
-            /* Icones de Mídias Sociais */
-            #IconeBehance
-            {
-                width: 2.15rem;
-                height: 1.75rem;
-
-                opacity: 45%;
-            }
-            #IconeLinkedin
-            {
-                width: 1.80rem;
-                height: 1.30rem;
-
-                opacity: 45%;
-            }
-            #IconeInstagram
-            {
-                width: 1.75rem;
-                height: 1.35rem;
-
-                opacity: 45%;
-            }
-            #IconeGithub
-            {
-                width: 2rem;
-                height: 1.5rem;
-
-                opacity: 45%;
-            }
-            #IconeEmail
-            {
-                width: 2rem;
-                height: 1.05rem;
-
-                opacity: 45%;
+                width: 87.5%;
             }
 
             /* Fotos */
             #FotoSobreMim
             {
-                width: 70% !important;
+                width: 75% !important;
             }
     }
-    @media (min-width: 1440px) and (min-height: 900px)
+    @media (min-width: 1430px) and (min-height: 900px)
+    {
+        /* index.html */
+            nav
+            {
+                display: -ms-flexbox !important;
+                display: flex !important;
+            }
+            section
+            {
+                display: -ms-flexbox !important;
+                display: flex !important;
+
+                align-items: center;
+            }
+
+            #Titulo
+            {
+                font-size: 1.65625rem;
+            }
+            #Subtitulo
+            {
+                font-size: 1.0675rem;
+            }
+            #ParagrafosDeTexto
+            {
+                font-size: 1.075rem;
+            }
+            #TextoDescricao
+            {
+                width: 87.5%;
+            }
+
+            /* Fotos */
+            #FotoSobreMim
+            {
+                width: 60% !important;
+            }
+    }
+    @media (min-width: 1665px) and (min-height: 900px)
     {
         /* index.html */
             nav
@@ -817,53 +697,12 @@ body
             #TextoDescricao
             {
                 width: 87.5%;
-
-                margin-top: 5.35rem;
-            }
-
-            /* Icones de Mídias Sociais */
-            #IconeBehance
-            {
-                width: 2.15rem;
-                height: 1.75rem;
-
-                opacity: 45%;
-            }
-            #IconeLinkedin
-            {
-                width: 1.80rem;
-                height: 1.30rem;
-
-                opacity: 45%;
-            }
-            #IconeInstagram
-            {
-                width: 1.75rem;
-                height: 1.35rem;
-
-                opacity: 45%;
-            }
-            #IconeGithub
-            {
-                width: 2rem;
-                height: 1.5rem;
-
-                opacity: 45%;
-            }
-            #IconeEmail
-            {
-                width: 2rem;
-                height: 1.05rem;
-
-                opacity: 45%;
             }
 
             /* Fotos */
             #FotoSobreMim
             {
                 width: 55% !important;
-
-                /* margin-top: 0.875rem; */
             }
     }
     @media (min-width: 1280px) and (min-height: 1024px)
@@ -899,43 +738,6 @@ body
                 width: 82.5%;
             }
 
-            /* Icones de Mídias Sociais */
-            #IconeBehance
-            {
-                width: 2.15rem;
-                height: 1.75rem;
-
-                opacity: 45%;
-            }
-            #IconeLinkedin
-            {
-                width: 1.80rem;
-                height: 1.30rem;
-
-                opacity: 45%;
-            }
-            #IconeInstagram
-            {
-                width: 1.75rem;
-                height: 1.35rem;
-
-                opacity: 45%;
-            }
-            #IconeGithub
-            {
-                width: 2rem;
-                height: 1.5rem;
-
-                opacity: 45%;
-            }
-            #IconeEmail
-            {
-                width: 2rem;
-                height: 1.05rem;
-
-                opacity: 45%;
-            }
-
             /* Fotos */
             #FotoSobreMim
             {
@@ -960,7 +762,7 @@ body
 
             #Titulo
             {
-                font-size: 1.895rem;
+                font-size: 12.895rem;
             }
             #Subtitulo
             {
@@ -973,43 +775,6 @@ body
             #TextoDescricao
             {
                 width: 82.5%;
-            }
-
-            /* Icones de Mídias Sociais */
-            #IconeBehance
-            {
-                width: 1.5rem;
-                height: 1.85rem;
-
-                opacity: 45%;
-            }
-            #IconeLinkedin
-            {
-                width: 1.20rem;
-                height: 1.20rem;
-
-                opacity: 45%;
-            }
-            #IconeInstagram
-            {
-                width: 1.25rem;
-                height: 1.35rem;
-
-                opacity: 45%;
-            }
-            #IconeGithub
-            {
-                width: 1.25rem;
-                height: 1.25rem;
-
-                opacity: 45%;
-            }
-            #IconeEmail
-            {
-                width: 1.35rem;
-                height: 1.05rem;
-
-                opacity: 45%;
             }
 
             /* Fotos */
@@ -1051,43 +816,6 @@ body
                 width: 82.5%;
             }
 
-            /* Icones de Mídias Sociais */
-            #IconeBehance
-            {
-                width: 2.15rem;
-                height: 1.75rem;
-
-                opacity: 45%;
-            }
-            #IconeLinkedin
-            {
-                width: 1.80rem;
-                height: 1.30rem;
-
-                opacity: 45%;
-            }
-            #IconeInstagram
-            {
-                width: 1.75rem;
-                height: 1.35rem;
-
-                opacity: 45%;
-            }
-            #IconeGithub
-            {
-                width: 2rem;
-                height: 1.5rem;
-
-                opacity: 45%;
-            }
-            #IconeEmail
-            {
-                width: 2rem;
-                height: 1.05rem;
-
-                opacity: 45%;
-            }
-
             /* Fotos */
             #FotoSobreMim
             {
@@ -1125,43 +853,6 @@ body
             #TextoDescricao
             {
                 width: 82.5%;
-            }
-
-            /* Icones de Mídias Sociais */
-            #IconeBehance
-            {
-                width: 2.15rem;
-                height: 1.75rem;
-
-                opacity: 45%;
-            }
-            #IconeLinkedin
-            {
-                width: 1.80rem;
-                height: 1.30rem;
-
-                opacity: 45%;
-            }
-            #IconeInstagram
-            {
-                width: 1.75rem;
-                height: 1.35rem;
-
-                opacity: 45%;
-            }
-            #IconeGithub
-            {
-                width: 2rem;
-                height: 1.5rem;
-
-                opacity: 45%;
-            }
-            #IconeEmail
-            {
-                width: 2rem;
-                height: 1.05rem;
-
-                opacity: 45%;
             }
 
             /* Fotos */
@@ -1203,49 +894,10 @@ body
                 width: 82.5%;
             }
 
-            /* Icones de Mídias Sociais */
-            #IconeBehance
-            {
-                width: 2.15rem;
-                height: 1.75rem;
-
-                opacity: 45%;
-            }
-            #IconeLinkedin
-            {
-                width: 1.80rem;
-                height: 1.30rem;
-
-                opacity: 45%;
-            }
-            #IconeInstagram
-            {
-                width: 1.75rem;
-                height: 1.35rem;
-
-                opacity: 45%;
-            }
-            #IconeGithub
-            {
-                width: 2rem;
-                height: 1.5rem;
-
-                opacity: 45%;
-            }
-            #IconeEmail
-            {
-                width: 2rem;
-                height: 1.05rem;
-
-                opacity: 45%;
-            }
-
             /* Fotos */
             #FotoSobreMim
             {
                 width: 60% !important;
-
-                /* margin-top: 1.5rem; */
             }
     }
 
@@ -1275,112 +927,78 @@ body
         /* Navbar */
 
             /* Links */
-                #LinkSobreMim
-                {
-                    font-size: 18.5px;
+              #LinkSobreMim, #LinkFotos, #LinkJogos
+              {
+                  font-size: 1.075rem;
 
-                    margin: 0.3rem !important;
-                    padding-left: 0.5rem !important;
-                    padding-right: 0.5rem !important;
-                }
+                  margin: 0.4165rem !important;
+                  padding-left: 0.25rem !important;
+                  padding-right: 0.25rem !important;
+              }
 
-                #LinkFotos
-                {
-                    font-size: 18.5px;
-
-                    margin: 0.3rem !important;
-                    padding-left: 0.5rem !important;
-                    padding-right: 0.55rem !important;
-                }
-
-                #LinkJogos
-                {
-                    font-size: 18.5px;
-
-                    margin: 0.3rem !important;
-                    padding-left: 0.5rem !important;
-                    padding-right: 0.5rem !important;
-                }
+              #LinkSobreMim
+              {
+                margin-left: 1.25rem !important;
+              }
 
             /* Hovers de Ícones de Mídias Sociais */
-                #IconeBehance
-                {
-                    margin-left: 0.25rem;
-                    margin-right: 0.125rem;
-                    margin-top: 0.05rem;
-                    margin-bottom: 0.25rem;
+              #IconeBehance, #IconeLinkedin, #IconeInstagram, #IconeGithub
+              {
+                  opacity: 45%;
 
-                    padding-left: 0.25rem !important;
-                    padding-right: 0.25rem !important;
-                }
-                #IconeBehance:hover
-                {
-                    opacity: 75%;
-                }
+                  margin-left: 0.25rem !important;
+                  margin-right: .5rem !important;
 
-                #IconeLinkedin
-                {
-                    margin-left: 0.125rem;
-                    margin-right: 0.125rem;
-                    margin-top: 0.20rem;
-                    margin-bottom: 0.25rem;
+                  padding-top: 0.15rem !important;
+                  padding-bottom: 0.005rem !important;
+                  padding-left: 0.25rem !important;
+                  padding-right: 0.25rem !important;
+              }
+              #IconeBehance:hover, #IconeLinkedin:hover, #IconeInstagram:hover, #IconeGithub:hover
+              {
+                  opacity: 75%;
+              }
 
-                    padding-left: 0.25rem !important;
-                    padding-right: 0.25rem !important;
-                }
-                #IconeLinkedin:hover
-                {
-                    opacity: 75%;
-                }
+              #IconeBehance
+              {
+                  width: 2.15rem;
+                  height: 1.75rem;
+              }
 
-                #IconeInstagram
-                {
-                    margin-left: 0.125rem;
-                    margin-right: 0.125rem;
-                    margin-top: 0.3rem;
-                    margin-bottom: 0.25rem;
-
-                    padding-left: 0.25rem !important;
-                    padding-right: 0.25rem !important;
-                }
-                #IconeInstagram:hover
-                {
-                    opacity: 75%;
+              #IconeLinkedin
+              {
+                  width: 1.80rem;
+                  height: 1.30rem;
                 }
 
-                #IconeGithub
-                {
-                    margin-left: 0.125rem;
-                    margin-right: 0.125rem;
-                    margin-top: 0.15rem;
-                    margin-bottom: 0.25rem;
+              #IconeInstagram
+              {
+                  width: 1.75rem;
+                  height: 1.35rem;
+              }
 
-                    padding-left: 0.25rem !important;
-                    padding-right: 0.25rem !important;
-                }
-                #IconeGithub:hover
-                {
-                    opacity: 75%;
-                }
+              #IconeGithub
+              {
+                  width: 2rem;
+                  height: 1.5rem;
 
-                #IconeEmail
-                {
-                    margin-left: 0.125rem;
-                    margin-right: 0.25rem;
-                    margin-top: 0.425rem;
-                    margin-bottom: 0.25rem;
-
-                    padding-left: 0.25rem !important;
-                    padding-right: 0.5rem !important;
-                }
-                #IconeEmail:hover
-                {
-                    opacity: 75%;
-                }
-
-
+                  margin-right: 1.25rem !important;
+              }
 
         /* index.html */
+
+            /* Animações */
+            #FotoSobreMim
+            {
+                -webkit-animation-fill-mode: both;
+                animation-fill-mode: both;
+
+                -webkit-animation: FadeIn ease 1.65s;
+                -moz-animation: FadeIn ease 1.65s;
+                -o-animation: FadeIn ease 1.65s;
+
+                animation: FadeIn ease 1.65s;
+            }
             #Titulo
             {
                 width: 100%;
@@ -1421,10 +1039,24 @@ body
             }
             #TextoDescricao
             {
+                -webkit-animation-fill-mode: both;
+                animation-fill-mode: both;
+
+                -webkit-animation: FadeIn ease 1.65s 1.85s;
+                -moz-animation: FadeIn ease 1.65s 1.85s;
+                -o-animation: FadeIn ease 1.65s 1.85s;
+
+                animation: FadeIn ease 1.65s 1.85s;
+                animation-fill-mode: forwards;
+
                 -ms-flex-pack: center !important;
 
                 justify-content: center !important;
                 align-items: center !important;
+
+                opacity: 0;
+
+                margin-top: 3rem !important;
             }
             #SectionBranca
             {
@@ -1443,7 +1075,7 @@ body
             }
 
             #thumbnail
-            {  
+            {
                 position: relative;
                 width: 100%;
 
@@ -1452,13 +1084,13 @@ body
             }
 
             #thumbnail .Imagem
-            {  
+            {
                 display: block;
                 height: 500px;
                 width: 100%;
             }
 
-            #thumbnail .Titulo 
+            #thumbnail .Titulo
             {
                 font-size: 20px;
                 position: absolute;
@@ -1470,7 +1102,7 @@ body
                 text-align: center;
             }
 
-            #thumbnail .Subtitulo 
+            #thumbnail .Subtitulo
             {
                 font-size: 15px;
                 position: absolute;
@@ -1482,7 +1114,7 @@ body
                 text-align: center;
             }
 
-            .Sobreposicao 
+            .Sobreposicao
             {
                 position: absolute;
                 top: 0;
@@ -1496,7 +1128,7 @@ body
                 background-color: #111111;
             }
 
-            #thumbnail:hover .Sobreposicao 
+            #thumbnail:hover .Sobreposicao
             {
                 opacity: 0.85;
             }
