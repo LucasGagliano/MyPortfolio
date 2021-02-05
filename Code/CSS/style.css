@@ -18,13 +18,18 @@
 
 @font-face
 {
-    font-family: "Almelo";
-    src: url('../../Resources/Fonts/Almelo.ttf');
+    font-family: "KeepCalm";
+    src: url('../../Resources/Fonts/KeepCalm.ttf');
 }
 @font-face
 {
-    font-family: "TimeAndSpace";
-    src: url('../../Resources/Fonts/TimeAndSpace.ttf');
+    font-family: "Elephant";
+    src: url('../../Resources/Fonts/Elephant.ttf');
+}
+@font-face
+{
+  font-family: "Aquamax";
+  src: url('../../Resources/Fonts/Aquamax.ttf');
 }
 
 body
@@ -37,12 +42,23 @@ body
 
     padding-right: 15px;
     padding-left: 15px;
+}
+nav
+{
+  height: 10% !important;
 
-    background-color: #f3f7f7;
+  padding: 0.75rem;
+  margin-bottom: 2rem;
+}
+section
+{
+    height: 75% !important;
+
+    justify-content: center !important;
 }
 
 
-/* Classes */
+  /* Classes */
 
     .Box
     {
@@ -83,628 +99,1183 @@ body
     /* Fontes */
     .FontePrincipal
     {
-        font-family: "TimeAndSpace";
+        font-family: "KeepCalm";
+    }
+
+    .FonteTitulo
+    {
+        font-family: "Aquamax";
+    }
+
+    .FonteNavbar
+    {
+      font-family: "Elephant";
     }
 
 
 /* IDs */
 
     /* Resolutions */
-    @media (max-height: 899px)
-    {
-        /* index.html */
-        #Titulo
+
+        /* vh 524- */
+        @media (max-width: 799px) and (max-height: 524px) /* Feito */
         {
-            font-size: 1.5575rem;
+            /* index.html */
+                nav
+                {
+                    display: -ms-flexbox !important;
+                    display: flex !important;
+                }
+                section
+                {
+                    display: -ms-flexbox !important;
+                    display: flex !important;
+
+                    align-items: center;
+                }
+
+                #Titulo
+                {
+                    font-size: 1.4575rem;
+                }
+                #Subtitulo
+                {
+                    font-size: 0.8775rem;
+                }
+                #ParagrafosDeTexto
+                {
+                    font-size: 0.8575rem;
+                    margin-top: 0;
+                }
+                #TextoDescricao
+                {
+                    width: 87.5%;
+                    margin: auto;
+                }
+
+                /* Fotos */
+                #FotoSobreMim
+                {
+                    width: 65% !important;
+                    margin-top: 35rem;
+                }
+
+            /* Fotos.html */
+                #thumbnail .Imagem
+                {
+                    height: 175px;
+                    background-color: gray;
+                }
         }
-        #Subtitulo
+        @media (min-width: 800px) and (max-height: 524px) /* Feito */
         {
-            font-size: 0.9815rem;
+            /* index.html */
+                nav
+                {
+                    display: -ms-flexbox !important;
+                    display: flex !important;
+                }
+                section
+                {
+                    display: -ms-flexbox !important;
+                    display: flex !important;
+
+                    align-items: center;
+                }
+                #Titulo
+                {
+                    font-size: 1.4575rem;
+                }
+                #Subtitulo
+                {
+                    font-size: 0.8775rem;
+                }
+                #ParagrafosDeTexto
+                {
+                    font-size: 0.8575rem;
+                    margin-top: 28.5rem;
+                }
+                #TextoDescricao
+                {
+                    width: 78.5%;
+                }
+
+                /* Fotos */
+                #FotoSobreMim
+                {
+                    width: 55% !important;
+                    margin-top: 15rem;
+                }
+
+            /* Fotos.html */
+                #thumbnail .Imagem
+                {
+                    height: 250px;
+                    background-color: darkgreen;
+                }
         }
-        #ParagrafosDeTexto
+        @media (min-width: 1152px) and (max-height: 524px) /* Feito */
         {
-            font-size: 1.0715rem;
+            /* index.html */
+                nav
+                {
+                    display: -ms-flexbox !important;
+                    display: flex !important;
+                }
+                section
+                {
+                    display: -ms-flexbox !important;
+                    display: flex !important;
+
+                    align-items: center;
+                }
+                #Titulo
+                {
+                    font-size: 1.4575rem;
+                }
+                #Subtitulo
+                {
+                    font-size: 0.8775rem;
+                }
+                #ParagrafosDeTexto
+                {
+                    font-size: 0.8575rem;
+                    margin-top: 25rem;
+                }
+                #TextoDescricao
+                {
+                    width: 78.5%;
+                }
+
+                /* Fotos */
+                #FotoSobreMim
+                {
+                    width: 50% !important;
+                    margin-top: 15rem;
+                }
+
+            /* Fotos.html */
+                #thumbnail .Imagem
+                {
+                    height: 300px;
+                    background-color: salmon;
+                }
         }
-        #TextoDescricao
+        @media (min-width: 1280px) and (max-height: 524px) /* Feito */
         {
-            width: 87.5%;
-            margin: auto;
-        }
+            /* index.html */
+                nav
+                {
+                    display: -ms-flexbox !important;
+                    display: flex !important;
+                }
+                section
+                {
+                    display: -ms-flexbox !important;
+                    display: flex !important;
 
-        /* Fotos */
-        #FotoSobreMim
+                    align-items: center;
+                }
+                #Titulo
+                {
+                    font-size: 1.4575rem;
+                }
+                #Subtitulo
+                {
+                    font-size: 0.8775rem;
+                }
+                #ParagrafosDeTexto
+                {
+                    font-size: 0.8575rem;
+                    margin-top: 21.5rem;
+                }
+                #TextoDescricao
+                {
+                    width: 78.5%;
+                }
+
+                /* Fotos */
+                #FotoSobreMim
+                {
+                    width: 50% !important;
+                    margin-top: 15rem;
+                }
+
+            /* Fotos.html */
+                #thumbnail .Imagem
+                {
+                    height: 350px;
+                    background-color: goldenrod;
+                }
+        }
+        @media (min-width: 1430px) and (max-height: 524px) /* Feito */
         {
-            display: block;
-            margin: auto;
+            /* index.html */
+                nav
+                {
+                    display: -ms-flexbox !important;
+                    display: flex !important;
+                }
+                section
+                {
+                    display: block;
+                }
+                #Titulo
+                {
+                    font-size: 1.4575rem;
+                }
+                #Subtitulo
+                {
+                    font-size: 0.8775rem;
+                }
+                #ParagrafosDeTexto
+                {
+                    font-size: 0.8575rem;
+                    margin-top: 18.5rem;
+                }
+                #TextoDescricao
+                {
+                    width: 78.5%;
+                }
 
-            width: 10% !important;
+                /* Fotos */
+                #FotoSobreMim
+                {
+                    width: 50% !important;
+                    margin-top: 15rem;
+                }
+
+            /* Fotos.html */
+                #thumbnail .Imagem
+                {
+                    height: 400px;
+                    background-color: olive;
+                }
         }
-    }
-    @media (max-width: 799px)
-    {
-        /* index.html */
-        #Titulo
+        @media (min-width: 1665px) and (max-height: 524px) /* Feito */
         {
-            font-size: 1.5575rem;
+            /* index.html */
+                nav
+                {
+                    display: -ms-flexbox !important;
+                    display: flex !important;
+                }
+                section
+                {
+                    display: block;
+                }
+                #Titulo
+                {
+                    font-size: 1.4575rem;
+                }
+                #Subtitulo
+                {
+                    font-size: 0.8775rem;
+                }
+                #ParagrafosDeTexto
+                {
+                    font-size: 0.8575rem;
+                    margin-top: 15rem;
+                }
+                #TextoDescricao
+                {
+                    width: 78.5%;
+                }
+
+                /* Fotos */
+                #FotoSobreMim
+                {
+                    width: 45% !important;
+                    margin-top: 15rem;
+                }
+
+            /* Fotos.html */
+                #thumbnail .Imagem
+                {
+                    height: 450px;
+                    background-color: brown;
+                }
         }
-        #Subtitulo
+
+
+        /* vh 525 */
+        @media (max-width: 799px) and (min-height: 525px) /* Feito */
         {
-            font-size: 0.9815rem;
+            /* index.html */
+                nav
+                {
+                    display: -ms-flexbox !important;
+                    display: flex !important;
+                }
+                section
+                {
+                    display: -ms-flexbox !important;
+                    display: flex !important;
+
+                    align-items: center;
+                }
+
+                #Titulo
+                {
+                    font-size: 1.4575rem;
+                }
+                #Subtitulo
+                {
+                    font-size: 0.8775rem;
+                }
+                #ParagrafosDeTexto
+                {
+                    font-size: 0.8575rem;
+                    margin-top: 0;
+                }
+                #TextoDescricao
+                {
+                    width: 87.5%;
+                    margin: auto;
+                }
+
+                /* Fotos */
+                #FotoSobreMim
+                {
+                    width: 65% !important;
+                    margin-top: 20rem;
+                }
+
+            /* Fotos.html */
+                #thumbnail .Imagem
+                {
+                    height: 175px;
+                    background-color: purple;
+                }
         }
-        #ParagrafosDeTexto
+        @media (min-width: 800px) and (min-height: 525px) /* Feito */
         {
-            font-size: 1.0715rem;
+            /* index.html */
+                nav
+                {
+                    display: -ms-flexbox !important;
+                    display: flex !important;
+                }
+                section
+                {
+                    display: -ms-flexbox !important;
+                    display: flex !important;
+
+                    align-items: center;
+                }
+
+                #Titulo
+                {
+                    font-size: 1.4575rem;
+                }
+                #Subtitulo
+                {
+                    font-size: 0.8775rem;
+                }
+                #ParagrafosDeTexto
+                {
+                    font-size: 0.7575rem;
+                    margin-top: 0rem;
+                }
+                #TextoDescricao
+                {
+                    width: 82.5%;
+                }
+
+                /* Fotos */
+                #FotoSobreMim
+                {
+                    width: 65% !important;
+                    margin-top: 2.5rem;
+                }
+
+            /* Fotos.html */
+                #thumbnail .Imagem
+                {
+                    height: 275px;
+                    background-color: pink;
+                }
         }
-        #TextoDescricao
+        @media (min-width: 1152px) and (min-height: 525px) /* Feito */
         {
-            width: 87.5%;
-            margin: auto;
-        }
+            /* index.html */
+                nav
+                {
+                    display: -ms-flexbox !important;
+                    display: flex !important;
+                }
+                section
+                {
+                    display: -ms-flexbox !important;
+                    display: flex !important;
 
-        /* Fotos */
-        #FotoSobreMim
+                    align-items: center;
+                }
+
+                #Titulo
+                {
+                    font-size: 1.4575rem;
+                }
+                #Subtitulo
+                {
+                    font-size: 0.8775rem;
+                }
+                #ParagrafosDeTexto
+                {
+                    font-size: 0.8075rem;
+                    margin-top: 0rem;
+                }
+                #TextoDescricao
+                {
+                    width: 78.5%;
+                }
+
+                /* Fotos */
+                #FotoSobreMim
+                {
+                    width: 60% !important;
+                    margin-top: 2.5rem;
+                }
+
+            /* Fotos.html */
+                #thumbnail .Imagem
+                {
+                    height: 315px;
+                    background-color: yellow;
+                }
+        }
+        @media (min-width: 1280px) and (min-height: 525px) /* Feito */
         {
-            display: block;
-            margin: auto;
-            margin-top: 20rem;
+            /* index.html */
+                nav
+                {
+                    display: -ms-flexbox !important;
+                    display: flex !important;
+                }
+                section
+                {
+                    display: -ms-flexbox !important;
+                    display: flex !important;
 
-            width: 75% !important;
+                    align-items: center;
+                }
+
+                #Titulo
+                {
+                    font-size: 1.4575rem;
+                }
+                #Subtitulo
+                {
+                    font-size: 0.8775rem;
+                }
+                #ParagrafosDeTexto
+                {
+                    font-size: 0.8075rem;
+                    margin-top: 0rem;
+                }
+                #TextoDescricao
+                {
+                    width: 78.5%;
+                }
+
+                /* Fotos */
+                #FotoSobreMim
+                {
+                    width: 55% !important;
+                    margin-top: 2.5rem;
+                }
+
+            /* Fotos.html */
+                #thumbnail .Imagem
+                {
+                    height: 350px;
+                    background-color: blue;
+                }
         }
-    }
-    @media (min-width: 800px) and (max-width: 1151px)
-    {
-        /* index.html */
-        #Titulo
+        @media (min-width: 1430px) and (min-height: 525px) /* Feito */
         {
-            font-size: 1.5575rem;
+            /* index.html */
+                nav
+                {
+                    display: -ms-flexbox !important;
+                    display: flex !important;
+                }
+                section
+                {
+                    display: -ms-flexbox !important;
+                    display: flex !important;
+
+                    align-items: center;
+                }
+
+                #Titulo
+                {
+                    font-size: 1.5025rem;
+                }
+                #Subtitulo
+                {
+                    font-size: 0.9575rem;
+                }
+                #ParagrafosDeTexto
+                {
+                    font-size: 0.8075rem;
+                    margin-top: -1.5rem;
+                }
+                #TextoDescricao
+                {
+                    width: 84.5%;
+                }
+
+                /* Fotos */
+                #FotoSobreMim
+                {
+                    width: 60% !important;
+                    margin-top: 0;
+                }
+
+            /* Fotos.html */
+                #thumbnail .Imagem
+                {
+                    height: 415px;
+                    background-color: green;
+                }
         }
-        #Subtitulo
+        @media (min-width: 1665px) and (min-height: 525px) /* Feito */
         {
-            font-size: 0.9815rem;
+            /* index.html */
+                nav
+                {
+                    display: -ms-flexbox !important;
+                    display: flex !important;
+                }
+                section
+                {
+                    display: -ms-flexbox !important;
+                    display: flex !important;
+
+                    align-items: center;
+                }
+
+                #Titulo
+                {
+                    font-size: 1.525rem;
+                }
+                #Subtitulo
+                {
+                    font-size: 0.925rem;
+                }
+                #ParagrafosDeTexto
+                {
+                    font-size: 0.8075rem;
+                    margin-top: -2.5rem;
+                }
+                #TextoDescricao
+                {
+                    width: 78.5%;
+                }
+
+                /* Fotos */
+                #FotoSobreMim
+                {
+                    width: 45% !important;
+                    margin-top: 0 !important;
+                }
+
+            /* Fotos.html */
+                #thumbnail .Imagem
+                {
+                    height: 475px;
+                    background-color: red;
+                }
         }
-        #ParagrafosDeTexto
+
+
+        /* vh 720px */
+        @media (max-width: 799px) and (min-height: 720px) /* Feito */
         {
-            font-size: 1.0715rem;
+            /* index.html */
+                nav
+                {
+                    display: -ms-flexbox !important;
+                    display: flex !important;
+                }
+                section
+                {
+                    display: -ms-flexbox !important;
+                    display: flex !important;
+
+                    align-items: center;
+                }
+
+                #Titulo
+                {
+                    font-size: 1.4575rem;
+                }
+                #Subtitulo
+                {
+                    font-size: 0.8775rem;
+                }
+                #ParagrafosDeTexto
+                {
+                    font-size: 0.8575rem;
+                    margin-top: 0;
+                }
+                #TextoDescricao
+                {
+                    width: 87.5%;
+                    margin: auto;
+                }
+
+                /* Fotos */
+                #FotoSobreMim
+                {
+                    width: 65% !important;
+                    margin-top: 10rem;
+                }
+
+            /* Fotos.html */
+                #thumbnail .Imagem
+                {
+                    height: 175px;
+                    background-color: darkgreen;
+                }
         }
-        #TextoDescricao
+        @media (min-width: 800px) and (min-height: 720px) /* Feito */
         {
-            width: 87.5%;
-            margin: auto;
-        }
+            /* index.html */
+                nav
+                {
+                    display: -ms-flexbox !important;
+                    display: flex !important;
+                }
+                section
+                {
+                    display: -ms-flexbox !important;
+                    display: flex !important;
 
-        /* Fotos */
-        #FotoSobreMim
+                    align-items: center;
+                }
+
+                #Titulo
+                {
+                    font-size: 1.4575rem;
+                }
+                #Subtitulo
+                {
+                    font-size: 0.8775rem;
+                }
+                #ParagrafosDeTexto
+                {
+                    font-size: 0.8575rem;
+                    margin-top: 0rem;
+                }
+                #TextoDescricao
+                {
+                    width: 82.5%;
+                }
+
+                /* Fotos */
+                #FotoSobreMim
+                {
+                    width: 65% !important;
+                    margin-top: 2.5rem;
+                }
+
+            /* Fotos.html */
+                #thumbnail .Imagem
+                {
+                    height: 250px;
+                    background-color: gray;
+                }
+        }
+        @media (min-width: 1152px) and (min-height: 720px) /* Feito */
         {
-            display: block;
-            margin: auto;
-            margin-top: 10rem;
+            /* index.html */
+                nav
+                {
+                    display: -ms-flexbox !important;
+                    display: flex !important;
+                }
+                section
+                {
+                    display: -ms-flexbox !important;
+                    display: flex !important;
 
-            width: 75% !important;
+                    align-items: center;
+                }
+
+                #Titulo
+                {
+                    font-size: 1.4575rem;
+                }
+                #Subtitulo
+                {
+                    font-size: 0.8775rem;
+                }
+                #ParagrafosDeTexto
+                {
+                    font-size: 0.8075rem;
+                    margin-top: 0rem;
+                }
+                #TextoDescricao
+                {
+                    width: 78.5%;
+                }
+
+                /* Fotos */
+                #FotoSobreMim
+                {
+                    width: 60% !important;
+                    margin-top: 2.5rem;
+                }
+
+            /* Fotos.html */
+                #thumbnail .Imagem
+                {
+                    height: 325px;
+                    background-color: salmon;
+                }
         }
-    }
-    @media (max-width: 799px) and (max-height: 899px)
-    {
-        /* index.html */
-        #Titulo
+        @media (min-width: 1280px) and (min-height: 720px) /* Feito */
         {
-            font-size: 1.5575rem;
+            /* index.html */
+                nav
+                {
+                    display: -ms-flexbox !important;
+                    display: flex !important;
+                }
+                section
+                {
+                    display: -ms-flexbox !important;
+                    display: flex !important;
+
+                    align-items: center;
+                }
+
+                #Titulo
+                {
+                    font-size: 1.4575rem;
+                }
+                #Subtitulo
+                {
+                    font-size: 0.8775rem;
+                }
+                #ParagrafosDeTexto
+                {
+                    font-size: 0.8075rem;
+                    margin-top: 0rem;
+                }
+                #TextoDescricao
+                {
+                    width: 78.5%;
+                }
+
+                /* Fotos */
+                #FotoSobreMim
+                {
+                    width: 55% !important;
+                    margin-top: 2.5rem;
+                }
+
+            /* Fotos.html */
+                #thumbnail .Imagem
+                {
+                    height: 350px;
+                    background-color: olive;
+                }
         }
-        #Subtitulo
+        @media (min-width: 1430px) and (min-height: 720px) /* Feito */
         {
-            font-size: 0.9815rem;
+            /* index.html */
+                nav
+                {
+                    display: -ms-flexbox !important;
+                    display: flex !important;
+                }
+                section
+                {
+                    display: -ms-flexbox !important;
+                    display: flex !important;
+
+                    align-items: center;
+                }
+
+                #Titulo
+                {
+                    font-size: 1.5025rem;
+                }
+                #Subtitulo
+                {
+                    font-size: 0.9575rem;
+                }
+                #ParagrafosDeTexto
+                {
+                    font-size: 0.8075rem;
+                    margin-top: 0;
+                }
+                #TextoDescricao
+                {
+                    width: 84.5%;
+                }
+
+                /* Fotos */
+                #FotoSobreMim
+                {
+                    width: 60% !important;
+                    margin-top: 0;
+                }
+
+            /* Fotos.html */
+                #thumbnail .Imagem
+                {
+                    height: 450px;
+                    background-color: goldenrod;
+                }
         }
-        #ParagrafosDeTexto
+        @media (min-width: 1665px) and (min-height: 720px) /* Feito */
         {
-            font-size: 1.0715rem;
+            /* index.html */
+                nav
+                {
+                    display: -ms-flexbox !important;
+                    display: flex !important;
+                }
+                section
+                {
+                    display: -ms-flexbox !important;
+                    display: flex !important;
+
+                    align-items: center;
+                }
+
+                #Titulo
+                {
+                    font-size: 1.525rem;
+                }
+                #Subtitulo
+                {
+                    font-size: 0.925rem;
+                }
+                #ParagrafosDeTexto
+                {
+                    font-size: 0.8775rem;
+                    margin-top: -2.5rem;
+                }
+                #TextoDescricao
+                {
+                    width: 78.5%;
+                }
+
+                /* Fotos */
+                #FotoSobreMim
+                {
+                    width: 55% !important;
+                    margin-top: 0 !important;
+                }
+
+            /* Fotos.html */
+                #thumbnail .Imagem
+                {
+                    height: 500px;
+                    background-color: brown;
+                }
         }
-        #TextoDescricao
+
+
+        /* vh 900px */
+        @media (max-width: 799px) and (min-height: 900px) /* Feito */
         {
-            width: 87.5%;
-            margin: auto;
-        }
+            /* index.html */
+                nav
+                {
+                    display: -ms-flexbox !important;
+                    display: flex !important;
+                }
+                section
+                {
+                    display: -ms-flexbox !important;
+                    display: flex !important;
 
-        /* Fotos */
-        #FotoSobreMim
+                    align-items: center;
+                }
+
+                #Titulo
+                {
+                    font-size: 1.4575rem;
+                }
+                #Subtitulo
+                {
+                    font-size: 0.8775rem;
+                }
+                #ParagrafosDeTexto
+                {
+                    font-size: 0.8575rem;
+                    margin-top: 0;
+                }
+                #TextoDescricao
+                {
+                    width: 87.5%;
+                    margin: auto;
+                }
+
+                /* Fotos */
+                #FotoSobreMim
+                {
+                    width: 65% !important;
+                    margin-top: 5rem;
+                }
+
+            /* Fotos.html */
+                #thumbnail .Imagem
+                {
+                    height: 175px;
+                    background-color: purple;
+                }
+        }
+        @media (min-width: 800px) and (min-height: 900px) /* Feito */
         {
-            display: block;
-            margin: auto;
-            margin-top: 12.5rem;
+            /* index.html */
+                nav
+                {
+                    display: -ms-flexbox !important;
+                    display: flex !important;
+                }
+                section
+                {
+                    display: -ms-flexbox !important;
+                    display: flex !important;
 
-            width: 75% !important;
+                    align-items: center;
+                }
+
+                #Titulo
+                {
+                    font-size: 1.4575rem;
+                }
+                #Subtitulo
+                {
+                    font-size: 0.8775rem;
+                }
+                #ParagrafosDeTexto
+                {
+                    font-size: 0.8575rem;
+                    margin-top: 0;
+                }
+                #TextoDescricao
+                {
+                    width: 82.5%;
+                }
+
+                /* Fotos */
+                #FotoSobreMim
+                {
+                    width: 70% !important;
+                    margin-top: 0;
+                }
+
+            /* Fotos.html */
+                #thumbnail .Imagem
+                {
+                    height: 250px;
+                    background-color: pink;
+                }
         }
-    }
-    @media (max-width: 1151px) and (max-height: 856px)
-    {
-        /* index.html */
-        #Titulo
+        @media (min-width: 1152px) and (min-height: 900px) /* Feito */
         {
-            font-size: 1.5575rem;
+            /* index.html */
+                nav
+                {
+                    display: -ms-flexbox !important;
+                    display: flex !important;
+                }
+                section
+                {
+                    display: -ms-flexbox !important;
+                    display: flex !important;
+
+                    align-items: center;
+                }
+
+                #Titulo
+                {
+                    font-size: 1.4575rem;
+                }
+                #Subtitulo
+                {
+                    font-size: 0.8775rem;
+                }
+                #ParagrafosDeTexto
+                {
+                    font-size: 0.8575rem;
+                    margin-top: -2.5rem;
+
+                }
+                #TextoDescricao
+                {
+                    width: 82.5%;
+                }
+
+                /* Fotos */
+                #FotoSobreMim
+                {
+                    width: 65% !important;
+                    margin-top: 0;
+                }
+
+            /* Fotos.html */
+                #thumbnail .Imagem
+                {
+                    height: 325px;
+                    background-color: yellow;
+                }
         }
-        #Subtitulo
+        @media (min-width: 1280px) and (min-height: 900px) /* Feito */
         {
-            font-size: 0.9815rem;
+            /* index.html */
+                nav
+                {
+                    display: -ms-flexbox !important;
+                    display: flex !important;
+                }
+                section
+                {
+                    display: -ms-flexbox !important;
+                    display: flex !important;
+
+                    align-items: center;
+                }
+
+                #Titulo
+                {
+                    font-size: 1.4575rem;
+                }
+                #Subtitulo
+                {
+                    font-size: 0.8765rem;
+                }
+                #ParagrafosDeTexto
+                {
+                    font-size: 0.7975rem;
+                    margin-top: 0;
+                }
+                #TextoDescricao
+                {
+                    width: 86.5%;
+                }
+
+                /* Fotos */
+                #FotoSobreMim
+                {
+                    width: 72.5% !important;
+                    margin-top: 0;
+                }
+
+            /* Fotos.html */
+                #thumbnail .Imagem
+                {
+                    height: 350px;
+                    background-color: blue;
+                }
         }
-        #ParagrafosDeTexto
+        @media (min-width: 1430px) and (min-height: 900px) /* Feito */
         {
-            font-size: 1.0715rem;
+            /* index.html */
+                nav
+                {
+                    display: -ms-flexbox !important;
+                    display: flex !important;
+                }
+                section
+                {
+                    display: -ms-flexbox !important;
+                    display: flex !important;
+
+                    align-items: center;
+                }
+
+                #Titulo
+                {
+                    font-size: 1.5025rem;
+                }
+                #Subtitulo
+                {
+                    font-size: 0.9575rem;
+                }
+                #ParagrafosDeTexto
+                {
+                    font-size: 0.8075rem;
+                    margin-top: 0;
+                }
+                #TextoDescricao
+                {
+                    width: 84.5%;
+                }
+
+                /* Fotos */
+                #FotoSobreMim
+                {
+                    width: 60% !important;
+                    margin-top: 0;
+                }
+
+            /* Fotos.html */
+                #thumbnail .Imagem
+                {
+                    height: 450px;
+                    background-color: green;
+                }
         }
-        #TextoDescricao
+        @media (min-width: 1665px) and (min-height: 900px) /* Feito */
         {
-            width: 87.5%;
-            margin: auto;
+            /* index.html */
+                nav
+                {
+                    display: -ms-flexbox !important;
+                    display: flex !important;
+                }
+                section
+                {
+                    display: -ms-flexbox !important;
+                    display: flex !important;
+
+                    align-items: center;
+                }
+
+                #Titulo
+                {
+                    font-size: 1.65625rem;
+                }
+                #Subtitulo
+                {
+                    font-size: 1.0575rem;
+                }
+                #ParagrafosDeTexto
+                {
+                    font-size: 0.9075rem;
+                    margin-top: 0;
+                }
+                #TextoDescricao
+                {
+                    width: 78.5%;
+                }
+
+                /* Fotos */
+                #FotoSobreMim
+                {
+                    width: 55% !important;
+                    margin-top: 0;
+                }
+
+            /* Fotos.html */
+                #thumbnail .Imagem
+                {
+                    height: 500px;
+                    background-color: red;
+                }
+
         }
 
-        /* Fotos */
-        #FotoSobreMim
-        {
-            display: block;
-            margin: auto;
-            margin-top: 10rem;
 
-            width: 75% !important;
-        }
-    }
-    @media (max-width: 1151px) and (min-height: 857) and (max-height: 899px)
-    {
-        /* index.html */
-        #Titulo
-        {
-            font-size: 1.5575rem;
-        }
-        #Subtitulo
-        {
-            font-size: 0.9815rem;
-        }
-        #ParagrafosDeTexto
-        {
-            font-size: 1.0715rem;
-        }
-        #TextoDescricao
-        {
-            width: 87.5%;
-            margin: auto;
-        }
-
-        /* Fotos */
-        #FotoSobreMim
-        {
-            display: block;
-            margin: auto;
-            margin-top: 17.5rem;
-
-            width: 75% !important;
-        }
-    }
-
-    @media (min-width: 800px) and (min-height: 900px)
-    {
-        /* index.html */
-            nav
-            {
-                display: -ms-flexbox !important;
-                display: flex !important;
-            }
-            section
-            {
-                display: -ms-flexbox !important;
-                display: flex !important;
-
-                align-items: center;
-            }
-
-            #Titulo
-            {
-                font-size: 1.5875rem;
-            }
-            #Subtitulo
-            {
-                font-size: 0.98925rem;
-            }
-            #ParagrafosDeTexto
-            {
-                font-size: 1.0915rem;
-            }
-            #TextoDescricao
-            {
-                width: 82.5%;
-            }
-
-            /* Fotos */
-            #FotoSobreMim
-            {
-                width: 70% !important;
-            }
-    }
-    @media (min-width: 960px) and (max-height: 719px)
-    {
-        /* index.html */
-            nav
-            {
-                display: -ms-flexbox !important;
-                display: flex !important;
-            }
-            section
-            {
-                display: -ms-flexbox !important;
-                display: flex !important;
-
-                align-items: center;
-            }
-
-            #Titulo
-            {
-                font-size: 1.4875rem;
-            }
-            #Subtitulo
-            {
-                font-size: 0.98625rem;
-            }
-            #ParagrafosDeTexto
-            {
-                font-size: 1.0625rem;
-            }
-            #TextoDescricao
-            {
-                width: 82.5%;
-            }
-
-            /* Fotos */
-            #FotoSobreMim
-            {
-                width: 50% !important;
-            }
-    }
-    @media (min-width: 960px) and (min-height: 720px)
-    {
-        /* index.html */
-            nav
-            {
-                display: -ms-flexbox !important;
-                display: flex !important;
-            }
-            section
-            {
-                display: -ms-flexbox !important;
-                display: flex !important;
-
-                align-items: center;
-            }
-
-            #Titulo
-            {
-                font-size: 1.4875rem;
-            }
-            #Subtitulo
-            {
-                font-size: 0.98625rem;
-            }
-            #ParagrafosDeTexto
-            {
-                font-size: 1.0625rem;
-            }
-            #TextoDescricao
-            {
-                width: 82.5%;
-            }
-
-            /* Fotos */
-            #FotoSobreMim
-            {
-                width: 75% !important;
-            }
-    }
-    @media (min-width: 1152px) and (min-height: 720px)
-    {
-        /* index.html */
-            nav
-            {
-                display: -ms-flexbox !important;
-                display: flex !important;
-            }
-            section
-            {
-                display: -ms-flexbox !important;
-                display: flex !important;
-
-                align-items: center;
-            }
-
-            #Titulo
-            {
-                font-size: 1.5575rem;
-            }
-            #Subtitulo
-            {
-                font-size: 0.96925rem;
-            }
-            #ParagrafosDeTexto
-            {
-                font-size: 1.0715rem;
-            }
-            #TextoDescricao
-            {
-                width: 82.5%;
-            }
-
-            /* Fotos */
-            #FotoSobreMim
-            {
-                width: 70% !important;
-            }
-    }
-    @media (min-width: 1280px) and (min-height: 720px)
-    {
-        /* index.html */
-            nav
-            {
-                display: -ms-flexbox !important;
-                display: flex !important;
-            }
-            section
-            {
-                display: -ms-flexbox !important;
-                display: flex !important;
-
-                align-items: center;
-            }
-
-            #Titulo
-            {
-                font-size: 1.5875rem;
-            }
-            #Subtitulo
-            {
-                font-size: 0.98925rem;
-            }
-            #ParagrafosDeTexto
-            {
-                font-size: 1.0915rem;
-            }
-            #TextoDescricao
-            {
-                width: 82.5%;
-            }
-
-            /* Fotos */
-            #FotoSobreMim
-            {
-                width: 45% !important;
-            }
-    }
-    @media (min-width: 1280px) and (min-height: 768px)
-    {
-        /* index.html */
-            nav
-            {
-                display: -ms-flexbox !important;
-                display: flex !important;
-            }
-            section
-            {
-                display: -ms-flexbox !important;
-                display: flex !important;
-
-                align-items: center;
-            }
-
-            #Titulo
-            {
-                font-size: 1.5875rem;
-            }
-            #Subtitulo
-            {
-                font-size: 0.98925rem;
-            }
-            #ParagrafosDeTexto
-            {
-                font-size: 1.0915rem;
-            }
-            #TextoDescricao
-            {
-                width: 87.5%;
-            }
-
-            /* Fotos */
-            #FotoSobreMim
-            {
-                width: 45% !important;
-            }
-    }
-    @media (min-width: 1024px) and (min-height: 1024px)
-    {
-        /* index.html */
-            nav
-            {
-                display: -ms-flexbox !important;
-                display: flex !important;
-            }
-            section
-            {
-                display: -ms-flexbox !important;
-                display: flex !important;
-
-                align-items: center;
-            }
-
-            #Titulo
-            {
-                font-size: 1.5075rem;
-            }
-            #Subtitulo
-            {
-                font-size: 0.99625rem;
-            }
-            #ParagrafosDeTexto
-            {
-                font-size: 1.0835rem;
-            }
-            #TextoDescricao
-            {
-                width: 82.5%;
-            }
-
-            /* Fotos */
-            #FotoSobreMim
-            {
-                width: 67.5% !important;
-            }
-    }
-    @media (min-width: 1280px) and (min-height: 854px)
-    {
-        /* index.html */
-            nav
-            {
-                display: -ms-flexbox !important;
-                display: flex !important;
-            }
-            section
-            {
-                display: -ms-flexbox !important;
-                display: flex !important;
-
-                align-items: center;
-            }
-
-            #Titulo
-            {
-                font-size: 1.59575rem;
-            }
-            #Subtitulo
-            {
-                font-size: 1.028025rem;
-            }
-            #ParagrafosDeTexto
-            {
-                font-size: 1.1175rem;
-            }
-            #TextoDescricao
-            {
-                width: 87.5%;
-            }
-
-            /* Fotos */
-            #FotoSobreMim
-            {
-                width: 50% !important;
-            }
-    }
-    @media (min-width: 1280px) and (min-height: 960px)
-    {
-        /* index.html */
-            nav
-            {
-                display: -ms-flexbox !important;
-                display: flex !important;
-            }
-            section
-            {
-                display: -ms-flexbox !important;
-                display: flex !important;
-
-                align-items: center;
-            }
-
-            #Titulo
-            {
-                font-size: 1.6375rem;
-            }
-            #Subtitulo
-            {
-                font-size: 1.0465rem;
-            }
-            #ParagrafosDeTexto
-            {
-                font-size: 1.0375rem;
-            }
-            #TextoDescricao
-            {
-                width: 87.5%;
-            }
-
-            /* Fotos */
-            #FotoSobreMim
-            {
-                width: 75% !important;
-            }
-    }
-    @media (min-width: 1430px) and (min-height: 900px)
-    {
-        /* index.html */
-            nav
-            {
-                display: -ms-flexbox !important;
-                display: flex !important;
-            }
-            section
-            {
-                display: -ms-flexbox !important;
-                display: flex !important;
-
-                align-items: center;
-            }
-
-            #Titulo
-            {
-                font-size: 1.65625rem;
-            }
-            #Subtitulo
-            {
-                font-size: 1.0675rem;
-            }
-            #ParagrafosDeTexto
-            {
-                font-size: 1.075rem;
-            }
-            #TextoDescricao
-            {
-                width: 87.5%;
-            }
-
-            /* Fotos */
-            #FotoSobreMim
-            {
-                width: 60% !important;
-            }
-    }
-    @media (min-width: 1665px) and (min-height: 900px)
-    {
-        /* index.html */
-            nav
-            {
-                display: -ms-flexbox !important;
-                display: flex !important;
-            }
-            section
-            {
-                display: -ms-flexbox !important;
-                display: flex !important;
-
-                align-items: center;
-            }
-
-            #Titulo
-            {
-                font-size: 1.65625rem;
-            }
-            #Subtitulo
-            {
-                font-size: 1.0675rem;
-            }
-            #ParagrafosDeTexto
-            {
-                font-size: 1.1375rem;
-            }
-            #TextoDescricao
-            {
-                width: 87.5%;
-            }
-
-            /* Fotos */
-            #FotoSobreMim
-            {
-                width: 55% !important;
-            }
-    }
     @media (min-width: 1280px) and (min-height: 1024px)
     {
         /* index.html */
@@ -926,68 +1497,71 @@ body
 
         /* Navbar */
 
-            /* Links */
-              #LinkSobreMim, #LinkFotos, #LinkJogos
-              {
-                  font-size: 1.075rem;
+            #LinkSobreMim, #LinkFotos, #LinkJogos
+            {
+                font-size: 1.1775rem;
 
-                  margin: 0.4165rem !important;
-                  padding-left: 0.25rem !important;
-                  padding-right: 0.25rem !important;
+                margin: 0.205rem !important;
+                padding-left: 0.25rem !important;
+                padding-right: 0.25rem !important;
+            }
+
+            #LinkSobreMim
+            {
+              margin-left: 1.25rem !important;
+            }
+
+            #IconeBehance, #IconeArtstation, #IconeLinkedin, #IconeInstagram, #IconeGithub
+            {
+                opacity: 45%;
+
+                margin-left: 0.25rem !important;
+                margin-right: .5rem !important;
+
+                padding-top: 0.15rem !important;
+                padding-bottom: 0.005rem !important;
+                padding-left: 0.25rem !important;
+                padding-right: 0.25rem !important;
+            }
+            #IconeBehance:hover, #IconeArtstation:hover, #IconeLinkedin:hover, #IconeInstagram:hover, #IconeGithub:hover
+            {
+                opacity: 75%;
+            }
+
+            #IconeBehance
+            {
+                width: 2.15rem;
+                height: 1.75rem;
+            }
+
+            #IconeArtstation
+            {
+                width: 1.85rem;
+                height: 1.35rem;
+            }
+
+            #IconeLinkedin
+            {
+                width: 1.80rem;
+                height: 1.30rem;
               }
 
-              #LinkSobreMim
-              {
-                margin-left: 1.25rem !important;
-              }
+            #IconeInstagram
+            {
+                width: 1.75rem;
+                height: 1.35rem;
+            }
 
-            /* Hovers de Ícones de Mídias Sociais */
-              #IconeBehance, #IconeLinkedin, #IconeInstagram, #IconeGithub
-              {
-                  opacity: 45%;
+            #IconeGithub
+            {
+                width: 2rem;
+                height: 1.5rem;
 
-                  margin-left: 0.25rem !important;
-                  margin-right: .5rem !important;
-
-                  padding-top: 0.15rem !important;
-                  padding-bottom: 0.005rem !important;
-                  padding-left: 0.25rem !important;
-                  padding-right: 0.25rem !important;
-              }
-              #IconeBehance:hover, #IconeLinkedin:hover, #IconeInstagram:hover, #IconeGithub:hover
-              {
-                  opacity: 75%;
-              }
-
-              #IconeBehance
-              {
-                  width: 2.15rem;
-                  height: 1.75rem;
-              }
-
-              #IconeLinkedin
-              {
-                  width: 1.80rem;
-                  height: 1.30rem;
-                }
-
-              #IconeInstagram
-              {
-                  width: 1.75rem;
-                  height: 1.35rem;
-              }
-
-              #IconeGithub
-              {
-                  width: 2rem;
-                  height: 1.5rem;
-
-                  margin-right: 1.25rem !important;
-              }
+                margin-right: 1.25rem !important;
+            }
 
         /* index.html */
 
-            /* Animações */
             #FotoSobreMim
             {
                 -webkit-animation-fill-mode: both;
@@ -998,34 +1572,22 @@ body
                 -o-animation: FadeIn ease 1.65s;
 
                 animation: FadeIn ease 1.65s;
+
+                border-radius: 0.25rem !important;
             }
             #Titulo
             {
                 width: 100%;
 
-                margin-left: 0.5rem;
-                margin-right: 0.5rem;
-                margin-top: 0rem;
-                margin-bottom: 0rem;
-
-                padding-left: 0.25rem;
-                padding-right: 0.25rem;
-                padding-top: 0.25rem;
-                padding-bottom: 0rem;
+                margin-bottom: 0;
+                padding-bottom: 0;
             }
             #Subtitulo
             {
                 width: 100%;
 
-                margin-left: 0.5rem;
-                margin-right: 0.5rem;
-                margin-top: 0rem;
-                margin-bottom: 0rem;
-
-                padding-left: 0.25rem;
-                padding-right: 0.25rem;
-                padding-top: 0rem;
-                padding-bottom: 0.25rem;
+                margin-top: 0;
+                padding-top: 0;
             }
             #ParagrafosDeTexto
             {
@@ -1076,6 +1638,15 @@ body
 
             #thumbnail
             {
+                -webkit-animation-fill-mode: both;
+                animation-fill-mode: both;
+
+                -webkit-animation: FadeIn ease 1.65s;
+                -moz-animation: FadeIn ease 1.65s;
+                -o-animation: FadeIn ease 1.65s;
+
+                animation: FadeIn ease 5.65s;
+
                 position: relative;
                 width: 100%;
 
@@ -1086,7 +1657,6 @@ body
             #thumbnail .Imagem
             {
                 display: block;
-                height: 500px;
                 width: 100%;
             }
 
