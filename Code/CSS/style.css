@@ -134,11 +134,11 @@ section
                     align-items: center;
                 }
 
-                #Titulo
+                #TituloIndex
                 {
                     font-size: 1.4575rem;
                 }
-                #Subtitulo
+                #SubtituloIndex
                 {
                     font-size: 0.8775rem;
                 }
@@ -166,6 +166,16 @@ section
                     height: 175px;
                     background-color: gray;
                 }
+
+            /* AfricaDoSul2019.html e Argentina2014.html */
+                #TituloPaginasDeFotos
+                {
+                    font-size: 1.225rem;
+                }
+                #SubtituloPaginasDeFotos
+                {
+                    font-size: 0.705rem;
+                }
         }
         @media (min-width: 800px) and (max-height: 524px) /* Feito */
         {
@@ -182,11 +192,11 @@ section
 
                     align-items: center;
                 }
-                #Titulo
+                #TituloIndex
                 {
                     font-size: 1.4575rem;
                 }
-                #Subtitulo
+                #SubtituloIndex
                 {
                     font-size: 0.8775rem;
                 }
@@ -213,6 +223,16 @@ section
                     height: 250px;
                     background-color: darkgreen;
                 }
+
+            /* AfricaDoSul2019.html e Argentina2014.html */
+                #TituloPaginasDeFotos
+                {
+                    font-size: 1.25rem;
+                }
+                #SubtituloPaginasDeFotos
+                {
+                    font-size: 0.725rem;
+                }
         }
         @media (min-width: 1152px) and (max-height: 524px) /* Feito */
         {
@@ -229,11 +249,11 @@ section
 
                     align-items: center;
                 }
-                #Titulo
+                #TituloIndex
                 {
                     font-size: 1.4575rem;
                 }
-                #Subtitulo
+                #TituloIndex
                 {
                     font-size: 0.8775rem;
                 }
@@ -260,6 +280,16 @@ section
                     height: 300px;
                     background-color: salmon;
                 }
+
+            /* AfricaDoSul2019.html e Argentina2014.html */
+                #TituloPaginasDeFotos
+                {
+                    font-size: 1.35rem;
+                }
+                #SubtituloPaginasDeFotos
+                {
+                    font-size: 0.775rem;
+                }
         }
         @media (min-width: 1280px) and (max-height: 524px) /* Feito */
         {
@@ -276,11 +306,11 @@ section
 
                     align-items: center;
                 }
-                #Titulo
+                #TituloIndex
                 {
                     font-size: 1.4575rem;
                 }
-                #Subtitulo
+                #SubtituloIndex
                 {
                     font-size: 0.8775rem;
                 }
@@ -307,6 +337,16 @@ section
                     height: 350px;
                     background-color: goldenrod;
                 }
+
+            /* AfricaDoSul2019.html e Argentina2014.html */
+                #TituloPaginasDeFotos
+                {
+                    font-size: 1.65rem;
+                }
+                #SubtituloPaginasDeFotos
+                {
+                     font-size: 0.85rem;
+                }
         }
         @media (min-width: 1430px) and (max-height: 524px) /* Feito */
         {
@@ -320,11 +360,11 @@ section
                 {
                     display: block;
                 }
-                #Titulo
+                #TituloIndex
                 {
                     font-size: 1.4575rem;
                 }
-                #Subtitulo
+                #TituloIndex
                 {
                     font-size: 0.8775rem;
                 }
@@ -351,6 +391,16 @@ section
                     height: 400px;
                     background-color: olive;
                 }
+
+            /* AfricaDoSul2019.html e Argentina2014.html */
+                #TituloPaginasDeFotos
+                {
+                    font-size: 1.75rem;
+                }
+                #SubtituloPaginasDeFotos
+                {
+                    font-size: 0.905rem;
+                }
         }
         @media (min-width: 1665px) and (max-height: 524px) /* Feito */
         {
@@ -364,11 +414,11 @@ section
                 {
                     display: block;
                 }
-                #Titulo
+                #TituloIndex
                 {
                     font-size: 1.4575rem;
                 }
-                #Subtitulo
+                #SubtituloIndex
                 {
                     font-size: 0.8775rem;
                 }
@@ -393,7 +443,16 @@ section
                 #thumbnail .Imagem
                 {
                     height: 450px;
-                    background-color: brown;
+                }
+
+            /* AfricaDoSul2019.html e Argentina2014.html */
+                #TituloPaginasDeFotos
+                {
+                    font-size: 2rem;
+                }
+                #SubtituloPaginasDeFotos
+                {
+                    font-size: 1rem;
                 }
         }
 
@@ -415,11 +474,11 @@ section
                     align-items: center;
                 }
 
-                #Titulo
+                #TituloIndex
                 {
                     font-size: 1.4575rem;
                 }
-                #Subtitulo
+                #SubtituloIndex
                 {
                     font-size: 0.8775rem;
                 }
@@ -447,6 +506,16 @@ section
                     height: 175px;
                     background-color: purple;
                 }
+
+            /* AfricaDoSul2019.html e Argentina2014.html */
+                #TituloPaginasDeFotos
+                {
+                    font-size: 1.225rem;
+                }
+                #SubtituloPaginasDeFotos
+                {
+                    font-size: 0.705rem;
+                }
         }
         @media (min-width: 800px) and (min-height: 525px) /* Feito */
         {
@@ -464,11 +533,11 @@ section
                     align-items: center;
                 }
 
-                #Titulo
+                #TituloIndex
                 {
                     font-size: 1.4575rem;
                 }
-                #Subtitulo
+                #SubtituloIndex
                 {
                     font-size: 0.8775rem;
                 }
@@ -495,6 +564,16 @@ section
                     height: 275px;
                     background-color: pink;
                 }
+
+            /* AfricaDoSul2019.html e Argentina2014.html */
+                #TituloPaginasDeFotos
+                {
+                    font-size: 1.25rem;
+                }
+                #SubtituloPaginasDeFotos
+                {
+                    font-size: 0.725rem;
+                }
         }
         @media (min-width: 1152px) and (min-height: 525px) /* Feito */
         {
@@ -512,11 +591,11 @@ section
                     align-items: center;
                 }
 
-                #Titulo
+                #TituloIndex
                 {
                     font-size: 1.4575rem;
                 }
-                #Subtitulo
+                #SubtituloIndex
                 {
                     font-size: 0.8775rem;
                 }
@@ -543,6 +622,16 @@ section
                     height: 315px;
                     background-color: yellow;
                 }
+
+            /* AfricaDoSul2019.html e Argentina2014.html */
+                #TituloPaginasDeFotos
+                {
+                    font-size: 1.35rem;
+                }
+                #SubtituloPaginasDeFotos
+                {
+                    font-size: 0.775rem;
+                }
         }
         @media (min-width: 1280px) and (min-height: 525px) /* Feito */
         {
@@ -560,11 +649,11 @@ section
                     align-items: center;
                 }
 
-                #Titulo
+                #TituloIndex
                 {
                     font-size: 1.4575rem;
                 }
-                #Subtitulo
+                #SubtituloIndex
                 {
                     font-size: 0.8775rem;
                 }
@@ -591,6 +680,16 @@ section
                     height: 350px;
                     background-color: blue;
                 }
+
+            /* AfricaDoSul2019.html e Argentina2014.html */
+                #TituloPaginasDeFotos
+                {
+                    font-size: 1.65rem;
+                }
+                #SubtituloPaginasDeFotos
+                {
+                    font-size: 0.85rem;
+                }
         }
         @media (min-width: 1430px) and (min-height: 525px) /* Feito */
         {
@@ -608,11 +707,11 @@ section
                     align-items: center;
                 }
 
-                #Titulo
+                #TituloIndex
                 {
                     font-size: 1.5025rem;
                 }
-                #Subtitulo
+                #SubtituloIndex
                 {
                     font-size: 0.9575rem;
                 }
@@ -639,6 +738,16 @@ section
                     height: 415px;
                     background-color: green;
                 }
+
+            /* AfricaDoSul2019.html e Argentina2014.html */
+                #TituloPaginasDeFotos
+                {
+                    font-size: 1.75rem;
+                }
+                #SubtituloPaginasDeFotos
+                {
+                    font-size: 0.905rem;
+                }
         }
         @media (min-width: 1665px) and (min-height: 525px) /* Feito */
         {
@@ -656,11 +765,11 @@ section
                     align-items: center;
                 }
 
-                #Titulo
+                #TituloIndex
                 {
                     font-size: 1.525rem;
                 }
-                #Subtitulo
+                #SubtituloIndex
                 {
                     font-size: 0.925rem;
                 }
@@ -687,6 +796,16 @@ section
                     height: 475px;
                     background-color: red;
                 }
+
+            /* AfricaDoSul2019.html e Argentina2014.html */
+                #TituloPaginasDeFotos
+                {
+                    font-size: 2rem;
+                }
+                #SubtituloPaginasDeFotos
+                {
+                    font-size: 1rem;
+                }
         }
 
 
@@ -707,11 +826,11 @@ section
                     align-items: center;
                 }
 
-                #Titulo
+                #TituloIndex
                 {
                     font-size: 1.4575rem;
                 }
-                #Subtitulo
+                #SubtituloIndex
                 {
                     font-size: 0.8775rem;
                 }
@@ -739,6 +858,16 @@ section
                     height: 175px;
                     background-color: darkgreen;
                 }
+
+            /* AfricaDoSul2019.html e Argentina2014.html */
+                #TituloPaginasDeFotos
+                {
+                    font-size: 1.225rem;
+                }
+                #SubtituloPaginasDeFotos
+                {
+                    font-size: 0.705rem;
+                }
         }
         @media (min-width: 800px) and (min-height: 720px) /* Feito */
         {
@@ -756,11 +885,11 @@ section
                     align-items: center;
                 }
 
-                #Titulo
+                #TituloIndex
                 {
                     font-size: 1.4575rem;
                 }
-                #Subtitulo
+                #SubtituloIndex
                 {
                     font-size: 0.8775rem;
                 }
@@ -787,6 +916,16 @@ section
                     height: 250px;
                     background-color: gray;
                 }
+
+            /* AfricaDoSul2019.html e Argentina2014.html */
+                #TituloPaginasDeFotos
+                {
+                    font-size: 1.25rem;
+                }
+                #SubtituloPaginasDeFotos
+                {
+                  font-size: 0.725rem;
+                }
         }
         @media (min-width: 1152px) and (min-height: 720px) /* Feito */
         {
@@ -804,11 +943,11 @@ section
                     align-items: center;
                 }
 
-                #Titulo
+                #TituloIndex
                 {
                     font-size: 1.4575rem;
                 }
-                #Subtitulo
+                #SubtituloIndex
                 {
                     font-size: 0.8775rem;
                 }
@@ -835,6 +974,16 @@ section
                     height: 325px;
                     background-color: salmon;
                 }
+
+            /* AfricaDoSul2019.html e Argentina2014.html */
+                #TituloPaginasDeFotos
+                {
+                    font-size: 1.35rem;
+                }
+                #SubtituloPaginasDeFotos
+                {
+                    font-size: 0.775rem;
+                }
         }
         @media (min-width: 1280px) and (min-height: 720px) /* Feito */
         {
@@ -852,11 +1001,11 @@ section
                     align-items: center;
                 }
 
-                #Titulo
+                #TituloIndex
                 {
                     font-size: 1.4575rem;
                 }
-                #Subtitulo
+                #SubtituloIndex
                 {
                     font-size: 0.8775rem;
                 }
@@ -883,6 +1032,16 @@ section
                     height: 350px;
                     background-color: olive;
                 }
+
+            /* AfricaDoSul2019.html e Argentina2014.html */
+                #TituloPaginasDeFotos
+                {
+                    font-size: 1.65rem;
+                }
+                #SubtituloPaginasDeFotos
+                {
+                     font-size: 0.85rem;
+                }
         }
         @media (min-width: 1430px) and (min-height: 720px) /* Feito */
         {
@@ -900,11 +1059,11 @@ section
                     align-items: center;
                 }
 
-                #Titulo
+                #TituloIndex
                 {
                     font-size: 1.5025rem;
                 }
-                #Subtitulo
+                #SubtituloIndex
                 {
                     font-size: 0.9575rem;
                 }
@@ -931,6 +1090,16 @@ section
                     height: 450px;
                     background-color: goldenrod;
                 }
+
+            /* AfricaDoSul2019.html e Argentina2014.html */
+                #TituloPaginasDeFotos
+                {
+                    font-size: 1.75rem;
+                }
+                #SubtituloPaginasDeFotos
+                {
+                    font-size: 0.905rem;
+                }
         }
         @media (min-width: 1665px) and (min-height: 720px) /* Feito */
         {
@@ -948,11 +1117,11 @@ section
                     align-items: center;
                 }
 
-                #Titulo
+                #TituloIndex
                 {
                     font-size: 1.525rem;
                 }
-                #Subtitulo
+                #SubtituloIndex
                 {
                     font-size: 0.925rem;
                 }
@@ -979,6 +1148,16 @@ section
                     height: 500px;
                     background-color: brown;
                 }
+
+            /* AfricaDoSul2019.html e Argentina2014.html */
+                #TituloPaginasDeFotos
+                {
+                    font-size: 2rem;
+                }
+                #SubtituloPaginasDeFotos
+                {
+                  font-size: 1rem;
+                }
         }
 
 
@@ -999,11 +1178,11 @@ section
                     align-items: center;
                 }
 
-                #Titulo
+                #TituloIndex
                 {
                     font-size: 1.4575rem;
                 }
-                #Subtitulo
+                #SubtituloIndex
                 {
                     font-size: 0.8775rem;
                 }
@@ -1031,6 +1210,16 @@ section
                     height: 175px;
                     background-color: purple;
                 }
+
+            /* AfricaDoSul2019.html e Argentina2014.html */
+                #TituloPaginasDeFotos
+                {
+                    font-size: 1.225rem;
+                }
+                #SubtituloPaginasDeFotos
+                {
+                    font-size: 0.705rem;
+                }
         }
         @media (min-width: 800px) and (min-height: 900px) /* Feito */
         {
@@ -1048,11 +1237,11 @@ section
                     align-items: center;
                 }
 
-                #Titulo
+                #TituloIndex
                 {
                     font-size: 1.4575rem;
                 }
-                #Subtitulo
+                #SubtituloIndex
                 {
                     font-size: 0.8775rem;
                 }
@@ -1079,6 +1268,16 @@ section
                     height: 250px;
                     background-color: pink;
                 }
+
+            /* AfricaDoSul2019.html e Argentina2014.html */
+                #TituloPaginasDeFotos
+                {
+                    font-size: 1.25rem;
+                }
+                #SubtituloPaginasDeFotos
+                {
+                  font-size: 0.725rem;
+                }
         }
         @media (min-width: 1152px) and (min-height: 900px) /* Feito */
         {
@@ -1096,11 +1295,11 @@ section
                     align-items: center;
                 }
 
-                #Titulo
+                #TituloIndex
                 {
                     font-size: 1.4575rem;
                 }
-                #Subtitulo
+                #SubtituloIndex
                 {
                     font-size: 0.8775rem;
                 }
@@ -1128,6 +1327,16 @@ section
                     height: 325px;
                     background-color: yellow;
                 }
+
+            /* AfricaDoSul2019.html e Argentina2014.html */
+                #TituloPaginasDeFotos
+                {
+                    font-size: 1.35rem;
+                }
+                #SubtituloPaginasDeFotos
+                {
+                  font-size: 0.775rem;
+                }
         }
         @media (min-width: 1280px) and (min-height: 900px) /* Feito */
         {
@@ -1145,11 +1354,11 @@ section
                     align-items: center;
                 }
 
-                #Titulo
+                #TituloIndex
                 {
                     font-size: 1.4575rem;
                 }
-                #Subtitulo
+                #SubtituloIndex
                 {
                     font-size: 0.8765rem;
                 }
@@ -1176,6 +1385,16 @@ section
                     height: 350px;
                     background-color: blue;
                 }
+
+            /* AfricaDoSul2019.html e Argentina2014.html */
+                #TituloPaginasDeFotos
+                {
+                    font-size: 1.65rem;
+                }
+                #SubtituloPaginasDeFotos
+                {
+                    font-size: 0.85rem;
+                }
         }
         @media (min-width: 1430px) and (min-height: 900px) /* Feito */
         {
@@ -1193,11 +1412,11 @@ section
                     align-items: center;
                 }
 
-                #Titulo
+                #TituloIndex
                 {
                     font-size: 1.5025rem;
                 }
-                #Subtitulo
+                #SubtituloIndex
                 {
                     font-size: 0.9575rem;
                 }
@@ -1224,6 +1443,16 @@ section
                     height: 450px;
                     background-color: green;
                 }
+
+            /* AfricaDoSul2019.html e Argentina2014.html */
+                #TituloPaginasDeFotos
+                {
+                    font-size: 1.75rem;
+                }
+                #SubtituloPaginasDeFotos
+                {
+                  font-size: 0.905rem;
+                }
         }
         @media (min-width: 1665px) and (min-height: 900px) /* Feito */
         {
@@ -1241,11 +1470,11 @@ section
                     align-items: center;
                 }
 
-                #Titulo
+                #TituloIndex
                 {
                     font-size: 1.65625rem;
                 }
-                #Subtitulo
+                #SubtituloIndex
                 {
                     font-size: 1.0575rem;
                 }
@@ -1273,12 +1502,21 @@ section
                     background-color: red;
                 }
 
+            /* AfricaDoSul2019.html e Argentina2014.html */
+                #TituloPaginasDeFotos
+                {
+                    font-size: 2rem;
+                }
+                #SubtituloPaginasDeFotos
+                {
+                  font-size: 1rem;
+                }
+
         }
 
 
-    @media (min-width: 1280px) and (min-height: 1024px)
+    /* @media (min-width: 1280px) and (min-height: 1024px)
     {
-        /* index.html */
             nav
             {
                 display: -ms-flexbox !important;
@@ -1292,11 +1530,11 @@ section
                 align-items: center;
             }
 
-            #Titulo
+            #TituloIndex
             {
                 font-size: 1.656295rem;
             }
-            #Subtitulo
+            #SubtituloIndex
             {
                 font-size: 1.07205rem;
             }
@@ -1309,7 +1547,6 @@ section
                 width: 82.5%;
             }
 
-            /* Fotos */
             #FotoSobreMim
             {
                 width: 65% !important;
@@ -1317,7 +1554,6 @@ section
     }
     @media (min-width: 1440px) and (min-height: 1050px)
     {
-        /* index.html */
             nav
             {
                 display: -ms-flexbox !important;
@@ -1331,11 +1567,11 @@ section
                 align-items: center;
             }
 
-            #Titulo
+            #TituloIndex
             {
                 font-size: 12.895rem;
             }
-            #Subtitulo
+            #SubtituloIndex
             {
                 font-size: 1.081175rem;
             }
@@ -1348,7 +1584,6 @@ section
                 width: 82.5%;
             }
 
-            /* Fotos */
             #FotoSobreMim
             {
                 width: 70% !important;
@@ -1356,7 +1591,6 @@ section
     }
     @media (min-width: 1440px) and (min-height: 1080px)
     {
-        /* index.html */
             nav
             {
                 display: -ms-flexbox !important;
@@ -1370,11 +1604,11 @@ section
                 align-items: center;
             }
 
-            #Titulo
+            #TituloIndex
             {
                 font-size: 1.72375rem;
             }
-            #Subtitulo
+            #SubtituloIndex
             {
                 font-size: 1.081175rem;
             }
@@ -1387,7 +1621,6 @@ section
                 width: 82.5%;
             }
 
-            /* Fotos */
             #FotoSobreMim
             {
                 width: 70% !important;
@@ -1395,7 +1628,6 @@ section
     }
     @media (min-width: 1776px) and (min-height: 1000px)
     {
-        /* index.html */
             nav
             {
                 display: -ms-flexbox !important;
@@ -1409,11 +1641,11 @@ section
                 align-items: center;
             }
 
-            #Titulo
+            #TituloIndex
             {
                 font-size: 1.75375rem;
             }
-            #Subtitulo
+            #SubtituloIndex
             {
                 font-size: 1.09135rem;
             }
@@ -1426,7 +1658,6 @@ section
                 width: 82.5%;
             }
 
-            /* Fotos */
             #FotoSobreMim
             {
                 width: 60% !important;
@@ -1434,7 +1665,6 @@ section
     }
     @media (min-width: 1920px) and (min-height: 1080px)
     {
-        /* index.html */
             nav
             {
                 display: -ms-flexbox !important;
@@ -1448,11 +1678,11 @@ section
                 align-items: center;
             }
 
-            #Titulo
+            #TituloIndex
             {
                 font-size: 1.895rem;
             }
-            #Subtitulo
+            #SubtituloIndex
             {
                 font-size: 1.15rem;
             }
@@ -1465,12 +1695,12 @@ section
                 width: 82.5%;
             }
 
-            /* Fotos */
             #FotoSobreMim
             {
                 width: 60% !important;
             }
-    }
+    } */
+
 
     #AreaDeConteudo
     {
@@ -1497,13 +1727,13 @@ section
 
         /* Navbar */
 
-            #LinkSobreMim, #LinkFotos, #LinkJogos
+            #LinkSobreMim, #LinkFotos, #LinkProjetos
             {
-                font-size: 1.1775rem;
+                font-size: 1.0575rem;
 
-                margin: 0.205rem !important;
-                padding-left: 0.25rem !important;
-                padding-right: 0.25rem !important;
+                margin: 0.2605rem !important;
+                padding-left: 0.05rem !important;
+                padding-right: 0.05rem !important;
             }
 
             #LinkSobreMim
@@ -1575,14 +1805,14 @@ section
 
                 border-radius: 0.25rem !important;
             }
-            #Titulo
+            #TituloIndexIndex
             {
                 width: 100%;
 
                 margin-bottom: 0;
                 padding-bottom: 0;
             }
-            #Subtitulo
+            #SubtituloIndex
             {
                 width: 100%;
 
@@ -1633,7 +1863,11 @@ section
         /* fotos.html */
             #FotoDeApresentacao
             {
-                height: 325px;
+                border-radius: round;
+                display: block;
+
+                width: 100%;
+                height: auto;
             }
 
             #thumbnail
@@ -1647,17 +1881,14 @@ section
 
                 animation: FadeIn ease 5.65s;
 
-                position: relative;
-                width: 100%;
-
                 padding-left: 0.1rem;
                 padding-right: 0.1rem;
-            }
 
-            #thumbnail .Imagem
-            {
-                display: block;
-                width: 100%;
+                margin: 0.25rem;
+
+                width: 50%;
+                max-width: 600px;
+
             }
 
             #thumbnail .Titulo
@@ -1697,8 +1928,20 @@ section
                 transition: .5s ease;
                 background-color: #111111;
             }
-
             #thumbnail:hover .Sobreposicao
             {
                 opacity: 0.85;
+            }
+
+        /* AfricaDoSul2019.html e Argentina2014.html */
+            #TituloPaginasDeFotos
+            {
+                margin: 0.25rem;
+
+                margin-top: 2rem;
+                margin-bottom: 2rem;
+            }
+            #SubtituloPaginasDeFotos
+            {
+                margin: 0.25rem;
             }
