@@ -45,10 +45,12 @@ body
 }
 nav
 {
-  height: 10% !important;
+    height: 10% !important;
 
-  padding: 0.75rem;
-  margin-bottom: 2rem;
+    padding: 0.75rem;
+
+    margin: 0.88475rem !important;
+    margin-top: 0 !important;
 }
 section
 {
@@ -1738,7 +1740,10 @@ section
 
             #LinkSobreMim
             {
-              margin-left: 1.25rem !important;
+            }
+            #LinkProjetos
+            {
+                margin-right: auto !important;
             }
 
             #IconeBehance, #IconeArtstation, #IconeLinkedin, #IconeInstagram, #IconeGithub
@@ -1787,7 +1792,7 @@ section
                 width: 2rem;
                 height: 1.5rem;
 
-                margin-right: 1.25rem !important;
+                margin-right: auto !important;
             }
 
         /* index.html */
