@@ -19,17 +19,17 @@
 @font-face
 {
     font-family: "KeepCalm";
-    src: url('../../Recursos/Fontes/KeepCalm.ttf');
+    src: url('Recursos/Fontes/KeepCalm.ttf');
 }
 @font-face
 {
     font-family: "Elephant";
-    src: url('../../Recursos/Fontes/Elephant.ttf');
+    src: url('Recursos/Fontes/Elephant.ttf');
 }
 @font-face
 {
   font-family: "Aquamax";
-  src: url('../../Recursos/Fontes/Aquamax.ttf');
+  src: url('Recursos/Fontes/Aquamax.ttf');
 }
 
 body
