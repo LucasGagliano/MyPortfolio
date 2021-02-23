@@ -1,0 +1,42 @@
+%html
+
+    %head
+
+        / Meta Tags
+        %meta{:charset => "UTF-8"}
+        %meta{:name => "viewport", :content => "width=device-width, initial-scale=1"}
+        %meta{:name => "theme-color", :content => "#000000"}
+        %meta{:name => "description", :content => "Portfolio do Lucas Martin"}
+
+        / Link Tags
+        %link{:rel => "stylesheet", :type => "text/css", :href => "_Codigos/CSS/style.css"}
+        %link{:rel => "stylesheet", :type => "text/css", :href => "_Codigos/CSS/bootstrap.css"}
+        %link{:rel => "icon", :href => "_Recursos/Imagens/favicon.ico"}
+
+
+        %title Modelagens
+
+    %body.row.m-0.p-0{:style => "background-color: #111"}
+
+        .col-12.m-0.p-0#AreaDeConteudo
+
+            %nav.row.navbar.navbar-dark
+
+                .col-6
+                    .flex-row.justify-content-start.w-100.navbar-nav
+                        %a.nav-item.nav-link.FonteNavbar#LinkSobreMim{:href => "../index.html"} SOBRE MIM
+                        %a.nav-item.nav-link.FonteNavbar#LinkProjetos{:href => "Projetos.html"} PROJETOS
+
+                .col-6
+                    .flex-row.justify-content-end.w-100.navbar-nav
+                        %a.nav-item.nav-link{:href => "https://www.linkedin.com/in/lucas--martin/", :target => "_blank"}
+                            %img#IconeLinkedin{:src => "_Recursos/Imagens/Linkedin.png"}
+
+                        %a.nav-item.nav-link{:href => "https://www.instagram.com/lucasmmg1", :target => "_blank"}
+                            %img#IconeInstagram{:src => "_Recursos/Imagens/Instagram.png"}
+
+                        %a.nav-item.nav-link{:href => "https://www.artstation.com/lucasmmg1", :target => "_blank"}
+                            %img#IconeArtstation{:src => "_Recursos/Imagens/Artstation.png"}
+
+                        %a.nav-item.nav-link{:href => "https://github.com/LucasGagliano", :target => "_blank"}
+                            %img#IconeGithub{:src => "_Recursos/Imagens/Github.png"}

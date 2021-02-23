@@ -19,17 +19,17 @@
 @font-face
 {
     font-family: "KeepCalm";
-    src: url('../../Resources/Fonts/KeepCalm.ttf');
+    src: url('../../_Recursos/Fontes/KeepCalm.ttf');
 }
 @font-face
 {
     font-family: "Elephant";
-    src: url('../../Resources/Fonts/Elephant.ttf');
+    src: url('../../_Recursos/Fontes/Elephant.ttf');
 }
 @font-face
 {
   font-family: "Aquamax";
-  src: url('../../Resources/Fonts/Aquamax.ttf');
+  src: url('../../_Recursos/Fontes/Aquamax.ttf');
 }
 
 body
@@ -55,8 +55,6 @@ nav
 section
 {
     height: 75% !important;
-
-    justify-content: center !important;
 }
 
 
@@ -159,7 +157,7 @@ section
                 #FotoSobreMim
                 {
                     width: 65% !important;
-                    margin-top: 35rem;
+                    margin-top: 0;
                 }
 
             /* Fotos.html */
@@ -216,7 +214,7 @@ section
                 #FotoSobreMim
                 {
                     width: 55% !important;
-                    margin-top: 15rem;
+                    margin-top: 0;
                 }
 
             /* Fotos.html */
@@ -273,7 +271,7 @@ section
                 #FotoSobreMim
                 {
                     width: 50% !important;
-                    margin-top: 15rem;
+                    margin-top: 0;
                 }
 
             /* Fotos.html */
@@ -330,7 +328,7 @@ section
                 #FotoSobreMim
                 {
                     width: 50% !important;
-                    margin-top: 15rem;
+                    margin-top: 0;
                 }
 
             /* Fotos.html */
@@ -384,7 +382,7 @@ section
                 #FotoSobreMim
                 {
                     width: 50% !important;
-                    margin-top: 15rem;
+                    margin-top: 0;
                 }
 
             /* Fotos.html */
@@ -438,7 +436,7 @@ section
                 #FotoSobreMim
                 {
                     width: 45% !important;
-                    margin-top: 15rem;
+                    margin-top: 0;
                 }
 
             /* Fotos.html */
@@ -1738,9 +1736,6 @@ section
                 padding-right: 0.05rem !important;
             }
 
-            #LinkSobreMim
-            {
-            }
             #LinkProjetos
             {
                 margin-right: auto !important;
@@ -1750,7 +1745,7 @@ section
             {
                 opacity: 45%;
 
-                margin-left: 0.25rem !important;
+                margin: 0.2605rem !important;
                 margin-right: .5rem !important;
 
                 padding-top: 0.15rem !important;
@@ -1761,12 +1756,6 @@ section
             #IconeBehance:hover, #IconeArtstation:hover, #IconeLinkedin:hover, #IconeInstagram:hover, #IconeGithub:hover
             {
                 opacity: 75%;
-            }
-
-            #IconeBehance
-            {
-                width: 2.15rem;
-                height: 1.75rem;
             }
 
             #IconeArtstation
@@ -1810,19 +1799,29 @@ section
 
                 border-radius: 0.25rem !important;
             }
-            #TituloIndexIndex
+            #TituloIndex
             {
+                text-align: justify;
                 width: 100%;
+
+                margin-left: 0.5rem;
+                margin-right: 0.5rem;
+                padding: 0.25rem;
 
                 margin-bottom: 0;
                 padding-bottom: 0;
             }
             #SubtituloIndex
             {
-                width: 100%;
+              text-align: justify;
+              width: 100%;
 
-                margin-top: 0;
-                padding-top: 0;
+              margin-left: 0.5rem;
+              margin-right: 0.5rem;
+              padding: 0.25rem;
+
+              margin-top: 0;
+              padding-top: 0;
             }
             #ParagrafosDeTexto
             {
@@ -1833,6 +1832,7 @@ section
                 margin-bottom: 0.5rem;
 
                 padding: 0.25rem;
+
             }
             #TextoDescricao
             {
@@ -1864,6 +1864,36 @@ section
                 height: 72.25%;
             }
 
+        /* projetos.html */
+
+            .CategoriaAtiva
+            {
+                background-color: #f3f7f7;
+
+                width: 30% !important;
+                height: 70% !important;
+
+                -webkit-animation-fill-mode: both;
+                animation-fill-mode: both;
+
+                -webkit-animation: FadeIn ease 4.5s;
+                -moz-animation: FadeIn ease 4.5s;
+                -o-animation: FadeIn ease 4.5s;
+
+                animation: FadeIn ease 4.5s;
+                border-radius: 5px;
+            }
+            .CategoriaInativa
+            {
+                background-color: #f3f7f7;
+
+                width: 30% !important;
+                height: 70% !important;
+
+                opacity: 3.5%;
+
+                border-radius: 5px;
+            }
 
         /* fotos.html */
             #FotoDeApresentacao
@@ -1872,7 +1902,7 @@ section
                 display: block;
 
                 width: 100%;
-                height: auto;
+                height: 100%;
             }
 
             #thumbnail
