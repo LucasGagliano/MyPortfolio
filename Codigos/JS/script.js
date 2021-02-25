@@ -1,39 +1,10 @@
-$(".animated").addClass("delay-5s");
+console.log("Hello, World!");
 
-
-document.addEventListener("keyup", function (e)
+function AtivarSobreposicao()
 {
-    var keyCode = e.keyCode ? e.keyCode : e.which;
-
-    if (keyCode == 44)
-    {
-        stopPrntScr();
-    }
-});
-
-function stopPrntScr()
-{
-    var inpFld = document.createElement("input");
-    inpFld.setAttribute("value", ".");
-    inpFld.setAttribute("width", "0");
-    inpFld.style.height = "0px";
-    inpFld.style.width = "0px";
-    inpFld.style.border = "0px";
-    document.body.appendChild(inpFld);
-    inpFld.select();
-    document.execCommand("copy");
-    inpFld.remove(inpFld);
+    document.getElementById("Rosquinha").style.display = "block";
 }
-
-function AccessClipboardData()
+function DesativarSobreposicao()
 {
-    try
-    {
-        window.clipboardData.setData('text', "Access   Restricted");
-    }
-    catch (err)
-    {
-    }
+    document.getElementById("Rosquinha").style.display = "none";
 }
-
-setInterval("AccessClipboardData()", 300);
