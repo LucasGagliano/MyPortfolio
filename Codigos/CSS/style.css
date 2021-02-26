@@ -1,25 +1,3 @@
-@-webkit-keyframes FadeIn
-{
-    0% {opacity: 0;}
-    100% {opacity: 1}
-}
-@keyframes FadeIn
-{
-    0% {opacity: 0;}
-    100% {opacity: 1}
-}
-
-@-webkit-keyframes PopIn
-{
-    0% {opacity: 0; -webkit-transform: scale(0.5);}
-    100% {opacity: 1; -webkit-transform: scale(1);}
-}
-@keyframes PopIn
-{
-    0% {opacity: 0; transform: scale(0.5);}
-    100% {opacity: 1; transform: scale(1);}
-}
-
 @font-face
 {
     font-family: "KeepCalm";
@@ -62,59 +40,42 @@ section
 }
 
 
-  /* Classes */
+/* Classes */
 
-    .Box
-    {
-        display: flex;
-        flex-flow: column;
-        height: 75%;
-    }
+.Box
+{
+  display: flex;
+  flex-flow: column;
+  height: 75%;
+}
 
-    /* Cores */
-    .CorFundoBranco
-    {
-        background-color: #f3f7f7;
-    }
-    .CorFundoPreto
-    {
-        background-color: #111111;
-    }
-    .corFundoCinza
-    {
-        background-color: #999999;
-    }
-
-
-    .CorTextoBranco
-    {
-        color: #f3f7f7;
-    }
-    .CorTextoPreto
-    {
-        color: #111111;
-    }
-    .CorTextoCinza
-    {
-        color: #999999;
-    }
+.CorTextoBranco
+{
+    color: #f3f7f7;
+}
+.CorTextoPreto
+{
+    color: #111111;
+}
+.CorTextoCinza
+{
+    color: #999999;
+}
 
 
-    /* Fontes */
-    .FontePrincipal
-    {
-        font-family: "KeepCalm";
-    }
-
-    .FonteTitulo
-    {
-        font-family: "Aquamax";
-    }
-
-    .FonteNavbar
-    {
-      font-family: "Elephant";
-    }
+/* Fontes */
+.FontePrincipal
+{
+    font-family: "KeepCalm";
+}
+.FonteTitulo
+{
+    font-family: "Aquamax";
+}
+.FonteNavbar
+{
+  font-family: "Elephant";
+}
 
 
 /* IDs */
@@ -125,339 +86,526 @@ section
         @media (max-width: 799px) and (max-height: 524px) /* Feito */
         {
             /* index.html */
-                nav
-                {
-                    display: -ms-flexbox !important;
-                    display: flex !important;
-                }
-                section
-                {
-                    display: -ms-flexbox !important;
-                    display: flex !important;
+            nav
+            {
+              display: -ms-flexbox !important;
+              display: flex !important;
+            }
+            section
+            {
+              display: -ms-flexbox !important;
+              display: flex !important;
 
-                    align-items: center;
-                }
+              align-items: center;
+            }
 
-                #TituloIndex
-                {
-                    font-size: 1.4575rem;
-                }
-                #SubtituloIndex
-                {
-                    font-size: 0.8775rem;
-                }
-                #ParagrafosDeTexto
-                {
-                    font-size: 0.8575rem;
-                    margin-top: 0;
-                }
-                #TextoDescricao
-                {
-                    width: 87.5%;
-                    margin: auto;
-                }
+            #TituloIndex
+            {
+              font-size: 1.4575rem;
+            }
+            #SubtituloIndex
+            {
+              font-size: 0.8775rem;
+            }
+            #ParagrafoIndex
+            {
+              font-size: 0.8575rem;
+            }
 
-                /* Fotos */
-                #FotoSobreMim
-                {
-                    width: 65% !important;
-                    margin-top: 0;
-                }
+            /* Fotos */
+            #FotoSobreMim
+            {
+              width: 65% !important;
+              margin-top: 0;
+            }
 
-            /* Fotos.html */
-                #thumbnail .Imagem
-                {
-                    height: 175px;
-                    background-color: gray;
-                }
+            /* Modelagens.html */
+            #TituloPopupRosquinha
+            {
+              font-size: 1.2575rem;
 
-            /* AfricaDoSul2019.html e Argentina2014.html */
-                #TituloPaginasDeFotos
-                {
-                    font-size: 1.225rem;
-                }
-                #SubtituloPaginasDeFotos
-                {
-                    font-size: 0.705rem;
-                }
+              margin-top: 0.5rem !important;
+              margin-bottom: 3rem !important;
+            }
+            #ParagrafoPopupRosquinha
+            {
+              font-size: 0.8775rem;
+
+              margin-top: 2rem !important;
+              margin-bottom: 1rem !important;
+            }
+
+            /* Jogos.html */
+            #TituloPopupPong
+            {
+              font-size: 0.5005rem;
+
+              margin-top: -2.5rem !important;
+              margin-bottom: -10rem !important;
+            }
+            #ParagrafoPopupPong
+            {
+              font-size: 0.1575rem;
+
+              margin-top: 0 !important;
+              margin-bottom: 0.35rem !important;
+            }
+
+            #TituloPopupGalaxyShootter
+            {
+              font-size: 0.5005rem;
+
+              margin-top: -2.5rem !important;
+              margin-bottom: -10rem !important;
+            }
+            #ParagrafoPopupGalaxyShootter
+            {
+              font-size: 0.1575rem;
+
+              margin-top: 0 !important;
+              margin-bottom: 0.35rem !important;
+            }
+
+            /* Projetos.html */
+            .cat
+            {
+              width: 27.5% !important;
+              height: 65% !important;
+            }
         }
         @media (min-width: 800px) and (max-height: 524px) /* Feito */
         {
             /* index.html */
-                nav
-                {
-                    display: -ms-flexbox !important;
-                    display: flex !important;
-                }
-                section
-                {
-                    display: -ms-flexbox !important;
-                    display: flex !important;
+            nav
+            {
+              display: -ms-flexbox !important;
+              display: flex !important;
+            }
+            section
+            {
+              display: -ms-flexbox !important;
+              display: flex !important;
 
-                    align-items: center;
-                }
-                #TituloIndex
-                {
-                    font-size: 1.4575rem;
-                }
-                #SubtituloIndex
-                {
-                    font-size: 0.8775rem;
-                }
-                #ParagrafosDeTexto
-                {
-                    font-size: 0.8575rem;
-                    margin-top: 28.5rem;
-                }
-                #TextoDescricao
-                {
-                    width: 78.5%;
-                }
+              align-items: center;
+            }
 
-                /* Fotos */
-                #FotoSobreMim
-                {
-                    width: 55% !important;
-                    margin-top: 0;
-                }
+            #TituloIndex
+            {
+              font-size: 1.4575rem;
+            }
+            #SubtituloIndex
+            {
+              font-size: 0.8775rem;
+            }
+            #ParagrafoIndex
+            {
+              font-size: 0.8575rem;
+            }
+            #FotoSobreMim
+            {
+              width: 55% !important;
+              margin-top: 0;
+            }
 
-            /* Fotos.html */
-                #thumbnail .Imagem
-                {
-                    height: 250px;
-                    background-color: darkgreen;
-                }
+            /* Modelagens.html */
+            #TituloPopupRosquinha
+            {
+              font-size: 1.2575rem;
 
-            /* AfricaDoSul2019.html e Argentina2014.html */
-                #TituloPaginasDeFotos
-                {
-                    font-size: 1.25rem;
-                }
-                #SubtituloPaginasDeFotos
-                {
-                    font-size: 0.725rem;
-                }
+              margin-top: 0.5rem !important;
+              margin-bottom: 3rem !important;
+            }
+            #ParagrafoPopupRosquinha
+            {
+              font-size: 0.8775rem;
+
+              margin-top: 2rem !important;
+              margin-bottom: 1rem !important;
+            }
+
+            /* Jogos.html */
+            #TituloPopupPong
+            {
+              font-size: 0.6705rem;
+
+              margin-top: -2.5rem !important;
+              margin-bottom: -1rem !important;
+            }
+            #ParagrafoPopupPong
+            {
+              font-size: 0.4575rem;
+
+              margin-top: 0 !important;
+              margin-bottom: 0.35rem !important;
+            }
+
+            #TituloPopupGalaxyShootter
+            {
+              font-size: 0.7505rem;
+
+              margin-top: -2.5rem !important;
+              margin-bottom: -1rem !important;
+            }
+            #ParagrafoPopupGalaxyShootter
+            {
+              font-size: 0.5075rem;
+
+              margin-top: 0 !important;
+              margin-bottom: 0.35rem !important;
+            }
+
+            /* Projetos.html */
+            .cat
+            {
+              width: 27.5% !important;
+              height: 70% !important;
+            }
         }
         @media (min-width: 1152px) and (max-height: 524px) /* Feito */
         {
             /* index.html */
-                nav
-                {
-                    display: -ms-flexbox !important;
-                    display: flex !important;
-                }
-                section
-                {
-                    display: -ms-flexbox !important;
-                    display: flex !important;
+            nav
+            {
+              display: -ms-flexbox !important;
+              display: flex !important;
+            }
+            section
+            {
+              display: -ms-flexbox !important;
+              display: flex !important;
 
-                    align-items: center;
-                }
-                #TituloIndex
-                {
-                    font-size: 1.4575rem;
-                }
-                #TituloIndex
-                {
-                    font-size: 0.8775rem;
-                }
-                #ParagrafosDeTexto
-                {
-                    font-size: 0.8575rem;
-                    margin-top: 25rem;
-                }
-                #TextoDescricao
-                {
-                    width: 78.5%;
-                }
+              align-items: center;
+            }
 
-                /* Fotos */
-                #FotoSobreMim
-                {
-                    width: 50% !important;
-                    margin-top: 0;
-                }
+            #TituloIndex
+            {
+              font-size: 1.4575rem;
+            }
+            #TituloIndex
+            {
+              font-size: 0.8775rem;
+            }
+            #ParagrafoIndex
+            {
+              font-size: 0.8575rem;
+            }
+            #FotoSobreMim
+            {
+              width: 50% !important;
+              margin-top: 0;
+            }
 
-            /* Fotos.html */
-                #thumbnail .Imagem
-                {
-                    height: 300px;
-                    background-color: salmon;
-                }
+            /* Modelagens.html */
+            #TituloPopupRosquinha
+            {
+              font-size: 1.2575rem;
 
-            /* AfricaDoSul2019.html e Argentina2014.html */
-                #TituloPaginasDeFotos
-                {
-                    font-size: 1.35rem;
-                }
-                #SubtituloPaginasDeFotos
-                {
-                    font-size: 0.775rem;
-                }
+              margin-top: 0.5rem !important;
+              margin-bottom: 3rem !important;
+            }
+            #ParagrafoPopupRosquinha
+            {
+              font-size: 0.8775rem;
+
+              margin-top: 2rem !important;
+              margin-bottom: 1rem !important;
+            }
+
+            /* Jogos.html */
+            #TituloPopupPong
+            {
+              font-size: 1.0275rem;
+
+              margin-top: -1.5rem !important;
+              margin-bottom: 1rem !important;
+            }
+            #ParagrafoPopupPong
+            {
+              font-size: 0.6775rem;
+
+              margin-top: 0.5rem !important;
+              margin-bottom: 0.25rem !important;
+            }
+
+            #TituloPopupGalaxyShootter
+            {
+              font-size: 1.0275rem;
+
+              margin-top: -1.5rem !important;
+              margin-bottom: 1rem !important;
+            }
+            #ParagrafoPopupGalaxyShootter
+            {
+              font-size: 0.6775rem;
+
+              margin-top: 0.5rem !important;
+              margin-bottom: 0.25rem !important;
+            }
+
+            /* Projetos.html */
+            .cat
+            {
+              width: 27.5% !important;
+              height: 75% !important;
+            }
         }
         @media (min-width: 1280px) and (max-height: 524px) /* Feito */
         {
             /* index.html */
-                nav
-                {
-                    display: -ms-flexbox !important;
-                    display: flex !important;
-                }
-                section
-                {
-                    display: -ms-flexbox !important;
-                    display: flex !important;
+            nav
+            {
+              display: -ms-flexbox !important;
+              display: flex !important;
+            }
+            section
+            {
+              display: -ms-flexbox !important;
+              display: flex !important;
 
-                    align-items: center;
-                }
-                #TituloIndex
-                {
-                    font-size: 1.4575rem;
-                }
-                #SubtituloIndex
-                {
-                    font-size: 0.8775rem;
-                }
-                #ParagrafosDeTexto
-                {
-                    font-size: 0.8575rem;
-                    margin-top: 21.5rem;
-                }
-                #TextoDescricao
-                {
-                    width: 78.5%;
-                }
+              align-items: center;
+            }
 
-                /* Fotos */
-                #FotoSobreMim
-                {
-                    width: 50% !important;
-                    margin-top: 0;
-                }
+            #TituloIndex
+            {
+              font-size: 1.4575rem;
+            }
+            #SubtituloIndex
+            {
+              font-size: 0.8775rem;
+            }
+            #ParagrafoIndex
+            {
+              font-size: 0.8575rem;
+            }
 
-            /* Fotos.html */
-                #thumbnail .Imagem
-                {
-                    height: 350px;
-                    background-color: goldenrod;
-                }
+            #FotoSobreMim
+            {
+              width: 50% !important;
+              margin-top: 0;
+            }
 
-            /* AfricaDoSul2019.html e Argentina2014.html */
-                #TituloPaginasDeFotos
-                {
-                    font-size: 1.65rem;
-                }
-                #SubtituloPaginasDeFotos
-                {
-                     font-size: 0.85rem;
-                }
+            /* Modelagens.html */
+            #TituloPopupRosquinha
+            {
+              font-size: 1.2575rem;
+
+              margin-top: 0.5rem !important;
+              margin-bottom: 3rem !important;
+            }
+            #ParagrafoPopupRosquinha
+            {
+              font-size: 0.8775rem;
+
+              margin-top: 2rem !important;
+              margin-bottom: 1rem !important;
+            }
+
+            /* Jogos.html */
+            #TituloPopupPong
+            {
+              font-size: 1.1075rem;
+
+              margin-top: -1.5rem !important;
+              margin-bottom: 1rem !important;
+            }
+            #ParagrafoPopupPong
+            {
+              font-size: 0.7075rem;
+
+              margin-top: 1rem !important;
+              margin-bottom: 0.25rem !important;
+            }
+
+            #TituloPopupGalaxyShootter
+            {
+              font-size: 1.1075rem;
+
+              margin-top: -1.5rem !important;
+              margin-bottom: 1rem !important;
+            }
+            #ParagrafoPopupGalaxyShootter
+            {
+              font-size: 0.7075rem;
+
+              margin-top: 1rem !important;
+              margin-bottom: 0.25rem !important;
+            }
+
+            /* Projetos.html */
+            .cat
+            {
+              width: 27.5% !important;
+              height: 80% !important;
+            }
         }
         @media (min-width: 1430px) and (max-height: 524px) /* Feito */
         {
             /* index.html */
-                nav
-                {
-                    display: -ms-flexbox !important;
-                    display: flex !important;
-                }
-                section
-                {
-                    display: block;
-                }
-                #TituloIndex
-                {
-                    font-size: 1.4575rem;
-                }
-                #TituloIndex
-                {
-                    font-size: 0.8775rem;
-                }
-                #ParagrafosDeTexto
-                {
-                    font-size: 0.8575rem;
-                    margin-top: 18.5rem;
-                }
-                #TextoDescricao
-                {
-                    width: 78.5%;
-                }
+            nav
+            {
+              display: -ms-flexbox !important;
+              display: flex !important;
+            }
+            section
+            {
+              display: block;
+            }
 
-                /* Fotos */
-                #FotoSobreMim
-                {
-                    width: 50% !important;
-                    margin-top: 0;
-                }
+            #TituloIndex
+            {
+              font-size: 1.4575rem;
+            }
+            #TituloIndex
+            {
+              font-size: 0.8775rem;
+            }
+            #ParagrafoIndex
+            {
+              font-size: 0.8575rem;
+            }
+            #FotoSobreMim
+            {
+              width: 50% !important;
+              margin-top: 0;
+            }
 
-            /* Fotos.html */
-                #thumbnail .Imagem
-                {
-                    height: 400px;
-                    background-color: olive;
-                }
+            /* Modelagens.html */
+            #TituloPopupRosquinha
+            {
+              font-size: 1.2575rem;
 
-            /* AfricaDoSul2019.html e Argentina2014.html */
-                #TituloPaginasDeFotos
-                {
-                    font-size: 1.75rem;
-                }
-                #SubtituloPaginasDeFotos
-                {
-                    font-size: 0.905rem;
-                }
+              margin-top: 0.5rem !important;
+              margin-bottom: 3rem !important;
+            }
+            #ParagrafoPopupRosquinha
+            {
+              font-size: 0.8775rem;
+
+              margin-top: 2rem !important;
+              margin-bottom: 1rem !important;
+            }
+
+            /* Jogos.html */
+            #TituloPopupPong
+            {
+              font-size: 1.2575rem;
+
+              margin-top: -1.5rem !important;
+              margin-bottom: 1rem !important;
+            }
+            #ParagrafoPopupPong
+            {
+              font-size: 0.7575rem;
+
+              margin-top: 1rem !important;
+              margin-bottom: 0.25rem !important;
+            }
+
+            #TituloPopupGalaxyShootter
+            {
+              font-size: 1.2575rem;
+
+              margin-top: -1.5rem !important;
+              margin-bottom: 1rem !important;
+            }
+            #ParagrafoPopupGalaxyShootter
+            {
+              font-size: 0.7575rem;
+
+              margin-top: 1rem !important;
+              margin-bottom: 0.25rem !important;
+            }
+
+            /* Projetos.html */
+            .cat
+            {
+              width: 27.5% !important;
+              height: 85% !important;
+            }
         }
         @media (min-width: 1665px) and (max-height: 524px) /* Feito */
         {
             /* index.html */
-                nav
-                {
-                    display: -ms-flexbox !important;
-                    display: flex !important;
-                }
-                section
-                {
-                    display: block;
-                }
-                #TituloIndex
-                {
-                    font-size: 1.4575rem;
-                }
-                #SubtituloIndex
-                {
-                    font-size: 0.8775rem;
-                }
-                #ParagrafosDeTexto
-                {
-                    font-size: 0.8575rem;
-                    margin-top: 15rem;
-                }
-                #TextoDescricao
-                {
-                    width: 78.5%;
-                }
+            nav
+            {
+              display: -ms-flexbox !important;
+              display: flex !important;
+            }
+            section
+            {
+              display: block;
+            }
 
-                /* Fotos */
-                #FotoSobreMim
-                {
-                    width: 45% !important;
-                    margin-top: 0;
-                }
+            #TituloIndex
+            {
+              font-size: 1.4575rem;
+            }
+            #SubtituloIndex
+            {
+              font-size: 0.8775rem;
+            }
+            #ParagrafoIndex
+            {
+              font-size: 0.8575rem;
+            }
+            #FotoSobreMim
+            {
+              width: 45% !important;
+              margin-top: 0;
+            }
 
-            /* Fotos.html */
-                #thumbnail .Imagem
-                {
-                    height: 450px;
-                }
+            /* Modelagens.html */
+            #TituloPopupRosquinha
+            {
+              font-size: 1.575rem;
 
-            /* AfricaDoSul2019.html e Argentina2014.html */
-                #TituloPaginasDeFotos
-                {
-                    font-size: 2rem;
-                }
-                #SubtituloPaginasDeFotos
-                {
-                    font-size: 1rem;
-                }
+              margin-top: 0.5rem !important;
+              margin-bottom: 4rem !important;
+            }
+            #ParagrafoPopupRosquinha
+            {
+              font-size: 0.9575rem;
+
+              margin-top: 2rem !important;
+              margin-bottom: 1rem !important;
+            }
+
+            #TituloPopupPong
+            {
+              font-size: 1.575rem;
+
+              margin-top: 0.25rem !important;
+              margin-bottom: 1.5rem !important;
+            }
+            #ParagrafoPopupPong
+            {
+              font-size: 0.8575rem;
+
+              margin-top: 1rem !important;
+              margin-bottom: 0.5rem !important;
+            }
+
+            #TituloPopupGalaxyShootter
+            {
+              font-size: 1.575rem;
+
+              margin-top: 0.25rem !important;
+              margin-bottom: 1.5rem !important;
+            }
+            #ParagrafoPopupGalaxyShootter
+            {
+              font-size: 0.8575rem;
+
+              margin-top: 1rem !important;
+              margin-bottom: 0.5rem !important;
+            }
+
+            /* Projetos.html */
+            .cat
+            {
+              width: 27.5% !important;
+              height: 95% !important;
+            }
         }
 
 
@@ -465,351 +613,527 @@ section
         @media (max-width: 799px) and (min-height: 525px) /* Feito */
         {
             /* index.html */
-                nav
-                {
-                    display: -ms-flexbox !important;
-                    display: flex !important;
-                }
-                section
-                {
-                    display: -ms-flexbox !important;
-                    display: flex !important;
+            nav
+            {
+              display: -ms-flexbox !important;
+              display: flex !important;
+            }
+            section
+            {
+              display: -ms-flexbox !important;
+              display: flex !important;
 
-                    align-items: center;
-                }
+              align-items: center;
+            }
 
-                #TituloIndex
-                {
-                    font-size: 1.4575rem;
-                }
-                #SubtituloIndex
-                {
-                    font-size: 0.8775rem;
-                }
-                #ParagrafosDeTexto
-                {
-                    font-size: 0.8575rem;
-                    margin-top: 0;
-                }
-                #TextoDescricao
-                {
-                    width: 87.5%;
-                    margin: auto;
-                }
+            #TituloIndex
+            {
+              font-size: 1.4575rem;
+            }
+            #SubtituloIndex
+            {
+              font-size: 0.8775rem;
+            }
+            #ParagrafoIndex
+            {
+              font-size: 0.8575rem;
+            }
+            #FotoSobreMim
+            {
+              width: 65% !important;
+              margin-top: 20rem;
+            }
 
-                /* Fotos */
-                #FotoSobreMim
-                {
-                    width: 65% !important;
-                    margin-top: 20rem;
-                }
+            /* Modelagens.html */
+            #TituloPopupRosquinha
+            {
+              font-size: 0.50675rem;
 
-            /* Fotos.html */
-                #thumbnail .Imagem
-                {
-                    height: 175px;
-                    background-color: purple;
-                }
+              margin-top: -2.25rem !important;
+              margin-bottom: 0.25rem !important;
+            }
+            #ParagrafoPopupRosquinha
+            {
+              font-size: 0.3075rem;
 
-            /* AfricaDoSul2019.html e Argentina2014.html */
-                #TituloPaginasDeFotos
-                {
-                    font-size: 1.225rem;
-                }
-                #SubtituloPaginasDeFotos
-                {
-                    font-size: 0.705rem;
-                }
+              margin-top: 0.25rem !important;
+              margin-bottom: 1rem !important;
+            }
+
+            /* Jogos.html */
+            #TituloPopupPong
+            {
+              font-size: 0.5005rem;
+
+              margin-top: -2.5rem !important;
+              margin-bottom: -10rem !important;
+            }
+            #ParagrafoPopupPong
+            {
+              font-size: 0.1575rem;
+
+              margin-top: 0 !important;
+              margin-bottom: 0.35rem !important;
+            }
+
+            #TituloPopupGalaxyShootter
+            {
+              font-size: 0.5005rem;
+
+              margin-top: -2.5rem !important;
+              margin-bottom: -10rem !important;
+            }
+            #ParagrafoPopupGalaxyShootter
+            {
+              font-size: 0.1575rem;
+
+              margin-top: 0 !important;
+              margin-bottom: 0.35rem !important;
+            }
+
+            /* Projetos.html */
+            .cat
+            {
+              width: 30% !important;
+              height: 52.5% !important;
+            }
         }
         @media (min-width: 800px) and (min-height: 525px) /* Feito */
         {
             /* index.html */
-                nav
-                {
-                    display: -ms-flexbox !important;
-                    display: flex !important;
-                }
-                section
-                {
-                    display: -ms-flexbox !important;
-                    display: flex !important;
+            nav
+            {
+              display: -ms-flexbox !important;
+              display: flex !important;
+            }
+            section
+            {
+              display: -ms-flexbox !important;
+              display: flex !important;
 
-                    align-items: center;
-                }
+              align-items: center;
+            }
 
-                #TituloIndex
-                {
-                    font-size: 1.4575rem;
-                }
-                #SubtituloIndex
-                {
-                    font-size: 0.8775rem;
-                }
-                #ParagrafosDeTexto
-                {
-                    font-size: 0.7575rem;
-                    margin-top: 0rem;
-                }
-                #TextoDescricao
-                {
-                    width: 82.5%;
-                }
+            #TituloIndex
+            {
+              font-size: 1.4575rem;
+            }
+            #SubtituloIndex
+            {
+              font-size: 0.8775rem;
+            }
+            #ParagrafoIndex
+            {
+              font-size: 0.7575rem;
+            }
+            #FotoSobreMim
+            {
+              width: 65% !important;
+              margin-top: 2.5rem;
+            }
 
-                /* Fotos */
-                #FotoSobreMim
-                {
-                    width: 65% !important;
-                    margin-top: 2.5rem;
-                }
+            /* Modelagens.html */
+            #TituloPopupRosquinha
+            {
+              font-size: 0.805rem;
 
-            /* Fotos.html */
-                #thumbnail .Imagem
-                {
-                    height: 275px;
-                    background-color: pink;
-                }
+              margin-top: -1.25rem !important;
+              margin-bottom: 1.25rem !important;
+            }
+            #ParagrafoPopupRosquinha
+            {
+              font-size: 0.5575rem;
+            }
 
-            /* AfricaDoSul2019.html e Argentina2014.html */
-                #TituloPaginasDeFotos
-                {
-                    font-size: 1.25rem;
-                }
-                #SubtituloPaginasDeFotos
-                {
-                    font-size: 0.725rem;
-                }
+            /* Jogos.html */
+            #TituloPopupPong
+            {
+              font-size: 0.6705rem;
+
+              margin-top: -2.5rem !important;
+              margin-bottom: -1rem !important;
+            }
+            #ParagrafoPopupPong
+            {
+              font-size: 0.4575rem;
+
+              margin-top: 0 !important;
+              margin-bottom: 0.35rem !important;
+            }
+
+            #TituloPopupGalaxyShootter
+            {
+              font-size: 0.7505rem;
+
+              margin-top: -2.5rem !important;
+              margin-bottom: -1rem !important;
+            }
+            #ParagrafoPopupGalaxyShootter
+            {
+              font-size: 0.5075rem;
+
+              margin-top: 0 !important;
+              margin-bottom: 0.35rem !important;
+            }
+
+            /* Projetos.html */
+            .cat
+            {
+              width: 30% !important;
+              height: 60% !important;
+            }
         }
         @media (min-width: 1152px) and (min-height: 525px) /* Feito */
         {
             /* index.html */
-                nav
-                {
-                    display: -ms-flexbox !important;
-                    display: flex !important;
-                }
-                section
-                {
-                    display: -ms-flexbox !important;
-                    display: flex !important;
+            nav
+            {
+              display: -ms-flexbox !important;
+              display: flex !important;
+            }
+            section
+            {
+              display: -ms-flexbox !important;
+              display: flex !important;
 
-                    align-items: center;
-                }
+              align-items: center;
+            }
 
-                #TituloIndex
-                {
-                    font-size: 1.4575rem;
-                }
-                #SubtituloIndex
-                {
-                    font-size: 0.8775rem;
-                }
-                #ParagrafosDeTexto
-                {
-                    font-size: 0.8075rem;
-                    margin-top: 0rem;
-                }
-                #TextoDescricao
-                {
-                    width: 78.5%;
-                }
+            #TituloIndex
+            {
+              font-size: 1.4575rem;
+            }
+            #SubtituloIndex
+            {
+              font-size: 0.8775rem;
+            }
+            #ParagrafoIndex
+            {
+              font-size: 0.8075rem;
+            }
+            #FotoSobreMim
+            {
+              width: 60% !important;
+              margin-top: 2.5rem;
+            }
 
-                /* Fotos */
-                #FotoSobreMim
-                {
-                    width: 60% !important;
-                    margin-top: 2.5rem;
-                }
+            /* Modelagens.html */
+            #TituloPopupRosquinha
+            {
+              font-size: 1.0775rem;
 
-            /* Fotos.html */
-                #thumbnail .Imagem
-                {
-                    height: 315px;
-                    background-color: yellow;
-                }
+              margin-top: 0 !important;
+              margin-bottom: 2rem !important;
+            }
+            #ParagrafoPopupRosquinha
+            {
+              font-size: 0.7575rem;
 
-            /* AfricaDoSul2019.html e Argentina2014.html */
-                #TituloPaginasDeFotos
-                {
-                    font-size: 1.35rem;
-                }
-                #SubtituloPaginasDeFotos
-                {
-                    font-size: 0.775rem;
-                }
+              margin-top: 1rem !important;
+              margin-bottom: 1rem !important;
+            }
+
+            /* Jogos.html */
+            #TituloPopupPong
+            {
+              font-size: 1.0275rem;
+
+              margin-top: -1.5rem !important;
+              margin-bottom: 1rem !important;
+            }
+            #ParagrafoPopupPong
+            {
+              font-size: 0.6775rem;
+
+              margin-top: 0.5rem !important;
+              margin-bottom: 0.25rem !important;
+            }
+
+            #TituloPopupGalaxyShootter
+            {
+              font-size: 1.0275rem;
+
+              margin-top: -1.5rem !important;
+              margin-bottom: 1rem !important;
+            }
+            #ParagrafoPopupGalaxyShootter
+            {
+              font-size: 0.6775rem;
+
+              margin-top: 0.5rem !important;
+              margin-bottom: 0.25rem !important;
+            }
+
+            /* Projetos.html */
+            .cat
+            {
+              width: 30% !important;
+              height: 67.5% !important;
+            }
         }
         @media (min-width: 1280px) and (min-height: 525px) /* Feito */
         {
             /* index.html */
-                nav
-                {
-                    display: -ms-flexbox !important;
-                    display: flex !important;
-                }
-                section
-                {
-                    display: -ms-flexbox !important;
-                    display: flex !important;
+            nav
+            {
+              display: -ms-flexbox !important;
+              display: flex !important;
+            }
+            section
+            {
+              display: -ms-flexbox !important;
+              display: flex !important;
 
-                    align-items: center;
-                }
+              align-items: center;
+            }
 
-                #TituloIndex
-                {
-                    font-size: 1.4575rem;
-                }
-                #SubtituloIndex
-                {
-                    font-size: 0.8775rem;
-                }
-                #ParagrafosDeTexto
-                {
-                    font-size: 0.8075rem;
-                    margin-top: 0rem;
-                }
-                #TextoDescricao
-                {
-                    width: 78.5%;
-                }
+            #TituloIndex
+            {
+              font-size: 1.4575rem;
+            }
+            #SubtituloIndex
+            {
+              font-size: 0.8775rem;
+            }
+            #ParagrafoIndex
+            {
+              font-size: 0.8075rem;
+            }
+            #FotoSobreMim
+            {
+              width: 55% !important;
+              margin-top: 2.5rem;
+            }
 
-                /* Fotos */
-                #FotoSobreMim
-                {
-                    width: 55% !important;
-                    margin-top: 2.5rem;
-                }
+            /* Modelagens.html */
+            #TituloPopupRosquinha
+            {
+              font-size: 1.1275rem;
 
-            /* Fotos.html */
-                #thumbnail .Imagem
-                {
-                    height: 350px;
-                    background-color: blue;
-                }
+              margin-top: 0 !important;
+              margin-bottom: 2.5rem !important;
+            }
+            #ParagrafoPopupRosquinha
+            {
+              font-size: 0.8075rem;
 
-            /* AfricaDoSul2019.html e Argentina2014.html */
-                #TituloPaginasDeFotos
-                {
-                    font-size: 1.65rem;
-                }
-                #SubtituloPaginasDeFotos
-                {
-                    font-size: 0.85rem;
-                }
+              margin-top: 1.5rem !important;
+              margin-bottom: 1rem !important;
+            }
+
+            /* Jogos.html */
+            #TituloPopupPong
+            {
+              font-size: 1.1075rem;
+
+              margin-top: -1.5rem !important;
+              margin-bottom: 1rem !important;
+            }
+            #ParagrafoPopupPong
+            {
+              font-size: 0.7075rem;
+
+              margin-top: 1rem !important;
+              margin-bottom: 0.25rem !important;
+            }
+
+            #TituloPopupGalaxyShootter
+            {
+              font-size: 1.1075rem;
+
+              margin-top: -1.5rem !important;
+              margin-bottom: 1rem !important;
+            }
+            #ParagrafoPopupGalaxyShootter
+            {
+              font-size: 0.7075rem;
+
+              margin-top: 1rem !important;
+              margin-bottom: 0.25rem !important;
+            }
+
+            /* Projetos.html */
+            .cat
+            {
+              width: 30% !important;
+              height: 80% !important;
+            }
         }
         @media (min-width: 1430px) and (min-height: 525px) /* Feito */
         {
             /* index.html */
-                nav
-                {
-                    display: -ms-flexbox !important;
-                    display: flex !important;
-                }
-                section
-                {
-                    display: -ms-flexbox !important;
-                    display: flex !important;
+            nav
+            {
+              display: -ms-flexbox !important;
+              display: flex !important;
+            }
+            section
+            {
+              display: -ms-flexbox !important;
+              display: flex !important;
 
-                    align-items: center;
-                }
+              align-items: center;
+            }
 
-                #TituloIndex
-                {
-                    font-size: 1.5025rem;
-                }
-                #SubtituloIndex
-                {
-                    font-size: 0.9575rem;
-                }
-                #ParagrafosDeTexto
-                {
-                    font-size: 0.8075rem;
-                    margin-top: -1.5rem;
-                }
-                #TextoDescricao
-                {
-                    width: 84.5%;
-                }
+            #TituloIndex
+            {
+              font-size: 1.5025rem;
+            }
+            #SubtituloIndex
+            {
+              font-size: 0.9575rem;
+            }
+            #ParagrafoIndex
+            {
+              font-size: 0.8075rem;
+            }
+            #FotoSobreMim
+            {
+              width: 60% !important;
+              margin-top: 0;
+            }
 
-                /* Fotos */
-                #FotoSobreMim
-                {
-                    width: 60% !important;
-                    margin-top: 0;
-                }
+            /* Modelagens.html */
+            #TituloPopupRosquinha
+            {
+              font-size: 1.2575rem;
 
-            /* Fotos.html */
-                #thumbnail .Imagem
-                {
-                    height: 415px;
-                    background-color: green;
-                }
+              margin-top: 0.5rem !important;
+              margin-bottom: 3rem !important;
+            }
+            #ParagrafoPopupRosquinha
+            {
+              font-size: 0.8775rem;
 
-            /* AfricaDoSul2019.html e Argentina2014.html */
-                #TituloPaginasDeFotos
-                {
-                    font-size: 1.75rem;
-                }
-                #SubtituloPaginasDeFotos
-                {
-                    font-size: 0.905rem;
-                }
+              margin-top: 2rem !important;
+              margin-bottom: 1rem !important;
+            }
+
+            /* Jogos.html */
+            #TituloPopupPong
+            {
+              font-size: 1.2575rem;
+
+              margin-top: -1.5rem !important;
+              margin-bottom: 1rem !important;
+            }
+            #ParagrafoPopupPong
+            {
+              font-size: 0.7575rem;
+
+              margin-top: 1rem !important;
+              margin-bottom: 0.25rem !important;
+            }
+
+            #TituloPopupGalaxyShootter
+            {
+              font-size: 1.2575rem;
+
+              margin-top: -1.5rem !important;
+              margin-bottom: 1rem !important;
+            }
+            #ParagrafoPopupGalaxyShootter
+            {
+              font-size: 0.7575rem;
+
+              margin-top: 1rem !important;
+              margin-bottom: 0.25rem !important;
+            }
+
+            /* Projetos.html */
+            .cat
+            {
+              width: 30% !important;
+              height: 85% !important;
+            }
         }
         @media (min-width: 1665px) and (min-height: 525px) /* Feito */
         {
             /* index.html */
-                nav
-                {
-                    display: -ms-flexbox !important;
-                    display: flex !important;
-                }
-                section
-                {
-                    display: -ms-flexbox !important;
-                    display: flex !important;
+            nav
+            {
+              display: -ms-flexbox !important;
+              display: flex !important;
+            }
+            section
+            {
+              display: -ms-flexbox !important;
+              display: flex !important;
 
-                    align-items: center;
-                }
+              align-items: center;
+            }
 
-                #TituloIndex
-                {
-                    font-size: 1.525rem;
-                }
-                #SubtituloIndex
-                {
-                    font-size: 0.925rem;
-                }
-                #ParagrafosDeTexto
-                {
-                    font-size: 0.8075rem;
-                    margin-top: -2.5rem;
-                }
-                #TextoDescricao
-                {
-                    width: 78.5%;
-                }
+            #TituloIndex
+            {
+              font-size: 1.525rem;
+            }
+            #SubtituloIndex
+            {
+              font-size: 0.925rem;
+            }
+            #ParagrafoIndex
+            {
+              font-size: 0.8075rem;
+            }
+            #FotoSobreMim
+            {
+              width: 45% !important;
+              margin-top: 0 !important;
+            }
 
-                /* Fotos */
-                #FotoSobreMim
-                {
-                    width: 45% !important;
-                    margin-top: 0 !important;
-                }
+            /* Modelagens.html */
+            #TituloPopupRosquinha
+            {
+              font-size: 1.575rem;
 
-            /* Fotos.html */
-                #thumbnail .Imagem
-                {
-                    height: 475px;
-                    background-color: red;
-                }
+              margin-top: 0.5rem !important;
+              margin-bottom: 4rem !important;
+            }
+            #ParagrafoPopupRosquinha
+            {
+              font-size: 0.9575rem;
 
-            /* AfricaDoSul2019.html e Argentina2014.html */
-                #TituloPaginasDeFotos
-                {
-                    font-size: 2rem;
-                }
-                #SubtituloPaginasDeFotos
-                {
-                    font-size: 1rem;
-                }
+              margin-top: 2rem !important;
+              margin-bottom: 1rem !important;
+            }
+
+            /* Jogos.html */
+            #TituloPopupPong
+            {
+              font-size: 1.575rem;
+
+              margin-top: 0.25rem !important;
+              margin-bottom: 1.5rem !important;
+            }
+            #ParagrafoPopupPong
+            {
+              font-size: 0.8575rem;
+
+              margin-top: 1rem !important;
+              margin-bottom: 0.5rem !important;
+            }
+
+            #TituloPopupGalaxyShootter
+            {
+              font-size: 1.575rem;
+
+              margin-top: 0.25rem !important;
+              margin-bottom: 1.5rem !important;
+            }
+            #ParagrafoPopupGalaxyShootter
+            {
+              font-size: 0.8575rem;
+
+              margin-top: 1rem !important;
+              margin-bottom: 0.5rem !important;
+            }
+
+            /* Projetos.html */
+            .cat
+            {
+              width: 30% !important;
+              height: 95% !important;
+            }
         }
 
 
@@ -817,351 +1141,527 @@ section
         @media (max-width: 799px) and (min-height: 720px) /* Feito */
         {
             /* index.html */
-                nav
-                {
-                    display: -ms-flexbox !important;
-                    display: flex !important;
-                }
-                section
-                {
-                    display: -ms-flexbox !important;
-                    display: flex !important;
+            nav
+            {
+              display: -ms-flexbox !important;
+              display: flex !important;
+             }
+            section
+            {
+              display: -ms-flexbox !important;
+              display: flex !important;
 
-                    align-items: center;
-                }
+              align-items: center;
+            }
 
-                #TituloIndex
-                {
-                    font-size: 1.4575rem;
-                }
-                #SubtituloIndex
-                {
-                    font-size: 0.8775rem;
-                }
-                #ParagrafosDeTexto
-                {
-                    font-size: 0.8575rem;
-                    margin-top: 0;
-                }
-                #TextoDescricao
-                {
-                    width: 87.5%;
-                    margin: auto;
-                }
+            #TituloIndex
+            {
+              font-size: 1.4575rem;
+            }
+            #SubtituloIndex
+            {
+              font-size: 0.8775rem;
+            }
+            #ParagrafoIndex
+            {
+              font-size: 0.8575rem;
+            }
+            #FotoSobreMim
+            {
+              width: 65% !important;
+              margin-top: 10rem;
+            }
 
-                /* Fotos */
-                #FotoSobreMim
-                {
-                    width: 65% !important;
-                    margin-top: 10rem;
-                }
+            /* Modelagens.html */
+            #TituloPopupRosquinha
+            {
+              font-size: 0.50675rem;
 
-            /* Fotos.html */
-                #thumbnail .Imagem
-                {
-                    height: 175px;
-                    background-color: darkgreen;
-                }
+              margin-top: -2.25rem !important;
+              margin-bottom: 0.25rem !important;
+            }
+            #ParagrafoPopupRosquinha
+            {
+              font-size: 0.3075rem;
 
-            /* AfricaDoSul2019.html e Argentina2014.html */
-                #TituloPaginasDeFotos
-                {
-                    font-size: 1.225rem;
-                }
-                #SubtituloPaginasDeFotos
-                {
-                    font-size: 0.705rem;
-                }
+              margin-top: 0.25rem !important;
+              margin-bottom: 1rem !important;
+            }
+
+            /* Jogos.html */
+            #TituloPopupPong
+            {
+              font-size: 0.5005rem;
+
+              margin-top: -2.5rem !important;
+              margin-bottom: -10rem !important;
+            }
+            #ParagrafoPopupPong
+            {
+              font-size: 0.1575rem;
+
+              margin-top: 0 !important;
+              margin-bottom: 0.35rem !important;
+            }
+
+            #TituloPopupGalaxyShootter
+            {
+              font-size: 0.5005rem;
+
+              margin-top: -2.5rem !important;
+              margin-bottom: -10rem !important;
+            }
+            #ParagrafoPopupGalaxyShootter
+            {
+              font-size: 0.1575rem;
+
+              margin-top: 0 !important;
+              margin-bottom: 0.35rem !important;
+            }
+
+            /* Projetos.html */
+            .cat
+            {
+              width: 27% !important;
+              height: 47.5% !important;
+            }
         }
         @media (min-width: 800px) and (min-height: 720px) /* Feito */
         {
             /* index.html */
-                nav
-                {
-                    display: -ms-flexbox !important;
-                    display: flex !important;
-                }
-                section
-                {
-                    display: -ms-flexbox !important;
-                    display: flex !important;
+            nav
+            {
+              display: -ms-flexbox !important;
+              display: flex !important;
+             }
+            section
+            {
+              display: -ms-flexbox !important;
+              display: flex !important;
 
-                    align-items: center;
-                }
+              align-items: center;
+            }
 
-                #TituloIndex
-                {
-                    font-size: 1.4575rem;
-                }
-                #SubtituloIndex
-                {
-                    font-size: 0.8775rem;
-                }
-                #ParagrafosDeTexto
-                {
-                    font-size: 0.8575rem;
-                    margin-top: 0rem;
-                }
-                #TextoDescricao
-                {
-                    width: 82.5%;
-                }
+            #TituloIndex
+            {
+              font-size: 1.4575rem;
+            }
+            #SubtituloIndex
+            {
+              font-size: 0.8775rem;
+            }
+            #ParagrafoIndex
+            {
+              font-size: 0.8575rem;
+            }
+            #FotoSobreMim
+            {
+              width: 65% !important;
+              margin-top: 2.5rem;
+            }
 
-                /* Fotos */
-                #FotoSobreMim
-                {
-                    width: 65% !important;
-                    margin-top: 2.5rem;
-                }
+            /* Modelagens.html */
+            #TituloPopupRosquinha
+            {
+              font-size: 0.805rem;
 
-            /* Fotos.html */
-                #thumbnail .Imagem
-                {
-                    height: 250px;
-                    background-color: gray;
-                }
+              margin-top: -1.25rem !important;
+              margin-bottom: 1.25rem !important;
+            }
+            #ParagrafoPopupRosquinha
+            {
+              font-size: 0.5575rem;
+            }
 
-            /* AfricaDoSul2019.html e Argentina2014.html */
-                #TituloPaginasDeFotos
-                {
-                    font-size: 1.25rem;
-                }
-                #SubtituloPaginasDeFotos
-                {
-                  font-size: 0.725rem;
-                }
+            /* Jogos.html */
+            #TituloPopupPong
+            {
+              font-size: 0.6705rem;
+
+              margin-top: -2.5rem !important;
+              margin-bottom: -1rem !important;
+            }
+            #ParagrafoPopupPong
+            {
+              font-size: 0.4575rem;
+
+              margin-top: 0 !important;
+              margin-bottom: 0.35rem !important;
+            }
+
+            #TituloPopupGalaxyShootter
+            {
+              font-size: 0.7505rem;
+
+              margin-top: -2.5rem !important;
+              margin-bottom: -1rem !important;
+            }
+            #ParagrafoPopupGalaxyShootter
+            {
+              font-size: 0.5075rem;
+
+              margin-top: 0 !important;
+              margin-bottom: 0.35rem !important;
+            }
+
+            /* Projetos.html */
+            .cat
+            {
+              width: 30% !important;
+              height: 55% !important;
+            }
         }
         @media (min-width: 1152px) and (min-height: 720px) /* Feito */
         {
             /* index.html */
-                nav
-                {
-                    display: -ms-flexbox !important;
-                    display: flex !important;
-                }
-                section
-                {
-                    display: -ms-flexbox !important;
-                    display: flex !important;
+            nav
+            {
+              display: -ms-flexbox !important;
+              display: flex !important;
+            }
+            section
+            {
+              display: -ms-flexbox !important;
+              display: flex !important;
 
-                    align-items: center;
-                }
+              align-items: center;
+            }
 
-                #TituloIndex
-                {
-                    font-size: 1.4575rem;
-                }
-                #SubtituloIndex
-                {
-                    font-size: 0.8775rem;
-                }
-                #ParagrafosDeTexto
-                {
-                    font-size: 0.8075rem;
-                    margin-top: 0rem;
-                }
-                #TextoDescricao
-                {
-                    width: 78.5%;
-                }
+            #TituloIndex
+            {
+              font-size: 1.4575rem;
+            }
+            #SubtituloIndex
+            {
+              font-size: 0.8775rem;
+            }
+            #ParagrafoIndex
+            {
+              font-size: 0.8075rem;
+            }
+            #FotoSobreMim
+            {
+              width: 60% !important;
+              margin-top: 2.5rem;
+            }
 
-                /* Fotos */
-                #FotoSobreMim
-                {
-                    width: 60% !important;
-                    margin-top: 2.5rem;
-                }
+            /* Modelagens.html */
+            #TituloPopupRosquinha
+            {
+              font-size: 1.0775rem;
 
-            /* Fotos.html */
-                #thumbnail .Imagem
-                {
-                    height: 325px;
-                    background-color: salmon;
-                }
+              margin-top: 0 !important;
+              margin-bottom: 2rem !important;
+            }
+            #ParagrafoPopupRosquinha
+            {
+              font-size: 0.7575rem;
 
-            /* AfricaDoSul2019.html e Argentina2014.html */
-                #TituloPaginasDeFotos
-                {
-                    font-size: 1.35rem;
-                }
-                #SubtituloPaginasDeFotos
-                {
-                    font-size: 0.775rem;
-                }
+              margin-top: 1rem !important;
+              margin-bottom: 1rem !important;
+            }
+
+            /* Jogos.html */
+            #TituloPopupPong
+            {
+              font-size: 1.0275rem;
+
+              margin-top: -1.5rem !important;
+              margin-bottom: 1rem !important;
+            }
+            #ParagrafoPopupPong
+            {
+              font-size: 0.6775rem;
+
+              margin-top: 0.5rem !important;
+              margin-bottom: 0.25rem !important;
+            }
+
+            #TituloPopupGalaxyShootter
+            {
+              font-size: 1.0275rem;
+
+              margin-top: -1.5rem !important;
+              margin-bottom: 1rem !important;
+            }
+            #ParagrafoPopupGalaxyShootter
+            {
+              font-size: 0.6775rem;
+
+              margin-top: 0.5rem !important;
+              margin-bottom: 0.25rem !important;
+            }
+
+            /* Projetos.html */
+            .cat
+            {
+              width: 30% !important;
+              height: 60% !important;
+            }
         }
         @media (min-width: 1280px) and (min-height: 720px) /* Feito */
         {
             /* index.html */
-                nav
-                {
-                    display: -ms-flexbox !important;
-                    display: flex !important;
-                }
-                section
-                {
-                    display: -ms-flexbox !important;
-                    display: flex !important;
+            nav
+            {
+              display: -ms-flexbox !important;
+              display: flex !important;
+            }
+            section
+            {
+              display: -ms-flexbox !important;
+              display: flex !important;
 
-                    align-items: center;
-                }
+              align-items: center;
+            }
 
-                #TituloIndex
-                {
-                    font-size: 1.4575rem;
-                }
-                #SubtituloIndex
-                {
-                    font-size: 0.8775rem;
-                }
-                #ParagrafosDeTexto
-                {
-                    font-size: 0.8075rem;
-                    margin-top: 0rem;
-                }
-                #TextoDescricao
-                {
-                    width: 78.5%;
-                }
+            #TituloIndex
+            {
+              font-size: 1.4575rem;
+            }
+            #SubtituloIndex
+            {
+              font-size: 0.8775rem;
+            }
+            #ParagrafoIndex
+            {
+              font-size: 0.8075rem;
+            }
+            #FotoSobreMim
+            {
+              width: 55% !important;
+              margin-top: 2.5rem;
+            }
 
-                /* Fotos */
-                #FotoSobreMim
-                {
-                    width: 55% !important;
-                    margin-top: 2.5rem;
-                }
+            /* Modelagens.html */
+            #TituloPopupRosquinha
+            {
+              font-size: 1.1275rem;
 
-            /* Fotos.html */
-                #thumbnail .Imagem
-                {
-                    height: 350px;
-                    background-color: olive;
-                }
+              margin-top: 0 !important;
+              margin-bottom: 2.5rem !important;
+            }
+            #ParagrafoPopupRosquinha
+            {
+              font-size: 0.8075rem;
 
-            /* AfricaDoSul2019.html e Argentina2014.html */
-                #TituloPaginasDeFotos
-                {
-                    font-size: 1.65rem;
-                }
-                #SubtituloPaginasDeFotos
-                {
-                     font-size: 0.85rem;
-                }
+              margin-top: 1.5rem !important;
+              margin-bottom: 1rem !important;
+            }
+
+            /* Jogos.html */
+            #TituloPopupPong
+            {
+              font-size: 1.1075rem;
+
+              margin-top: -1.5rem !important;
+              margin-bottom: 1rem !important;
+            }
+            #ParagrafoPopupPong
+            {
+              font-size: 0.7075rem;
+
+              margin-top: 1rem !important;
+              margin-bottom: 0.25rem !important;
+            }
+
+            #TituloPopupGalaxyShootter
+            {
+              font-size: 1.1075rem;
+
+              margin-top: -1.5rem !important;
+              margin-bottom: 1rem !important;
+            }
+            #ParagrafoPopupGalaxyShootter
+            {
+              font-size: 0.7075rem;
+
+              margin-top: 1rem !important;
+              margin-bottom: 0.25rem !important;
+            }
+
+            /* Projetos.html */
+            .cat
+            {
+              width: 30% !important;
+              height: 65% !important;
+            }
         }
         @media (min-width: 1430px) and (min-height: 720px) /* Feito */
         {
             /* index.html */
-                nav
-                {
-                    display: -ms-flexbox !important;
-                    display: flex !important;
-                }
-                section
-                {
-                    display: -ms-flexbox !important;
-                    display: flex !important;
+            nav
+            {
+              display: -ms-flexbox !important;
+              display: flex !important;
+            }
+            section
+            {
+              display: -ms-flexbox !important;
+              display: flex !important;
 
-                    align-items: center;
-                }
+              align-items: center;
+            }
 
-                #TituloIndex
-                {
-                    font-size: 1.5025rem;
-                }
-                #SubtituloIndex
-                {
-                    font-size: 0.9575rem;
-                }
-                #ParagrafosDeTexto
-                {
-                    font-size: 0.8075rem;
-                    margin-top: 0;
-                }
-                #TextoDescricao
-                {
-                    width: 84.5%;
-                }
+            #TituloIndex
+            {
+              font-size: 1.5025rem;
+            }
+            #SubtituloIndex
+            {
+              font-size: 0.9575rem;
+            }
+            #ParagrafoIndex
+            {
+              font-size: 0.8075rem;
+            }
+            #FotoSobreMim
+            {
+              width: 60% !important;
+              margin-top: 0;
+            }
 
-                /* Fotos */
-                #FotoSobreMim
-                {
-                    width: 60% !important;
-                    margin-top: 0;
-                }
+            /* Modelagens.html */
+            #TituloPopupRosquinha
+            {
+              font-size: 1.2575rem;
 
-            /* Fotos.html */
-                #thumbnail .Imagem
-                {
-                    height: 450px;
-                    background-color: goldenrod;
-                }
+              margin-top: 0.5rem !important;
+              margin-bottom: 3rem !important;
+            }
+            #ParagrafoPopupRosquinha
+            {
+              font-size: 0.8775rem;
 
-            /* AfricaDoSul2019.html e Argentina2014.html */
-                #TituloPaginasDeFotos
-                {
-                    font-size: 1.75rem;
-                }
-                #SubtituloPaginasDeFotos
-                {
-                    font-size: 0.905rem;
-                }
+              margin-top: 2rem !important;
+              margin-bottom: 1rem !important;
+            }
+
+            /* Jogos.html */
+            #TituloPopupPong
+            {
+              font-size: 1.2575rem;
+
+              margin-top: -1.5rem !important;
+              margin-bottom: 1rem !important;
+            }
+            #ParagrafoPopupPong
+            {
+              font-size: 0.7575rem;
+
+              margin-top: 1rem !important;
+              margin-bottom: 0.25rem !important;
+            }
+
+            #TituloPopupGalaxyShootter
+            {
+              font-size: 1.2575rem;
+
+              margin-top: -1.5rem !important;
+              margin-bottom: 1rem !important;
+            }
+            #ParagrafoPopupGalaxyShootter
+            {
+              font-size: 0.7575rem;
+
+              margin-top: 1rem !important;
+              margin-bottom: 0.25rem !important;
+            }
+
+            /* Projetos.html */
+            .cat
+            {
+              width: 30% !important;
+              height: 70% !important;
+            }
         }
         @media (min-width: 1665px) and (min-height: 720px) /* Feito */
         {
             /* index.html */
-                nav
-                {
-                    display: -ms-flexbox !important;
-                    display: flex !important;
-                }
-                section
-                {
-                    display: -ms-flexbox !important;
-                    display: flex !important;
+            nav
+            {
+              display: -ms-flexbox !important;
+              display: flex !important;
+            }
+            section
+            {
+              display: -ms-flexbox !important;
+              display: flex !important;
 
-                    align-items: center;
-                }
+              align-items: center;
+            }
 
-                #TituloIndex
-                {
-                    font-size: 1.525rem;
-                }
-                #SubtituloIndex
-                {
-                    font-size: 0.925rem;
-                }
-                #ParagrafosDeTexto
-                {
-                    font-size: 0.8775rem;
-                    margin-top: -2.5rem;
-                }
-                #TextoDescricao
-                {
-                    width: 78.5%;
-                }
+            #TituloIndex
+            {
+              font-size: 1.525rem;
+            }
+            #SubtituloIndex
+            {
+              font-size: 0.925rem;
+            }
+            #ParagrafoIndex
+            {
+              font-size: 0.8775rem;
+            }
+            #FotoSobreMim
+            {
+              width: 55% !important;
+              margin-top: 0 !important;
+            }
 
-                /* Fotos */
-                #FotoSobreMim
-                {
-                    width: 55% !important;
-                    margin-top: 0 !important;
-                }
+            /* Modelagens.html */
+            #TituloPopupRosquinha
+            {
+              font-size: 1.575rem;
 
-            /* Fotos.html */
-                #thumbnail .Imagem
-                {
-                    height: 500px;
-                    background-color: brown;
-                }
+              margin-top: 0.5rem !important;
+              margin-bottom: 4rem !important;
+            }
+            #ParagrafoPopupRosquinha
+            {
+              font-size: 0.9575rem;
 
-            /* AfricaDoSul2019.html e Argentina2014.html */
-                #TituloPaginasDeFotos
-                {
-                    font-size: 2rem;
-                }
-                #SubtituloPaginasDeFotos
-                {
-                  font-size: 1rem;
-                }
+              margin-top: 2rem !important;
+              margin-bottom: 1rem !important;
+            }
+
+            /* Jogos.html */
+            #TituloPopupPong
+            {
+              font-size: 1.575rem;
+
+              margin-top: 0.25rem !important;
+              margin-bottom: 1.5rem !important;
+            }
+            #ParagrafoPopupPong
+            {
+              font-size: 0.8575rem;
+
+              margin-top: 1rem !important;
+              margin-bottom: 0.5rem !important;
+            }
+
+            #TituloPopupGalaxyShootter
+            {
+              font-size: 1.575rem;
+
+              margin-top: 0.25rem !important;
+              margin-bottom: 1.5rem !important;
+            }
+            #ParagrafoPopupGalaxyShootter
+            {
+              font-size: 0.8575rem;
+
+              margin-top: 1rem !important;
+              margin-bottom: 0.5rem !important;
+            }
+
+            /* Projetos.html */
+            .cat
+            {
+              width: 30% !important;
+              height: 85% !important;
+            }
         }
 
 
@@ -1169,353 +1669,528 @@ section
         @media (max-width: 799px) and (min-height: 900px) /* Feito */
         {
             /* index.html */
-                nav
-                {
-                    display: -ms-flexbox !important;
-                    display: flex !important;
-                }
-                section
-                {
-                    display: -ms-flexbox !important;
-                    display: flex !important;
+            nav
+            {
+              display: -ms-flexbox !important;
+              display: flex !important;
+            }
+            section
+            {
+              display: -ms-flexbox !important;
+              display: flex !important;
 
-                    align-items: center;
-                }
+              align-items: center;
+            }
 
-                #TituloIndex
-                {
-                    font-size: 1.4575rem;
-                }
-                #SubtituloIndex
-                {
-                    font-size: 0.8775rem;
-                }
-                #ParagrafosDeTexto
-                {
-                    font-size: 0.8575rem;
-                    margin-top: 0;
-                }
-                #TextoDescricao
-                {
-                    width: 87.5%;
-                    margin: auto;
-                }
+            #TituloIndex
+            {
+              font-size: 1.4575rem;
+            }
+            #SubtituloIndex
+            {
+              font-size: 0.8775rem;
+            }
+            #ParagrafoIndex
+            {
+              font-size: 0.8575rem;
+            }
+            #FotoSobreMim
+            {
+              width: 65% !important;
+              margin-top: 5rem;
+            }
 
-                /* Fotos */
-                #FotoSobreMim
-                {
-                    width: 65% !important;
-                    margin-top: 5rem;
-                }
+            /* Modelagens.html */
+            #TituloPopupRosquinha
+            {
+              font-size: 0.50675rem;
 
-            /* Fotos.html */
-                #thumbnail .Imagem
-                {
-                    height: 175px;
-                    background-color: purple;
-                }
+              margin-top: -2.25rem !important;
+              margin-bottom: 0.25rem !important;
+            }
+            #ParagrafoPopupRosquinha
+            {
+              font-size: 0.3075rem;
 
-            /* AfricaDoSul2019.html e Argentina2014.html */
-                #TituloPaginasDeFotos
-                {
-                    font-size: 1.225rem;
-                }
-                #SubtituloPaginasDeFotos
-                {
-                    font-size: 0.705rem;
-                }
+              margin-top: 0.25rem !important;
+              margin-bottom: 1rem !important;
+            }
+
+            /* Jogos.html */
+            #TituloPopupPong
+            {
+              font-size: 0.5005rem;
+
+              margin-top: -2.5rem !important;
+              margin-bottom: -10rem !important;
+            }
+            #ParagrafoPopupPong
+            {
+              font-size: 0.1575rem;
+
+              margin-top: 0 !important;
+              margin-bottom: 0.35rem !important;
+            }
+
+            #TituloPopupGalaxyShootter
+            {
+              font-size: 0.4505rem;
+
+              margin-top: -2.5rem !important;
+              margin-bottom: -10rem !important;
+            }
+            #ParagrafoPopupGalaxyShootter
+            {
+              font-size: 0.1575rem;
+
+              margin-top: 0 !important;
+              margin-bottom: 0.35rem !important;
+            }
+
+            /* Projetos.html */
+            .cat
+            {
+              width: 30% !important;
+              height: 35% !important;
+            }
+
         }
         @media (min-width: 800px) and (min-height: 900px) /* Feito */
         {
             /* index.html */
-                nav
-                {
-                    display: -ms-flexbox !important;
-                    display: flex !important;
-                }
-                section
-                {
-                    display: -ms-flexbox !important;
-                    display: flex !important;
+            nav
+            {
+              display: -ms-flexbox !important;
+              display: flex !important;
+            }
+            section
+            {
+              display: -ms-flexbox !important;
+              display: flex !important;
 
-                    align-items: center;
-                }
+              align-items: center;
+            }
 
-                #TituloIndex
-                {
-                    font-size: 1.4575rem;
-                }
-                #SubtituloIndex
-                {
-                    font-size: 0.8775rem;
-                }
-                #ParagrafosDeTexto
-                {
-                    font-size: 0.8575rem;
-                    margin-top: 0;
-                }
-                #TextoDescricao
-                {
-                    width: 82.5%;
-                }
+            #TituloIndex
+            {
+              font-size: 1.4575rem;
+            }
+            #SubtituloIndex
+            {
+              font-size: 0.8775rem;
+            }
+            #ParagrafoIndex
+            {
+              font-size: 0.8575rem;
+            }
+            #FotoSobreMim
+            {
+              width: 70% !important;
+              margin-top: 0;
+            }
 
-                /* Fotos */
-                #FotoSobreMim
-                {
-                    width: 70% !important;
-                    margin-top: 0;
-                }
+            /* Modelagens.html */
+            #TituloPopupRosquinha
+            {
+              font-size: 0.805rem;
 
-            /* Fotos.html */
-                #thumbnail .Imagem
-                {
-                    height: 250px;
-                    background-color: pink;
-                }
+              margin-top: -1.25rem !important;
+              margin-bottom: 1.25rem !important;
+            }
+            #ParagrafoPopupRosquinha
+            {
+              font-size: 0.5575rem;
+            }
 
-            /* AfricaDoSul2019.html e Argentina2014.html */
-                #TituloPaginasDeFotos
-                {
-                    font-size: 1.25rem;
-                }
-                #SubtituloPaginasDeFotos
-                {
-                  font-size: 0.725rem;
-                }
+            /* Jogos.html */
+            #TituloPopupPong
+            {
+              font-size: 0.6705rem;
+
+              margin-top: -2.5rem !important;
+              margin-bottom: -1rem !important;
+            }
+            #ParagrafoPopupPong
+            {
+              font-size: 0.4575rem;
+
+              margin-top: 0 !important;
+              margin-bottom: 0.35rem !important;
+            }
+
+            #TituloPopupGalaxyShootter
+            {
+              font-size: 0.7505rem;
+
+              margin-top: -2.5rem !important;
+              margin-bottom: -1rem !important;
+            }
+            #ParagrafoPopupGalaxyShootter
+            {
+              font-size: 0.5075rem;
+
+              margin-top: 0 !important;
+              margin-bottom: 0.35rem !important;
+            }
+
+            /* Projetos.html */
+            .cat
+            {
+              width: 30% !important;
+              height: 40% !important;
+            }
         }
         @media (min-width: 1152px) and (min-height: 900px) /* Feito */
         {
             /* index.html */
-                nav
-                {
-                    display: -ms-flexbox !important;
-                    display: flex !important;
-                }
-                section
-                {
-                    display: -ms-flexbox !important;
-                    display: flex !important;
+            nav
+            {
+              display: -ms-flexbox !important;
+              display: flex !important;
+            }
+            section
+            {
+              display: -ms-flexbox !important;
+              display: flex !important;
 
-                    align-items: center;
-                }
+              align-items: center;
+            }
 
-                #TituloIndex
-                {
-                    font-size: 1.4575rem;
-                }
-                #SubtituloIndex
-                {
-                    font-size: 0.8775rem;
-                }
-                #ParagrafosDeTexto
-                {
-                    font-size: 0.8575rem;
-                    margin-top: -2.5rem;
+            #TituloIndex
+            {
+              font-size: 1.4575rem;
+            }
+            #SubtituloIndex
+            {
+              font-size: 0.8775rem;
+            }
+            #ParagrafoIndex
+            {
+              font-size: 0.8575rem;
+            }
+            #FotoSobreMim
+            {
+              width: 65% !important;
+              margin-top: 0;
+            }
 
-                }
-                #TextoDescricao
-                {
-                    width: 82.5%;
-                }
+            /* Modelagens.html */
+            #TituloPopupRosquinha
+            {
+              font-size: 1.0775rem;
 
-                /* Fotos */
-                #FotoSobreMim
-                {
-                    width: 65% !important;
-                    margin-top: 0;
-                }
+              margin-top: 0 !important;
+              margin-bottom: 2rem !important;
+            }
+            #ParagrafoPopupRosquinha
+            {
+              font-size: 0.7575rem;
 
-            /* Fotos.html */
-                #thumbnail .Imagem
-                {
-                    height: 325px;
-                    background-color: yellow;
-                }
+              margin-top: 1rem !important;
+              margin-bottom: 1rem !important;
+            }
 
-            /* AfricaDoSul2019.html e Argentina2014.html */
-                #TituloPaginasDeFotos
-                {
-                    font-size: 1.35rem;
-                }
-                #SubtituloPaginasDeFotos
-                {
-                  font-size: 0.775rem;
-                }
+            /* Jogos.html */
+            #TituloPopupPong
+            {
+              font-size: 1.0275rem;
+
+              margin-top: -1.5rem !important;
+              margin-bottom: 1rem !important;
+            }
+            #ParagrafoPopupPong
+            {
+              font-size: 0.6775rem;
+
+              margin-top: 0.5rem !important;
+              margin-bottom: 0.25rem !important;
+            }
+
+            #TituloPopupGalaxyShootter
+            {
+              font-size: 1.0275rem;
+
+              margin-top: -1.5rem !important;
+              margin-bottom: 1rem !important;
+            }
+            #ParagrafoPopupGalaxyShootter
+            {
+              font-size: 0.6775rem;
+
+              margin-top: 0.5rem !important;
+              margin-bottom: 0.25rem !important;
+            }
+
+            /* Projetos.html */
+            .cat
+            {
+              width: 30% !important;
+              height: 45% !important;
+            }
         }
         @media (min-width: 1280px) and (min-height: 900px) /* Feito */
         {
             /* index.html */
-                nav
-                {
-                    display: -ms-flexbox !important;
-                    display: flex !important;
-                }
-                section
-                {
-                    display: -ms-flexbox !important;
-                    display: flex !important;
+            nav
+            {
+              display: -ms-flexbox !important;
+              display: flex !important;
+            }
+            section
+            {
+              display: -ms-flexbox !important;
+              display: flex !important;
 
-                    align-items: center;
-                }
+              align-items: center;
+            }
 
-                #TituloIndex
-                {
-                    font-size: 1.4575rem;
-                }
-                #SubtituloIndex
-                {
-                    font-size: 0.8765rem;
-                }
-                #ParagrafosDeTexto
-                {
-                    font-size: 0.7975rem;
-                    margin-top: 0;
-                }
-                #TextoDescricao
-                {
-                    width: 86.5%;
-                }
+            #TituloIndex
+            {
+              font-size: 1.4575rem;
+            }
+            #SubtituloIndex
+            {
+              font-size: 0.8765rem;
+            }
+            #ParagrafoIndex
+            {
+              font-size: 0.8575rem;
+            }
+            #FotoSobreMim
+            {
+              width: 72.5% !important;
+              margin-top: 0;
+            }
 
-                /* Fotos */
-                #FotoSobreMim
-                {
-                    width: 72.5% !important;
-                    margin-top: 0;
-                }
+            /* Modelagens.html */
+            #TituloPopupRosquinha
+            {
+              font-size: 1.1275rem;
 
-            /* Fotos.html */
-                #thumbnail .Imagem
-                {
-                    height: 350px;
-                    background-color: blue;
-                }
+              margin-top: 0 !important;
+              margin-bottom: 2.5rem !important;
+            }
+            #ParagrafoPopupRosquinha
+            {
+              font-size: 0.8075rem;
 
-            /* AfricaDoSul2019.html e Argentina2014.html */
-                #TituloPaginasDeFotos
-                {
-                    font-size: 1.65rem;
-                }
-                #SubtituloPaginasDeFotos
-                {
-                    font-size: 0.85rem;
-                }
+              margin-top: 1.5rem !important;
+              margin-bottom: 1rem !important;
+            }
+
+            /* Jogos.html */
+            #TituloPopupPong
+            {
+              font-size: 1.1075rem;
+
+              margin-top: -1.5rem !important;
+              margin-bottom: 1rem !important;
+            }
+            #ParagrafoPopupPong
+            {
+              font-size: 0.7075rem;
+
+              margin-top: 1rem !important;
+              margin-bottom: 0.25rem !important;
+            }
+
+            #TituloPopupGalaxyShootter
+            {
+              font-size: 1.1075rem;
+
+              margin-top: -1.5rem !important;
+              margin-bottom: 1rem !important;
+            }
+            #ParagrafoPopupGalaxyShootter
+            {
+              font-size: 0.7075rem;
+
+              margin-top: 1rem !important;
+              margin-bottom: 0.25rem !important;
+            }
+
+            /* Projetos.html */
+            .cat
+            {
+              width: 30% !important;
+              height: 50% !important;
+            }
         }
         @media (min-width: 1430px) and (min-height: 900px) /* Feito */
         {
             /* index.html */
-                nav
-                {
-                    display: -ms-flexbox !important;
-                    display: flex !important;
-                }
-                section
-                {
-                    display: -ms-flexbox !important;
-                    display: flex !important;
+            nav
+            {
+              display: -ms-flexbox !important;
+              display: flex !important;
+            }
+            section
+            {
+              display: -ms-flexbox !important;
+              display: flex !important;
 
-                    align-items: center;
-                }
+              align-items: center;
+            }
 
-                #TituloIndex
-                {
-                    font-size: 1.5025rem;
-                }
-                #SubtituloIndex
-                {
-                    font-size: 0.9575rem;
-                }
-                #ParagrafosDeTexto
-                {
-                    font-size: 0.8075rem;
-                    margin-top: 0;
-                }
-                #TextoDescricao
-                {
-                    width: 84.5%;
-                }
+            #TituloIndex
+            {
+              font-size: 1.5025rem;
+            }
+            #SubtituloIndex
+            {
+              font-size: 0.9575rem;
+            }
+            #ParagrafoIndex
+            {
+              font-size: 0.8575rem;
+            }
+            #FotoSobreMim
+            {
+              width: 60% !important;
+              margin-top: 0;
+            }
 
-                /* Fotos */
-                #FotoSobreMim
-                {
-                    width: 60% !important;
-                    margin-top: 0;
-                }
+            /* Modelagens.html */
+            #TituloPopupRosquinha
+            {
+              font-size: 1.2575rem;
 
-            /* Fotos.html */
-                #thumbnail .Imagem
-                {
-                    height: 450px;
-                    background-color: green;
-                }
+              margin-top: 0.5rem !important;
+              margin-bottom: 3rem !important;
+            }
+            #ParagrafoPopupRosquinha
+            {
+              font-size: 0.8775rem;
 
-            /* AfricaDoSul2019.html e Argentina2014.html */
-                #TituloPaginasDeFotos
-                {
-                    font-size: 1.75rem;
-                }
-                #SubtituloPaginasDeFotos
-                {
-                  font-size: 0.905rem;
-                }
+              margin-top: 2rem !important;
+              margin-bottom: 1rem !important;
+            }
+
+            /* Jogos.html */
+            #TituloPopupPong
+            {
+              font-size: 1.2575rem;
+
+              margin-top: -1.5rem !important;
+              margin-bottom: 1rem !important;
+            }
+            #ParagrafoPopupPong
+            {
+              font-size: 0.7575rem;
+
+              margin-top: 1rem !important;
+              margin-bottom: 0.25rem !important;
+            }
+
+            #TituloPopupGalaxyShootter
+            {
+              font-size: 1.2575rem;
+
+              margin-top: -1.5rem !important;
+              margin-bottom: 1rem !important;
+            }
+            #ParagrafoPopupGalaxyShootter
+            {
+              font-size: 0.7575rem;
+
+              margin-top: 1rem !important;
+              margin-bottom: 0.25rem !important;
+            }
+
+            /* Projetos.html */
+            .cat
+            {
+              width: 30% !important;
+              height: 55% !important;
+            }
         }
         @media (min-width: 1665px) and (min-height: 900px) /* Feito */
         {
             /* index.html */
-                nav
-                {
-                    display: -ms-flexbox !important;
-                    display: flex !important;
-                }
-                section
-                {
-                    display: -ms-flexbox !important;
-                    display: flex !important;
+            nav
+            {
+              display: -ms-flexbox !important;
+              display: flex !important;
+            }
+            section
+            {
+              display: -ms-flexbox !important;
+              display: flex !important;
 
-                    align-items: center;
-                }
+              align-items: center;
+            }
 
-                #TituloIndex
-                {
-                    font-size: 1.65625rem;
-                }
-                #SubtituloIndex
-                {
-                    font-size: 1.0575rem;
-                }
-                #ParagrafosDeTexto
-                {
-                    font-size: 0.9075rem;
-                    margin-top: 0;
-                }
-                #TextoDescricao
-                {
-                    width: 78.5%;
-                }
+            #TituloIndex
+            {
+              font-size: 1.65625rem;
+            }
+            #SubtituloIndex
+            {
+              font-size: 1.0575rem;
+            }
+            #ParagrafoIndex
+            {
+              font-size: 0.9075rem;
+            }
+            #FotoSobreMim
+            {
+              width: 55% !important;
+              margin-top: 0;
+            }
 
-                /* Fotos */
-                #FotoSobreMim
-                {
-                    width: 55% !important;
-                    margin-top: 0;
-                }
+            /* Modelagens.html */
+            #TituloPopupRosquinha
+            {
+              font-size: 1.575rem;
 
-            /* Fotos.html */
-                #thumbnail .Imagem
-                {
-                    height: 500px;
-                    background-color: red;
-                }
+              margin-top: 0.5rem !important;
+              margin-bottom: 4rem !important;
+            }
+            #ParagrafoPopupRosquinha
+            {
+              font-size: 0.9575rem;
 
-            /* AfricaDoSul2019.html e Argentina2014.html */
-                #TituloPaginasDeFotos
-                {
-                    font-size: 2rem;
-                }
-                #SubtituloPaginasDeFotos
-                {
-                  font-size: 1rem;
-                }
+              margin-top: 2rem !important;
+              margin-bottom: 1rem !important;
+            }
 
+            /* Jogos.html */
+            #TituloPopupPong
+            {
+              font-size: 1.575rem;
+
+              margin-top: 0.25rem !important;
+              margin-bottom: 1.5rem !important;
+            }
+            #ParagrafoPopupPong
+            {
+              font-size: 0.8575rem;
+
+              margin-top: 1rem !important;
+              margin-bottom: 0.5rem !important;
+            }
+
+            #TituloPopupGalaxyShootter
+            {
+              font-size: 1.575rem;
+
+              margin-top: 0.25rem !important;
+              margin-bottom: 1.5rem !important;
+            }
+            #ParagrafoPopupGalaxyShootter
+            {
+              font-size: 0.8575rem;
+
+              margin-top: 1rem !important;
+              margin-bottom: 0.5rem !important;
+            }
+
+            /* Projetos.html */
+            .cat
+            {
+              width: 30% !important;
+              height: 70% !important;
+            }
         }
 
 
@@ -1556,6 +2231,17 @@ section
         {
             opacity: 0.85;
         }
+
+.debug
+{
+  background-color: red !important;
+}
+
+.debug-2
+{
+  background-color: green !important;
+}
+
 
     /* Páginas */
 

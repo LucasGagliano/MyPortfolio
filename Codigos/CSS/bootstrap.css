@@ -510,6 +510,54 @@ h6, .h6 {
   line-height: 1.2;
 }
 
+.display-5 {
+  font-size: 2.5rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+.display-6 {
+  font-size: 1.5rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+.display-7 {
+  font-size: 1.25rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+.display-8 {
+  font-size: 1.20rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+.display-9 {
+  font-size: 100%;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+.display-10 {
+  font-size: 1.10rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+.display-11 {
+  font-size: 1.05rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+.display-12 {
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
 hr {
   margin-top: 1rem;
   margin-bottom: 1rem;
