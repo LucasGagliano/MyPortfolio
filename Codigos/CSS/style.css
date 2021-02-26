@@ -41,14 +41,6 @@ section
 
 
 /* Classes */
-
-.Box
-{
-  display: flex;
-  flex-flow: column;
-  height: 75%;
-}
-
 .CorTextoBranco
 {
     color: #f3f7f7;
@@ -62,8 +54,6 @@ section
     color: #999999;
 }
 
-
-/* Fontes */
 .FontePrincipal
 {
     font-family: "KeepCalm";
@@ -608,7 +598,6 @@ section
             }
         }
 
-
         /* vh 525 */
         @media (max-width: 799px) and (min-height: 525px) /* Feito */
         {
@@ -1136,7 +1125,6 @@ section
             }
         }
 
-
         /* vh 720px */
         @media (max-width: 799px) and (min-height: 720px) /* Feito */
         {
@@ -1663,7 +1651,6 @@ section
               height: 85% !important;
             }
         }
-
 
         /* vh 900px */
         @media (max-width: 799px) and (min-height: 900px) /* Feito */
@@ -2193,8 +2180,6 @@ section
             }
         }
 
-
-
     .thumbnail-title
     {
         font-size: 20px;
@@ -2215,7 +2200,6 @@ section
         -ms-transform: translate(-50%, -50%);
         transform: translate(-50%, -50%);
     }
-
     .thumbnail-overflow
     {
       position: absolute;
@@ -2231,17 +2215,6 @@ section
         {
             opacity: 0.85;
         }
-
-.debug
-{
-  background-color: red !important;
-}
-
-.debug-2
-{
-  background-color: green !important;
-}
-
 
     /* Páginas */
 
