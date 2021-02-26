@@ -1,0 +1,60 @@
+/* Fade In*/
+.fade-in-1-no-delay
+{
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+
+    -webkit-animation: FadeIn ease 1.5s;
+    -moz-animation: FadeIn ease 1.5s;
+    -o-animation: FadeIn ease 1.5s;
+
+    animation: FadeIn 1.5s linear forwards;
+}
+.fade-in-1-delay-1
+{
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+
+    -webkit-animation: FadeIn ease 1.5s 1.85s;
+    -moz-animation: FadeIn ease 1.5s 1.85s;
+    -o-animation: FadeIn ease 1.5s 1.85s;
+
+    animation: FadeIn 1.5s 1.85s linear forwards;
+}
+
+
+.fade-in-3-no-delay
+{
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+
+    -webkit-animation: FadeIn ease 3.75s;
+    -moz-animation: FadeIn ease 3.75s;
+    -o-animation: FadeIn ease 3.75s;
+
+    animation: FadeIn 3.75s linear forwards;
+}
+
+.fade-in-4-no-delay
+{
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+
+  -webkit-animation: FadeIn ease 4.5s;
+  -moz-animation: FadeIn ease 4.5s;
+  -o-animation: FadeIn ease 4.5s;
+
+  animation: FadeIn ease 4.5s;
+}
+
+/* Pop In */
+.pop-in-1-no-delay
+{
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+
+    -webkit-animation: PopIn ease .5s;
+    -moz-animation: PopIn ease .5s;
+    -o-animation: PopIn ease .5s;
+    animation: PopIn ease .5s;
+}
